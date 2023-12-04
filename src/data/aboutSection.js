@@ -104,7 +104,7 @@ export const aboutSix = {
       icon: "flaticon-mouse",
     },
     {
-      id: 3,
+      id: 6,
       title: "Consultancy and Advisory Services",
       text:"Providing advice on IT strategy, future-proofing, and technology roadmaps. Assisting in maintaining compliance with industry standards and regulations.",
       icon: "flaticon-briefcase",

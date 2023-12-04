@@ -99,10 +99,10 @@ const TestimonialsSix = () => {
                     .default.src
                 } alt="" />
                 <div className="absolute w-full h-full text-white top-[35%]"
-                 style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
+                //  style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
                  >
                   <div className="text-7xl font-bold "
-                   style={{fontSize:"75px" , fontWeight:"bold",paddingBottom:"40px"}}
+                  //  style={{fontSize:"75px" , fontWeight:"bold",paddingBottom:"40px"}}
                    >
                  Zaco Store
                   </div>
@@ -121,10 +121,10 @@ const TestimonialsSix = () => {
                     .default.src
                 } alt="" />
                 <div className="absolute w-full h-full text-white top-[35%]"
-                 style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
+                //  style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
                  >
                   <div className="text-7xl font-bold "
-                   style={{fontSize:"75px" , fontWeight:"bold",paddingBottom:"40px"}}
+                  //  style={{fontSize:"75px" , fontWeight:"bold",paddingBottom:"40px"}}
                    >
                  Zaco Store
                   </div>

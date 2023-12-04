@@ -6,7 +6,7 @@ import img3 from "@/images/zaco/3424.jpg"
 
 
 const discoverSection = {
-  title: "What We Offer",
+  title: "Our Value Proposition",
   discovers: [
     {
       id: 1,

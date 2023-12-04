@@ -13,7 +13,7 @@ import zacologo from "@/images/zaco/Zaco_LOGO (1).png";
 const home = {
   id: 1,
   name: "Home",
-  href: "/index-main",
+  href: "/",
   subNavItems: [
     {
       id: 1,
@@ -110,7 +110,7 @@ const navItemsTwo = [
   },
   {
     id: 4,
-    name: "Portfolio",
+    name: "Online Store",
     href: "/portfolio",
   },
   {
@@ -161,33 +161,33 @@ const navItems = [
       { id: 7, name: "Our Partner", href: "/partners", isNew: true },
     ],
   },
-  {
-    id: 3,
-    name: "Pages",
-    href: "/",
-    subNavItems: [
-      { id: 1, name: "Our Pricing", href: "/pricing" },
-      { id: 2, name: "Pricing 02", href: "/pricing-2", isNew: true },
-      { id: 3, name: "How it Works", href: "/how-it-works" },
-      { id: 4, name: "Coming Soon", href: "/coming-soon" },
-      { id: 5, name: "Testimonials", href: "/testimonials" },
-      { id: 6, name: "Testimonials Two", href: "/testimonials-2" },
-      { id: 7, name: "FAQs", href: "/faqs" },
-      { id: 8, name: "Events", href: "/events" },
-      { id: 9, name: "Event Details", href: "/event-details" },
-      { id: 10, name: "Clients Page", href: "/clients" },
-      { id: 11, name: "404 Page", href: "/404" },
-      { id: 12, name: "Login Page", href: "/login" },
-      { id: 13, name: "Register Page", href: "/register" },
-      { id: 14, name: "Forget Page", href: "/forgot-password" },
-      {
-        id: 15,
-        name: "Under Construction",
-        href: "/under-construction",
-        isNew: true,
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Pages",
+  //   href: "/",
+  //   subNavItems: [
+  //     { id: 1, name: "Our Pricing", href: "/pricing" },
+  //     { id: 2, name: "Pricing 02", href: "/pricing-2", isNew: true },
+  //     { id: 3, name: "How it Works", href: "/how-it-works" },
+  //     { id: 4, name: "Coming Soon", href: "/coming-soon" },
+  //     { id: 5, name: "Testimonials", href: "/testimonials" },
+  //     { id: 6, name: "Testimonials Two", href: "/testimonials-2" },
+  //     { id: 7, name: "FAQs", href: "/faqs" },
+  //     { id: 8, name: "Events", href: "/events" },
+  //     { id: 9, name: "Event Details", href: "/event-details" },
+  //     { id: 10, name: "Clients Page", href: "/clients" },
+  //     { id: 11, name: "404 Page", href: "/404" },
+  //     { id: 12, name: "Login Page", href: "/login" },
+  //     { id: 13, name: "Register Page", href: "/register" },
+  //     { id: 14, name: "Forget Page", href: "/forgot-password" },
+  //     {
+  //       id: 15,
+  //       name: "Under Construction",
+  //       href: "/under-construction",
+  //       isNew: true,
+  //     },
+  //   ],
+  // },
   {
     id: 4,
     name: "Services",
@@ -205,7 +205,7 @@ const navItems = [
   },
   {
     id: 5,
-    name: "Portfolio",
+    name: "Online Store",
     href: "/portfolio",
     subNavItems: [
       { id: 1, name: "Portfolio", href: "/portfolio" },
@@ -216,7 +216,7 @@ const navItems = [
   },
   {
     id: 6,
-    name: "Shop",
+    name: "ITAD",
     href: "/shop",
     subNavItems: [
       { id: 1, name: "Shop Page", href: "/shop" },
@@ -227,7 +227,7 @@ const navItems = [
   },
   {
     id: 7,
-    name: "Blog",
+    name: "Resources  ",
     href: "/blog-grid",
     subNavItems: [
       { id: 1, name: "Blog Sidebar", href: "/blog" },
@@ -237,7 +237,7 @@ const navItems = [
   },
   {
     id: 8,
-    name: "Contact",
+    name: "Contact Us",
     href: "/contact",
     subNavItems: [
       { id: 1, name: "Contact 01", href: "/contact" },
@@ -289,6 +289,10 @@ const headerData = {
   phone: "666 888 0000",
   phone2: "+ 92 666 888 0000",
   email: "needhelp@linoor.com",
+  blog:"Blog",
+  abb:"Case Studies",
+  eosl:"Eosl Library",
+  gc:"Global Locations        ",
   icon,
   socials,
   text: "Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.",

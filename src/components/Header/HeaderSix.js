@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const { title, phone, socials, logo6, email } = headerData;
+const { title, phone, socials, logo6, email,eosl,blog ,abb,gc} = headerData;
 
 const HeaderSix = () => {
   const { toggleMenu } = useRootContext();
@@ -36,19 +36,35 @@ const HeaderSix = () => {
         </div> */}
 
         <div className="header-six__info">
+        <Link
+            href={`tel:${phone.split(" ").join("")}`}
+            className="header-six__info__link"
+            passHref
+          >
+            {/* <i className="flaticon-call"></i> */}
+            {gc}
+          </Link>
           <Link
             href={`tel:${phone.split(" ").join("")}`}
             className="header-six__info__link"
             passHref
           >
-            <i className="flaticon-call"></i>
-            {phone}
+            {/* <i className="flaticon-call"></i> */}
+            {eosl}
           </Link>
 
           <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
-            <i className="flaticon-email-2"></i>
-            {email}
+            {/* <i className="flaticon-email-2"></i> */}
+            {blog}
           </Link>
+          <Link href="/" className="header-six__info__link" passHref>
+            {/* <i className="flaticon-email-2"></i> */}
+            {abb}
+          </Link>
+          {/* <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
+            <i className="flaticon-email-2"></i>
+            {abb}
+          </Link> */}
         </div>
       </div>
     </header>

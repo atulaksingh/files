@@ -2,13 +2,13 @@ export const sliderSix = [
   {
     id: 1,
     bg: "563548.jpg",
-    text: "Welcome to Zaco Computers",
+    text: "Global IT Hardware & Software Solutions Made Seamless",
     title: "Building Bridges, Breaking Boundaries",
   },
   {
     id: 2,
     bg: "932938.jpg",
-    text: "Welcome to Zaco Computers",
+    text: "Global IT Hardware & Software Solutions Made Seamless",
     title: "Global Hardware Solutions And \nservices Made Seamless",
   },
 ];
