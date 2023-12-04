@@ -1,10 +1,10 @@
 import React from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 
 const VideoModal = ({ isOpen, setOpen, id }) => {
   return (
     <>
-      {typeof window !== "undefined" && (
+      {/* {typeof window !== "undefined" && (
         <ModalVideo
           channel="youtube"
           autoplay
@@ -13,7 +13,7 @@ const VideoModal = ({ isOpen, setOpen, id }) => {
           videoId={id}
           onClose={() => setOpen(false)}
         />
-      )}
+      )} */}
     </>
   );
 };
