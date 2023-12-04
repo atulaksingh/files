@@ -22,7 +22,7 @@ const SubItem = ({ subItem = {} }) => {
       }`}
     >
       {/* <Link href={href}> */}
-        <Link href={href}>
+        <Link href={href} passHref>
           {name} {isNew && <span>new</span>}
           {subItems?.length && (
             <div
@@ -72,6 +72,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
         <Link
           onClick={() => mobile && href.includes("#") && toggleMenu()}
           href={href}
+          passHref
         >
           {name}{" "}
           {subNavItems.length > 0 && (

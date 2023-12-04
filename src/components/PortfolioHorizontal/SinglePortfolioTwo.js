@@ -9,8 +9,8 @@ const SinglePortfolioTwo = ({ portfolio = {} }, ref) => {
     <div className="item">
       <div ref={ref} className="portfolio-horizontal-two__item">
         <div className="portfolio-horizontal-two__image">
-          <Link href="/portfolio-single-3">
-            <Link>
+          <Link href="/portfolio-single-3" passHref>
+            <div>
               <Image
                 src={
                   require(`@/images/update-09-06-2021/portfolio/${image}`)
@@ -18,7 +18,7 @@ const SinglePortfolioTwo = ({ portfolio = {} }, ref) => {
                 }
                 alt=""
               />
-            </Link>
+            </div>
           </Link>
         </div>
         <div className="portfolio-horizontal-two__content">

@@ -23,10 +23,10 @@ const BlogEightSingle = ({ blog = {} }) => {
           </h3>
           <div className="blog-eight__text">{text}</div>
           <div className="blog-eight__meta">
-            <Link href="/">
+            <Link href="/" passHref>
               <i className="far fa-user-circle"></i>by {admin}
             </Link>
-            <Link href="/">
+            <Link href="/" passHref>
               <i className="far fa-comments"></i>
               {comments} Comments
             </Link>

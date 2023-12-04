@@ -26,7 +26,7 @@ const MainFooterTwo = () => {
             <div className="footer-widget">
               <h3>About</h3>
               <div>{about}</div>
-              <Link href="/contact">
+              <Link href="/contact" passHref>
                 <div className="theme-btn btn-style-three">Get Started</div>
               </Link>
             </div>
@@ -93,7 +93,7 @@ const MainFooterTwo = () => {
       <div className="bottom-footer">
         <div className="auto-container">
           <div className="left-content">
-            <Link href="/index-main">
+            <Link href="/index-main" passHref>
               <Link>
                 <Image src={logo3.src} width={134} height={34} alt="" />
               </Link>
@@ -105,7 +105,7 @@ const MainFooterTwo = () => {
           <ul className="list-unstyled social-links">
             {socials.map(({ id, icon, href }) => (
               <li key={id}>
-                <Link href={href}>
+                <Link href={href} passHref>
                   <span className={icon}></span>
                 </Link>
               </li>

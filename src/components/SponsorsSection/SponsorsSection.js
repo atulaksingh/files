@@ -59,7 +59,7 @@ const SponsorsSection = ({ className = "" }) => {
                   className="slide-item text-center"
                 >
                   <figure className="image-box">
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <Image
                         src={
                           require(`@/images/clients/${

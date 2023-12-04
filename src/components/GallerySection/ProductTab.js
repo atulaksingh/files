@@ -92,6 +92,7 @@ const ProductTab = ({ tab = {}, current, carousel = "" }) => {
                 <Link
                   className="lightbox-image overlay-box"
                   data-fancybox="gallery"
+                  passHref
                 ></Link>
                 <div className="cap-box">
                   <div className="cap-inner">
@@ -100,7 +101,7 @@ const ProductTab = ({ tab = {}, current, carousel = "" }) => {
                     </div>
                     <div className="title">
                       <h5>
-                        <Link href="/portfolio-single">{title}</Link>
+                        <Link href="/portfolio-single " passHref>{title}</Link>
                       </h5>
                     </div>
                   </div>

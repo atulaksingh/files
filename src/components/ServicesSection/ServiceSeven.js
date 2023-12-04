@@ -22,10 +22,10 @@ const ServiceSeven = () => {
                   <i className={icon}></i>
                 </div>
                 <h3 className="service-seven__title">
-                  <Link href={href}>{title}</Link>
+                  <Link href={href} passHref>{title}</Link>
                 </h3>
                 <div className="service-seven__text">{text}</div>
-                <Link href={href}>
+                <Link href={href} passHref>
                   <div className="service-seven__link">
                     <i className="flaticon-right-arrow"></i>
                   </div>

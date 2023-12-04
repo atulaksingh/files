@@ -22,7 +22,7 @@ const CommentBox = ({ comment = {} }) => {
         </div>
         <div className="text">{text}</div>
         <div className="reply-btn">
-          <Link href="/about">
+          <Link href="/about" passHref>
             <div className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Reply</span>

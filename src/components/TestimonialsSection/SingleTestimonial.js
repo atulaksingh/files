@@ -20,7 +20,7 @@ const SingleTestimonial = (
         </div>
         <div className="info">
           <div className="image">
-            <Link href="/team">
+            <Link href="/team" passHref>
            
                 <Image
                   src={require(`@/images/resource/${image}`).default.src}

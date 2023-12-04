@@ -28,7 +28,7 @@ const CheckoutPage = () => {
     <div className="checkout-page">
       <div className="auto-container">
         <div className="checkout-page__returning">
-          Returning Customer? <Link href="/login">Click here to Login</Link>
+          Returning Customer? <Link href="/login" passHref>Click here to Login</Link>
         </div>
         <Row>
           <Col lg={6}>

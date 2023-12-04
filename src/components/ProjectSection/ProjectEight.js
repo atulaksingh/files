@@ -57,13 +57,13 @@ const ProjectEight = () => {
                     alt=""
                   />
                   <div className="project-eight__content">
-                    <Link href="/portfolio-single">
+                    <Link href="/portfolio-single" passHref>
                       <div className="project-eight__link">
                         <i className="flaticon-right-arrow"></i>
                       </div>
                     </Link>
                     <h3 className="project-eight__title">
-                      <Link href="/portfolio-single">{title}</Link>
+                      <Link href="/portfolio-single" passHref>{title}</Link>
                     </h3>
                   </div>
                 </div>

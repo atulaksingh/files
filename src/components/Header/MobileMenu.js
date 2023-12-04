@@ -47,12 +47,12 @@ const MobileMenu = ({ onePage = false }) => {
         <div className="side-menu__content">
           <div>{text}</div>
           <div>
-            <Link href={`mailto:${email}`}>{email}</Link> <br />{" "}
+            <Link href={`mailto:${email}`} passHref>{email}</Link> <br />{" "}
             <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
           </div>
           <div className="side-menu__social">
             {socials.map(({ id, icon, href }) => (
-              <Link key={id} href={href}>
+              <Link key={id} href={href} passHref>
                 <i className={icon}></i>
               </Link>
             ))}

@@ -14,10 +14,10 @@ const HowItWorksPage = () => {
                 <div className="how-it-works-card__inner">
                   <i className={`how-it-works-card__icon ${icon}`}></i>
                   <h3 className="how-it-works-card__title">
-                    <Link href={href}>{title}</Link>
+                    <Link href={href } passHref>{title}</Link>
                   </h3>
                   <div className="how-it-works-card__text">{text}</div>
-                  <Link href={href}>
+                  <Link href={href} passHref>
                     <div className="how-it-works-card__link">Read More</div>
                   </Link>
                 </div>

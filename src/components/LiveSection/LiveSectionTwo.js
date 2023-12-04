@@ -21,7 +21,7 @@ const LiveSectionTwo = () => {
             <h2>{title}</h2>
           </div>
           <div className="button-block">
-            <Link onClick={() => setOpen(true)} className="lightbox-image">
+            <Link onClick={() => setOpen(true)} className="lightbox-image" passHref>
               <div className="icon">
                 <span className="flaticon-play-button-1"></span>
               </div>

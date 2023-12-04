@@ -71,9 +71,11 @@ const TestimonialsSix = () => {
             <SwiperSlide >
               <div className="relative w-full h-full" >
                 <Image src={
+                  
                   require(`@/images/zaco/4454.jpg`)
                     .default.src
-                } />
+                    
+                }alt="" />
                 <div className="absolute w-full h-full text-white top-[35%]"
                 //  style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
                  >
@@ -83,7 +85,7 @@ const TestimonialsSix = () => {
                  Zaco Store
                   </div>
                   <div className="button-wrap">
-                    <Link href="/about">
+                    <Link href="/about" passHref>
                       <div className="theme-btn btn-style-three">Visit our Store</div>
                     </Link>
                   </div>
@@ -95,7 +97,7 @@ const TestimonialsSix = () => {
                 <Image src={
                   require(`@/images/zaco/4454.jpg`)
                     .default.src
-                } />
+                } alt="" />
                 <div className="absolute w-full h-full text-white top-[35%]"
                  style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
                  >
@@ -105,7 +107,7 @@ const TestimonialsSix = () => {
                  Zaco Store
                   </div>
                   <div className="button-wrap">
-                    <Link href="/about">
+                    <Link href="/about" passHref>
                       <div className="theme-btn btn-style-three">Visit our Store</div>
                     </Link>
                   </div>
@@ -117,7 +119,7 @@ const TestimonialsSix = () => {
                 <Image src={
                   require(`@/images/zaco/4454.jpg`)
                     .default.src
-                } />
+                } alt="" />
                 <div className="absolute w-full h-full text-white top-[35%]"
                  style={{ position: "absolute", width: "100%", height: '100%', color: "white", top: "35%", left: "" }}
                  >
@@ -127,7 +129,7 @@ const TestimonialsSix = () => {
                  Zaco Store
                   </div>
                   <div className="button-wrap">
-                    <Link href="/about">
+                    <Link href="/about" passHref>
                       <div className="theme-btn btn-style-three">Visit Our Store</div>
                     </Link>
                   </div>

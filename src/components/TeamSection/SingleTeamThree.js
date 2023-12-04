@@ -25,7 +25,7 @@ const SingleTeamThree = ({ team = {} }) => {
             <ul className="team-card-three__social clearfix m-0 list-unstyled">
               {socials.map(({ id, icon, href }) => (
                 <li key={id}>
-                  <Link href={href}>
+                  <Link href={href} passHref>
                     <span className={icon}></span>
                   </Link>
                 </li>

@@ -32,10 +32,10 @@ const BlogDetails = () => {
       <div className="post-details">
         <div className="inner-box">
           <div className="image-box">
-            <Link href="/blog-single">
-              <Link>
+            <Link href="/blog-single" passHref>
+              <div>
                 <Image src={image.src} alt="" />
-              </Link>
+              </div>
             </Link>
           </div>
           <div className="lower-box">
@@ -74,7 +74,7 @@ const BlogDetails = () => {
             <strong>Category:</strong>{" "}
             {category.map((cate, i) => (
               <Fragment key={i}>
-                <Link href="/">{cate}</Link>
+                <Link href="/" passHref>{cate}</Link>
                 {category.length !== i + 1 && ", "}
               </Fragment>
             ))}
@@ -87,9 +87,9 @@ const BlogDetails = () => {
             <Col key={i} md={6} sm={12} className="control-col">
               <div className="control-inner">
                 <h4>
-                  <Link href="/">{post}</Link>
+                  <Link href="/" passHref>{post}</Link>
                 </h4>
-                <Link href="/" className="over-link"></Link>
+                <Link href="/" className="over-link" passHref></Link>
               </div>
             </Col>
           ))}

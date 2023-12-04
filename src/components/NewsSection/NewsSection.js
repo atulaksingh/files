@@ -29,7 +29,7 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
         </Row>
         {isMore && (
           <div className="more-box">
-            <Link href="/blog">
+            <Link href="/blog" passHref>
               <div className="theme-btn btn-style-one">
                 <i className="btn-curve"></i>
                 <span className="btn-title">Load more posts</span>

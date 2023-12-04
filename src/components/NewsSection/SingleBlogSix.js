@@ -18,11 +18,11 @@ const SingleBlogSix = ({ blog = {} }) => {
         </div>
         <div className="blog-six__content">
           <div className="blog-six__meta">
-            <Link href="/">
+            <Link href="/" passHref>
               <i className="far fa-user-circle"></i>
               by {admin}
             </Link>{" "}
-            <Link href="/">
+            <Link href="/" passHref>
               <i className="far fa-clock"></i>
               {date}
             </Link>

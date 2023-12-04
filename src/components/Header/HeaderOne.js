@@ -65,7 +65,7 @@ const HeaderOne = ({
             <div className="right-content">
               <div className="phone">
                 <span className="icon flaticon-call"></span>
-                <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
+                <Link href={`tel:${phone.split(" ").join("")}`} passHref>{phone}</Link>
               </div>
               <ul className="list-unstyled social-links">
                 {socials.map(({ id, icon, href }) => (

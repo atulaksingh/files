@@ -22,7 +22,7 @@ const HeaderTwo = ({ headerStyle = "mainmenu-six", header = 6 }) => {
         <div className={`${headerStyle}__inner nav-outer`}>
           {header === 7 && (
             <div className="mainmenu-seven__left">
-              <Link href="/">
+              <Link href="/" passHref>
                 <Image src={logo6.src} width={134} alt={title} />
               </Link>
             </div>

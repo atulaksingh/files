@@ -26,10 +26,10 @@ const ServiceNine = () => {
                       <i className={icon}></i>
                     </div>
                     <h3 className="service-nine__title">
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} passHref>{title}</Link>
                     </h3>
                     <div className="service-nine__text">{text}</div>
-                    <Link href={href}>
+                    <Link href={href} passHref>
                       <div className="service-nine__link">
                         <i className="fa fa-angle-right"></i>
                       </div>

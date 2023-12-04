@@ -15,13 +15,13 @@ const FooterSeven = () => {
           <Row>
             <Col md={6} lg={3}>
               <div className="footer-seven__widget footer-seven__about">
-                <Link href="index-main.html">
+                <Link href="index-main.html" passHref>
                   <Image src={logo7.src} width={134} alt="" />
                 </Link>
                 <div className="footer-seven__about__text">
-                  <Link href={`tel:${phone.split(" ").join("-")}`}>{phone}</Link>{" "}
+                  <Link href={`tel:${phone.split(" ").join("-")}`} passHref>{phone}</Link>{" "}
                   <br />
-                  <Link href={`mailto:${email}`}>{email}</Link> <br />
+                  <Link href={`mailto:${email}`} passHref>{email}</Link> <br />
                   <TextSplit text={address} />
                 </div>
               </div>
@@ -32,7 +32,7 @@ const FooterSeven = () => {
                 <ul className="list-unstyled footer-seven__links__list">
                   {links.slice(0, 5).map(({ id, href, title }) => (
                     <li key={id}>
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} passHref>{title}</Link>
                     </li>
                   ))}
                 </ul>
@@ -44,7 +44,7 @@ const FooterSeven = () => {
                 <ul className="list-unstyled footer-seven__links__list">
                   {links.slice(5).map(({ id, href, title }) => (
                     <li key={id}>
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} passHref>{title}</Link>
                     </li>
                   ))}
                 </ul>
@@ -56,7 +56,7 @@ const FooterSeven = () => {
                 <ul className="list-unstyled footer-seven__links__list">
                   {links.slice(2, 6).map(({ id, href, title }) => (
                     <li key={id}>
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} passHref>{title}</Link>
                     </li>
                   ))}
                 </ul>
@@ -65,7 +65,7 @@ const FooterSeven = () => {
             <Col md={12} lg={3}>
               <div className="footer-seven__widget footer-seven__social">
                 {socials.map(({ id, icon, href }) => (
-                  <Link href={href} key={id} className={icon}></Link>
+                  <Link href={href} key={id} className={icon} passHref></Link>
                 ))}
               </div>
             </Col>

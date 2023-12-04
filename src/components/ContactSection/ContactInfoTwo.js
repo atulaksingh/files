@@ -20,6 +20,7 @@ const ContactInfoTwo = () => {
                       ? `tel:${text.split(" ").join("")}`
                       : "/"
                   }
+                  passHref
                 >
                   {text}
                 </Link>

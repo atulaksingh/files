@@ -15,10 +15,10 @@ const HeaderThree = () => {
       <header className="main-header header-style-nine">
         <div className="header-style-nine__inner">
           <div className="logo-box">
-            <Link href="/index-main">
-              <Link>
+            <Link href="/index-main" passHref>
+              <div>
                 <Image src={logo10.src} width={35} height={34} alt={title} />
-              </Link>
+              </div>
             </Link>
           </div>
           <div className="nav-outer clearfix">
@@ -49,7 +49,7 @@ const HeaderThree = () => {
           </div>
           <div className="social-icons">
             {socials.map(({ id, icon, href }) => (
-              <Link key={id} href={href}>
+              <Link key={id} href={href} passHref>
                 <i className={icon}></i>
               </Link>
             ))}

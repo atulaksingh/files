@@ -27,8 +27,8 @@ const ContactInfos = () => {
           </Col>
           <Col sm={12} md={6} lg={3}>
             <div>
-              <Link href={`mailto:${email}`}>{email}</Link> <br />{" "}
-              <Link href={`tel:${phone.split(" ").join("-")}`}>{phone}</Link>
+              <Link href={`mailto:${email}`} passHref>{email}</Link> <br />{" "}
+              <Link href={`tel:${phone.split(" ").join("-")}`} passHref>{phone}</Link>
             </div>
           </Col>
           <Col sm={12} md={6} lg={3}>

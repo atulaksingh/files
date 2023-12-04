@@ -28,7 +28,7 @@ const ContactSectionTwo = () => {
               <div className="contact-two__text">{text}</div>
               <div className="contact-two__social">
                 {socials.map((icon, i) => (
-                  <Link key={i} href="/" className={icon}></Link>
+                  <Link key={i} href="/" className={icon} passHref></Link>
                 ))}
               </div>
             </div>

@@ -30,8 +30,8 @@ const LoginWrapper = ({ register = false, forgot = false }) => {
         <div className="login-content__inner">
           <div className="logo-box">
             <div className="logo text-center">
-              <Link href="/">
-                <Link title={logoTitle}>
+              <Link href="/" passHref>
+                <div title={logoTitle}>
                   <Image
                     src={logo.src}
                     width={134}
@@ -40,7 +40,7 @@ const LoginWrapper = ({ register = false, forgot = false }) => {
                     alt={logoTitle}
                     title={logoTitle}
                   />
-                </Link>
+                </div>
               </Link>
             </div>
           </div>
@@ -62,7 +62,7 @@ const LoginWrapper = ({ register = false, forgot = false }) => {
                 {forgot ? (
                   <TextSplit text={forgotText} />
                 ) : (
-                  <Link href="/forgot-password">Forgot your password?</Link>
+                  <Link href="/forgot-password" passHref>Forgot your password?</Link>
                 )}
               </div>
             )}
@@ -79,7 +79,7 @@ const LoginWrapper = ({ register = false, forgot = false }) => {
           </form>
           <div className="signup-link">
             {register ? "Already have an Account?" : "New to linoor?"}{" "}
-            <Link href={register ? "/login" : "/register"}>
+            <Link href={register ? "/login" : "/register"} passHref>
               {register ? "Login Here" : "Signup"}
             </Link>
           </div>

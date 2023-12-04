@@ -31,7 +31,7 @@ const FeatureSeven = () => {
                   </div>
                   <div className="feature-seven-card__content">
                     <h3 className="feature-seven-card__title">
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} passHref>{title}</Link>
                     </h3>
                     <div className="feature-seven-card__text">{text}</div>
                   </div>

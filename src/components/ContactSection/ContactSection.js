@@ -39,10 +39,10 @@ const ContactSection = ({ className = "", map = false, form = false }) => {
                     <ul className="info">
                       <li>{address}</li>
                       <li>
-                        <Link href={`mailto:${email}`}>{email}</Link>
+                        <Link href={`mailto:${email}`} passHref>{email}</Link>
                       </li>
                       <li>
-                        <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
+                        <Link href={`tel:${phone.split(" ").join("")}`} passHref>{phone}</Link>
                       </li>
                     </ul>
                   </div>

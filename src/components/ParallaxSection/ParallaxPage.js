@@ -21,7 +21,7 @@ const ParallaxPage = () => {
           <div className="auto-container">
             <div className="parallax-block__content">
               <h3>{title}</h3>
-              <Link href="/portfolio">
+              <Link href="/portfolio" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Discover More</span>

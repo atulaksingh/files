@@ -39,7 +39,7 @@ const PortfolioMasonary = () => {
             ))}
           </ul>
 
-          <Link href="/portfolio">
+          <Link href="/portfolio" passHref>
             <div className="portfolio-masonary__more">View All</div>
           </Link>
         </div>
@@ -71,7 +71,7 @@ const PortfolioMasonary = () => {
         </Masonry>
 
         <div className="text-center">
-          <Link href="/about">
+          <Link href="/about" passHref>
             <div className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Discover More</span>

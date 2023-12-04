@@ -16,13 +16,13 @@ const ProductCard = ({ product = {} }) => {
             alt=""
           />
           <div className="product-card__buttons">
-            <Link href="/cart">
+            <Link href="/cart" passHref>
               <div className="theme-btn btn-style-one">
                 <i className="btn-curve"></i>
                 <span className="btn-title">Add To Cart</span>
               </div>
             </Link>
-            <Link href="/product-details">
+            <Link href="/product-details" passHref>
               <div className="theme-btn btn-style-two">
                 <i className="btn-curve"></i>
                 <span className="btn-title">Save</span>

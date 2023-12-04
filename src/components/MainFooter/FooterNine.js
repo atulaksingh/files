@@ -43,7 +43,7 @@ const FooterNine = () => {
                     <ul className="list-unstyled footer-nine__links__list">
                       {links.slice(0, 5).map(({ id, href, title }) => (
                         <li key={id}>
-                          <Link href={href}>{title}</Link>
+                          <Link href={href} passHref>{title}</Link>
                         </li>
                       ))}
                     </ul>
@@ -53,7 +53,7 @@ const FooterNine = () => {
                     <ul className="list-unstyled footer-nine__links__list">
                       {links.slice(4).map(({ id, href, title }) => (
                         <li key={id}>
-                          <Link href={href}>{title}</Link>
+                          <Link href={href} passHref>{title}</Link>
                         </li>
                       ))}
                     </ul>
@@ -68,11 +68,11 @@ const FooterNine = () => {
                 <ul className="footer-nine__contact__list">
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <Link href={`mailto:${email}`}>{email}</Link>
+                    <Link href={`mailto:${email}`} passHref>{email}</Link>
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
+                    <Link href={`tel:${phone.split(" ").join("")}`} passHref>{phone}</Link>
                   </li>
                 </ul>
               </div>
@@ -87,7 +87,7 @@ const FooterNine = () => {
           </div>
           <div className="footer-nine__social">
             {socials.map(({ id, icon, href }) => (
-              <Link key={id} href={href} className={icon}></Link>
+              <Link key={id} href={href} className={icon} passHref></Link>
             ))}
           </div>
         </div>

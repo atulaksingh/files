@@ -14,7 +14,7 @@ const SponsorsSectionFour = () => {
           {sponsors.map((image, i) => (
             <Col key={i} md={6} lg={4}>
               <div className="image-box">
-                <Link href="/">
+                <Link href="/" passHref>
                   <Image
                     src={
                       require(`@/images/update-09-06-2021/brand/${image}`)
@@ -32,7 +32,7 @@ const SponsorsSectionFour = () => {
           <h3>
             <TextSplit text={title} />
           </h3>
-          <Link href="/contact">
+          <Link href="/contact" passHref>
             <div className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Contact with us</span>

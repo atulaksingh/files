@@ -10,20 +10,20 @@ const FooterFour = () => {
     <div className="footer-four">
       <div className="auto-container">
         <div className="logo-box">
-          <Link href="/index-main">
-            <Link>
+          <Link href="/index-main" passHref>
+            <div>
               <Image
                 src={logo5.src}
                 width={136}
                 height={35}
                 alt="Linoor HTML Template"
               />
-            </Link>
+            </div>
           </Link>
         </div>
         <div className="footer-four__social">
           {socials.map(({ id, icon, href }) => (
-            <Link key={id} href={href}>
+            <Link key={id} href={href} passHref>
               <i className={icon}></i>
             </Link>
           ))}

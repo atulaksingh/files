@@ -20,7 +20,7 @@ const SingleServiceOne = ({ service = {} }) => {
           <span className={icon}></span>
         </div>
         <h6>
-          <Link href={href}>
+          <Link href={href} passHref>
             <TextSplit text={title} />
           </Link>
         </h6>

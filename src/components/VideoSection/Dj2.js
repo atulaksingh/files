@@ -49,11 +49,11 @@ const Dj2 = () => {
               <SwiperSlide key={i}>
                 <div style={{position:"relative" ,width:"100%" , height:"100%"}}>
 
-                <Image src={image.src}  />
+                <Image src={image.src} alt="" />
                 <div style={{position:"absolute", width:"100%" , height:"100%", top:"50%",left:"50%", color:"white"}}>
 
                 <div>  <div className="">
-                  <Link href="/about">
+                  <Link href="/about" passHref>
                     <div className="theme-btn btn-style-three">Discover More</div>
                   </Link>
                 </div></div>

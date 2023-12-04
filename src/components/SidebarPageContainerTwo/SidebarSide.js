@@ -97,7 +97,7 @@ const SidebarSide = () => {
                 <span className="flaticon-speech-bubble-2"></span>
               </div>
               <h5 className="text">
-                <Link href="/">
+                <Link href="/" passHref>
                   <TextSplit text={text} />
                 </Link>
               </h5>

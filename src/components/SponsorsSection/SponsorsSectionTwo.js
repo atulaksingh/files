@@ -32,7 +32,7 @@ const SponsorsSectionTwo = () => {
                   className="logo-block"
                 >
                   <div className="image-box">
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <Image src={image.src} alt="" />
                     </Link>
                   </div>

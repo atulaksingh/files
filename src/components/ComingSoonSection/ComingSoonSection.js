@@ -26,7 +26,7 @@ const ComingSoonSection = () => {
             <div className="logo-box">
               <div className="logo">
                 <Link href="/" passHref>
-                  <Link title={logoTitle}>
+                  <div title={logoTitle}>
                     <Image
                       src={logo.src}
                       id="thm-logo"
@@ -35,7 +35,7 @@ const ComingSoonSection = () => {
                       height={34}
                       title={logoTitle}
                     />
-                  </Link>
+                  </div>
                 </Link>
               </div>
             </div>

@@ -33,7 +33,7 @@ const PricingOne = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/contact">
+                  <Link href="/contact" passHref>
                     <div className="theme-btn btn-style-one">
                       <i className="btn-curve"></i>
                       <span className="btn-title">Choose a plan</span>

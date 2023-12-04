@@ -15,7 +15,7 @@ const HeaderSix = () => {
       <header className="header-six">
       <div className="auto-container">
         <div className="header-six__logo">
-          <Link href="/index-main">
+          <Link href="/index-main" passHref>
             {/* <a> */}
               {/* <Image src={logo6.src} width={134} alt={title} /> */}
             {/* </a> */}

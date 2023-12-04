@@ -9,7 +9,7 @@ const NewsBlockTwo = ({ news = {}, handleOpen }) => {
     <div className="news-block-two">
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/blog-single">
+          <Link href="/blog-single" passHref>
           
               <Image
                 src={require(`@/images/resource/${image}`).default.src}
@@ -40,11 +40,11 @@ const NewsBlockTwo = ({ news = {}, handleOpen }) => {
             </ul>
           </div>
           <h4>
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/blog-single" passHref>{title}</Link>
           </h4>
           <div className="text">{text}</div>
           <div className="link-box">
-            <Link href="/blog-single">
+            <Link href="/blog-single" passHref>
               <div className="theme-btn">Read More</div>
             </Link>
           </div>

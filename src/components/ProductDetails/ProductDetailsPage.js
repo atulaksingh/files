@@ -70,13 +70,13 @@ const ProductDetailsPage = () => {
               </div>
             </div>
             <div className="product-details__buttons">
-              <Link href="/cart">
+              <Link href="/cart" passHref>
                 <div className="theme-btn btn-style-two">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Add to wishlist</span>
                 </div>
               </Link>
-              <Link href="/cart">
+              <Link href="/cart" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Add to cart</span>
@@ -86,7 +86,7 @@ const ProductDetailsPage = () => {
             <div className="product-details__social">
               <span>Share with friends</span>
               {socials.map(({ id, icon, href }) => (
-                <Link key={id} href={href} className={icon}></Link>
+                <Link key={id} href={href} className={icon} passHref></Link>
               ))}
             </div>
           </Col>

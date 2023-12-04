@@ -19,7 +19,7 @@ const FooterSix = () => {
           <Row>
             <Col sm={12} md={12} lg={4}>
               <div className="footer-six__widget footer-six__about">
-                <Link href="/">
+                <Link href="/" passHref>
                     <Image src={logo6.src} width={135} alt="" />
                 </Link>
                 <div className="footer-six__about__text w-80" style={{fontSize:"14px"}}>{about2}</div>
@@ -40,14 +40,14 @@ const FooterSix = () => {
                   <ul className="footer-six__links__list__item">
                     {links.slice(0, 5).map(({ id, title, href }) => (
                       <li key={id}>
-                        <Link href={href}>{title}</Link>
+                        <Link href={href} passHref>{title}</Link>
                       </li>
                     ))}
                   </ul>
                   <ul className="footer-six__links__list__item">
                     {links.slice(5).map(({ id, title, href }) => (
                       <li key={id}>
-                        <Link href={href}>{title}</Link>
+                        <Link href={href} passHref>{title}</Link>
                       </li>
                     ))}
                   </ul>

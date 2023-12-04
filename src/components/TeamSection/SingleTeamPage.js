@@ -10,18 +10,18 @@ const SingleTeamPage = ({ team = {} }) => {
     <Col lg={4} md={6} sm={12} className="team-block">
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/about">
-            <Link>
+          <Link href="/about" passHref>
+            <div>
               <Image
                 src={require(`@/images/resource/${image}`).default.src}
                 alt=""
               />
-            </Link>
+            </div>
           </Link>
           <ul className="social-links clearfix">
             {socials.map(({ id, icon, href }) => (
               <li key={id}>
-                <Link href={href}>
+                <Link href={href} passHref>
                   <span className={icon}></span>
                 </Link>
               </li>

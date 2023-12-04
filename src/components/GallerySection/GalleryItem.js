@@ -27,7 +27,7 @@ const GalleryItem = ({ item = {} }) => {
             </div>
             <div className="title">
               <h5>
-                <Link href="/portfolio-single">{title}</Link>
+                <Link href="/portfolio-single" passHref>{title}</Link>
               </h5>
             </div>
           </div>

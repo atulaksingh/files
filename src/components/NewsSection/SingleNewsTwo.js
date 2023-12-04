@@ -15,13 +15,13 @@ const SingleNewsTwo = ({ news = {} }) => {
             alt={title}
           />
         </div>
-        <div className="news-two__content">
+        <div className="news-two__content">                   
           <ul className="list-unstyled news-two__meta">
             <li>
-              <Link href="/blog-single">{date}</Link>
+              <Link href="/blog-single" passHref>{date}</Link>
             </li>
             <li>
-              <Link href="/blog-single">
+              <Link href="/blog-single" passHref>
                 <Link>{comments} Comments</Link>
               </Link>
             </li>

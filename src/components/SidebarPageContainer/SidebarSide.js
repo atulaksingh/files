@@ -18,7 +18,7 @@ const SidebarSide = () => {
           <ul>
             {navItems.map(({ id, href, title }) => (
               <li key={id} className={pathname === href ? "active" : ""}>
-                <Link href={href}>{title}</Link>
+                <Link href={href} passHref>{title}</Link>
               </li>
             ))}
           </ul>
@@ -32,7 +32,7 @@ const SidebarSide = () => {
           </div>
           <div className="text">{text}</div>
           <div className="phone">
-            <Link href={`tel:${phone.split(" ").join("")}`}>
+            <Link href={`tel:${phone.split(" ").join("")}`} passHref>
               <span className="icon flaticon-call"></span>
               {phone}
             </Link>

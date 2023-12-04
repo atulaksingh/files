@@ -21,7 +21,7 @@ const MainFooterThree = () => {
           <ul className="social-links clearfix">
             {socials.map(({ id, icon, href }) => (
               <li key={id}>
-                <Link href={href}>
+                <Link href={href} passHref>
                   <span className={icon}></span>
                 </Link>
               </li>

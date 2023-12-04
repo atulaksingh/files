@@ -16,7 +16,7 @@ const UnderConstructionSection = () => {
       ></div>
       <div className="auto-container text-center">
         <div className="logo">
-          <Link href="/">
+          <Link href="/" passHref>
             <div title={logoTitle}>
               <Image
                 src={logo.src}

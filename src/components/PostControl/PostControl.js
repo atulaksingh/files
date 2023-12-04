@@ -7,12 +7,12 @@ const PostControl = () => {
       <div className="auto-container">
         <div className="inner clearfix">
           <div className="control prev">
-            <Link href="/">
+            <Link href="/" passHref>
               <span className="fa fa-angle-left"></span> &nbsp; Previous
             </Link>
           </div>
           <div className="control next">
-            <Link href="/">
+            <Link href="/" passHref>
               Next &nbsp;<span className="fa fa-angle-right"></span>
             </Link>
           </div>

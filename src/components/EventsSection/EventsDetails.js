@@ -62,13 +62,13 @@ const EventsDetails = () => {
                     <li>
                       <strong>Phone</strong>
                       <span>
-                        <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
+                        <Link href={`tel:${phone.split(" ").join("")}`} passHref>{phone}</Link>
                       </span>
                     </li>
                     <li>
                       <strong>Email</strong>
                       <span>
-                        <Link href={`mailto:${email}`}>{email}</Link>
+                        <Link href={`mailto:${email}`} passHref>{email}</Link>
                       </span>
                     </li>
                     <li>

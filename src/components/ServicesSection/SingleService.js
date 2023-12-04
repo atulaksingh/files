@@ -14,13 +14,13 @@ const SingleService = ({ service = {} }) => {
           <span className={icon}></span>
         </div>
         <h5>
-          <Link href="/">
+          <Link href="/" passHref>
             <TextSplit text={title} />
           </Link>
         </h5>
         <div className="text">{text}</div>
         <div className="link-box">
-          <Link href="/">
+          <Link href="/ " passHref>
             <span className="fa fa-angle-right"></span>
           </Link>
         </div>

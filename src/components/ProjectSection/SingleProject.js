@@ -16,14 +16,14 @@ const SingleProject = ({ project = {} }) => {
           alt=""
         />
         <div className="project-seven__content">
-          <Link href="/portfolio-single">
+          <Link href="/portfolio-single" passHref>
             <div className="project-seven__link">
               <i className="flaticon-right-arrow"></i>
             </div>
           </Link>
           <div className="project-seven__category">{category}</div>
           <h3 className="project-seven__title">
-            <Link href="/portfolio-single">{title}</Link>
+            <Link href="/portfolio-single" passHref>{title}</Link>
           </h3>
         </div>
       </div>

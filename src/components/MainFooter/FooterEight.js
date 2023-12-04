@@ -33,9 +33,9 @@ const FooterEight = () => {
               <div className="footer-eight__widget">
                 <h3 className="footer-eight__title">Contact</h3>
                 <div>
-                  <Link href={`mailto:${email}`}>{email}</Link>
+                  <Link href={`mailto:${email}`} passHref>{email}</Link>
                   <br />
-                  <Link href={`tel:${phone2.split(" ").join("")}`}>{phone2}</Link>
+                  <Link href={`tel:${phone2.split(" ").join("")}`} passHref>{phone2}</Link>
                 </div>
               </div>
             </Col>
@@ -44,7 +44,7 @@ const FooterEight = () => {
                 <h3 className="footer-eight__title">Follow</h3>
                 <div className="footer-eight__social">
                   {socials.map(({ id, icon, href }) => (
-                    <Link key={id} href={href} className={icon}></Link>
+                    <Link key={id} href={href} className={icon} passHref></Link>
                   ))}
                 </div>
               </div>
@@ -54,10 +54,10 @@ const FooterEight = () => {
       </footer>
       <div className="footer-eight__copyright">
         <div className="auto-container">
-          <Link href="/index-main">
-            <Link>
+          <Link href="/index-main" passHref>
+            <div>
               <Image src={logo8.src} width={101} alt="" />
-            </Link>
+            </div>
           </Link>
           <div>
             © Copyright {year} by {author}

@@ -20,7 +20,7 @@ const SinglePricingThree = ({ pricing = {} }) => {
           <li>{employees}/6 Employees</li>
         </ul>
         <div className="pricing-three__tagline">{tagline}</div>
-        <Link href="/contact">
+        <Link href="/contact" passHref>
           <div className="theme-btn btn-style-two">
             <i className="btn-curve"></i>
             <span className="btn-title">Choose a plan</span>

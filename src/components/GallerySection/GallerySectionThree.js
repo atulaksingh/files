@@ -27,7 +27,7 @@ const GallerySectionThree = () => {
                 <div className="gallery-item-three__content">
                   <div>{tagline}</div>
                   <h3>
-                    <Link href="/portfolio-single">{title}</Link>
+                    <Link href="/portfolio-single" passHref>{title}</Link>
                   </h3>
                 </div>
               </div>

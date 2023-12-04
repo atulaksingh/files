@@ -41,7 +41,7 @@ const LiveSection = ({ className = "" }) => {
                     </h3>
                   </div>
                   <div className="more-link">
-                    <Link href="/about">Read More</Link>
+                    <Link href="/about" passHref>Read More</Link>
                   </div>
                 </div>
               </div>

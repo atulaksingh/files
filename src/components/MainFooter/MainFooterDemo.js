@@ -17,6 +17,7 @@ const MainFooterDemo = () => {
           <Link
             className="theme-btn btn-style-one demo-purchase-btn"
             href={templateLink}
+            passHref
           >
             <i className="btn-curve"></i>
             <span className="btn-title">Purchase template</span>

@@ -9,13 +9,13 @@ const SingleNews = ({ news = {} }) => {
     <Col lg={4} md={6} sm={12} className="news-block animated fadeInUp">
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/blog-single">
-            <Link>
+          <Link href="/blog-single" passHref>
+            <div>
               <Image
                 src={require(`@/images/resource/${image}`).default.src}
                 alt=""
               />
-            </Link>
+            </div>
           </Link>
         </div>
         <div className="lower-box">
@@ -33,11 +33,11 @@ const SingleNews = ({ news = {} }) => {
             </ul>
           </div>
           <h5>
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/blog-single" passHref>{title}</Link>
           </h5>
           <div className="text">{text}</div>
           <div className="link-box">
-            <Link href="/blog-single">
+            <Link href="/blog-single" passHref       >
               <div className="theme-btn">
                 <span className="flaticon-next-1"></span>
               </div>

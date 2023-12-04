@@ -20,7 +20,7 @@ const HeaderEight = () => {
           <ul className="header-eight__topbar__info">
             <li>
               <i className="flaticon-email-2"></i>
-              <Link href={`mailto:${email}`}>{email}</Link>
+              <Link href={`mailto:${email}`} passHref>{email}</Link>
             </li>
             <li>
               <i className="flaticon-pin-1"></i>
@@ -31,7 +31,7 @@ const HeaderEight = () => {
             <div>{title3}</div>
             <div className="header-eight__topbar__social">
               {socials.map(({ id, icon, href }) => (
-                <Link key={id} href={href} className={icon}></Link>
+                <Link key={id} href={href} className={icon} passHref></Link>
               ))}
             </div>
           </div>
