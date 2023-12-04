@@ -29,7 +29,7 @@
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^8.1.1",
     "tiny-slider": "^2.9.4",
-    "vercel": "^32.6.1"
+    "vercel": "^32.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
