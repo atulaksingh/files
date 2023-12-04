@@ -23,11 +23,11 @@ const PageBanner = ({
             <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>
-                  <Link href="/index-main">Home</Link>
+                  <Link href="/index-main" passHref>Home</Link>
                 </li>
                 {parent && (
                   <li>
-                    <Link href={parentHref}>{parent}</Link>
+                    <Link href={parentHref} passHref>{parent}</Link>
                   </li>
                 )}
                 <li className="active">{page || title}</li>

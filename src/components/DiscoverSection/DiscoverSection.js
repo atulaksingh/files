@@ -33,7 +33,7 @@ const DiscoverSection = ({ ShowTitle = true }) => {
                     <div style={{font:"20px", fontWeight:'bold', color:"black"}}>{t2}</div>
                     <div className="cap-text">{title}</div>
                     <div className="more-link">
-                      <Link href="/about">
+                      <Link href="/about" passHref>
                           <span className="fa fa-angle-right"></span>
                       </Link>
                     </div>

@@ -39,12 +39,13 @@ const HeaderSix = () => {
           <Link
             href={`tel:${phone.split(" ").join("")}`}
             className="header-six__info__link"
+            passHref
           >
             <i className="flaticon-call"></i>
             {phone}
           </Link>
 
-          <Link href={`mailto:${email}`} className="header-six__info__link">
+          <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
             <i className="flaticon-email-2"></i>
             {email}
           </Link>

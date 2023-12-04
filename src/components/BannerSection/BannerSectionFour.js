@@ -58,7 +58,7 @@ const BannerSectionFour = () => {
                     <div>
                       <TextSplit text={text} />
                     </div>
-                    <Link href="/" className="theme-btn btn-style-three">
+                    <Link href="/" className="theme-btn btn-style-three" passHref>
                       Discover More
                     </Link>
                   </Col>

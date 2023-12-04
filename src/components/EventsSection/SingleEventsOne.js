@@ -10,8 +10,8 @@ const SingleEventsOne = ({ event = {} }) => {
       <div className="events-one__item">
         <div className="events-one__image">
           <div className="events-one__date">{date}</div>
-          <Link href="/event-details">
-            <Link>
+          <Link href="/event-details" passHref>
+            <div>
               <Image
                 src={
                   require(`@/images/update-09-06-2021/events/${image}`).default
@@ -19,7 +19,7 @@ const SingleEventsOne = ({ event = {} }) => {
                 }
                 alt=""
               />
-            </Link>
+            </div>
           </Link>
         </div>
         <div className="events-one__content">

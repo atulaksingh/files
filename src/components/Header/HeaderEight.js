@@ -46,7 +46,7 @@ const HeaderEight = () => {
         <div className="auto-container">
           <div className="nav-outer mainmenu-eight__inner ">
             <div className="mainmenu-eight__left">
-              <Link href="/index-main">
+              <Link href="/index-main" passHref>
                 <Link>
                   <Image src={logo8.src} width={134} alt={title} />
                 </Link>
@@ -83,6 +83,7 @@ const HeaderEight = () => {
               <Link
                 href={`tel:${phone2.split(" ").join("")}`}
                 className="mainmenu-eight__call"
+                passHref
               >
                 <span className="mainmenu-eight__call__icon">
                   <i className="flaticon-phone"></i>

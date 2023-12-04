@@ -32,7 +32,7 @@ const EventsDetails = () => {
               {texts.map((text, i) => (
                 <div key={i}>{text}</div>
               ))}
-              <Link href="/contact">
+              <Link href="/contact" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Register Now</span>

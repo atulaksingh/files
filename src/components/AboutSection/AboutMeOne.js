@@ -25,7 +25,7 @@ const AboutMeOne = () => {
               </div>
               <div className="about-me-one__social">
                 {socials.map(({ id, icon, href }) => (
-                  <Link key={id} href={href}>
+                  <Link key={id} href={href} passHref>
                     <i className={icon}></i>
                   </Link>
                 ))}

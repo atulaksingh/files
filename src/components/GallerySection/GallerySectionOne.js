@@ -68,7 +68,7 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
           </Masonry>
           {portfolio && (
             <div className="more-box">
-              <Link href="/portfolio">
+              <Link href="/portfolio" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Load more work</span>

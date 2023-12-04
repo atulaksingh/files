@@ -109,13 +109,13 @@ const CartPage = () => {
               </li>
             </ul>
             <div className="cart-page__buttons">
-              <Link href="/cart">
+              <Link href="/cart" passHref>
                 <div className="theme-btn btn-style-two">
                   <i className="btn-curve"></i>
                   <span className="btn-title">update</span>
                 </div>
               </Link>
-              <Link href="/checkout">
+              <Link href="/checkout" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Checkout</span>

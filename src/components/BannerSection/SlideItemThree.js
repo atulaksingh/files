@@ -27,7 +27,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
               </h1>
               <div className="text">{text}</div>
               <div className="link-box">
-                <Link href="/about">
+                <Link href="/about" passHref>
                   <div className="theme-btn btn-style-two">
                     <i className="btn-curve"></i>
                     <span className="btn-title">Discover More</span>

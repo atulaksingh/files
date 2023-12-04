@@ -24,7 +24,7 @@ const BrandPortfolio = () => {
             </div>
             <div className="brand-portfolio__content">
               <h2 className="brand-portfolio__title">{title}</h2>
-              <Link href="/portfolio-single">
+              <Link href="/portfolio-single" passHref>
                 <div className="brand-portfolio__link">
                   checkout some of our recent work
                   <span className="flaticon-arrows-10"></span>

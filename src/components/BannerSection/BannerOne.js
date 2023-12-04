@@ -47,7 +47,7 @@ const BannerOne = () => {
             <ul className="clearfix">
               {socials.map(({ id, href, title }) => (
                 <li key={id}>
-                  <Link href={href}>
+                  <Link href={href} passHref>
                     <span>{title}</span>
                   </Link>
                 </li>

@@ -22,7 +22,7 @@ const FluidSection = () => {
                 <div className="content-box">
                   <h3>{title}</h3>
                   <div className="link-box">
-                    <Link href={href}>
+                    <Link href={href} passHref>
                       <div className={`theme-btn ${btnClassName}`}>
                         <i className="btn-curve"></i>
                         <span className="btn-title">Discover More</span>

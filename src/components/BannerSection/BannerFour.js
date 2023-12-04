@@ -14,7 +14,7 @@ const BannerFour = () => {
       </div>
       <div className="banner-four__social">
         {socials.map(({ id, href, icon }) => (
-          <Link key={id} href={href}>
+          <Link key={id} href={href} passHref>
             <i className={icon}></i>
           </Link>
         ))}
@@ -24,7 +24,7 @@ const BannerFour = () => {
           <TextSplit text={title} />
         </h2>
         <div className="banner-four__text">
-          {text} <Link href="/about">html template</Link>
+          {text} <Link href="/about" passHref>html template</Link>
         </div>
 
         <div

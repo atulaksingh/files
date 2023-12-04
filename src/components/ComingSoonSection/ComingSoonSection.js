@@ -25,7 +25,7 @@ const ComingSoonSection = () => {
           <Col lg={7}>
             <div className="logo-box">
               <div className="logo">
-                <Link href="/">
+                <Link href="/" passHref>
                   <Link title={logoTitle}>
                     <Image
                       src={logo.src}
@@ -68,7 +68,7 @@ const ComingSoonSection = () => {
             <ul className="coming-soon__social list-unstyled">
               {socials.map(({ id, icon, href }) => (
                 <li key={id}>
-                  <Link href={href}>
+                  <Link href={href} passHref>
                     <span className={icon}></span>
                   </Link>
                 </li>

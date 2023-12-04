@@ -70,7 +70,7 @@ const HeaderOne = ({
               <ul className="list-unstyled social-links">
                 {socials.map(({ id, icon, href }) => (
                   <li key={id}>
-                    <Link href={href}>
+                    <Link href={href} passHref>
                       <span className={icon}></span>
                     </Link>
                   </li>
@@ -89,15 +89,15 @@ const HeaderOne = ({
           >
             <div className="logo-box">
               <div className="logo">
-                <Link href="/">
-                  <Link title={title}>
+                <Link href="/" passHref>
+                  <div title={title}>
                     <Image
                       id="thm-logo"
                       src={Logo.src}
                       alt={title}
                       title={title}
                     />
-                  </Link>
+                  </div>
                 </Link>
               </div>
             </div>
@@ -132,7 +132,7 @@ const HeaderOne = ({
             {links && (
               <div className="other-links clearfix">
                 <div className="cart-btn">
-                  <Link href="/cart">
+                  <Link href="/cart" passHref>
                     <div className="theme-btn cart-toggler">
                       <span className="flaticon-shopping-cart"></span>
                     </div>
@@ -152,6 +152,7 @@ const HeaderOne = ({
                     <Link
                       className="link"
                       href={`tel:${phone.split(" ").join("")}`}
+                      passHref
                     >
                       <span className="icon"></span>
                       <span className="sub-text">Call Anytime</span>

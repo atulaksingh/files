@@ -172,7 +172,7 @@ const CheckoutPage = () => {
               ))}
             </div>
             <div className="text-right d-flex justify-content-end">
-              <Link href="/checkout">
+              <Link href="/checkout" passHref>
                 <div className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Place your order</span>

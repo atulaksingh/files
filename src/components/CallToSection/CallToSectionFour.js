@@ -13,6 +13,7 @@ const CallToSectionFour = () => {
           target="_blank"
           className="thm-btn__eight call-to-section-four__btn"
           rel="noreferrer"
+          passHref
         >
           purchase now
         </Link>

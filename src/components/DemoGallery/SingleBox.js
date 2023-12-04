@@ -17,14 +17,14 @@ const SingleBox = ({ box = {} }) => {
             alt=""
           />
           <div className="portfolio-masonary__box-content">
-            <Link href={href}>
+            <Link href={href} passHref>
               <div className="link">
                 <i className="flaticon-right-arrow"></i>
               </div>
             </Link>
             <div>{tagline}</div>
             <h4>
-              <Link href={href}>{title}</Link>
+              <Link href={href} passHref>{title}</Link>
             </h4>
           </div>
         </div>

@@ -15,7 +15,7 @@ const EventsOne = () => {
         </Row>
 
         <div className="more-box text-center">
-          <Link href="/events">
+          <Link href="/events" passHref>
             <div className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Load more posts</span>

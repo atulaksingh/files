@@ -62,7 +62,7 @@ const BannerOnePage = () => {
                             Discover <br /> <span>{title}</span>
                           </h1>
                           <div className="link-box">
-                            <Link href="/about">
+                            <Link href="/about" passHref>
                               <div className="theme-btn btn-style-one">
                                 <i className="btn-curve"></i>
                                 <span className="btn-title">Discover More</span>
@@ -72,6 +72,7 @@ const BannerOnePage = () => {
                               <Link
                                 onClick={() => setOpen(true)}
                                 className="lightbox-image"
+                                passHref
                               >
                                 <div className="icon">
                                   <span className="flaticon-play-button-1"></span>

@@ -14,7 +14,7 @@ const CallToSection = ({ className = "", container = true }) => {
               Started!
             </h2>
             <div className="link-box">
-              <Link href="/contact">
+              <Link href="/contact" passHref>
                 <div className="theme-btn btn-style-two">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Contact with us</span>

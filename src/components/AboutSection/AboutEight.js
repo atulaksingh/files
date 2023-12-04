@@ -30,7 +30,7 @@ const AboutEight = () => {
                   <LinkboutEightProgress key={progress.id} progress={progress} />
                 ))}
               </div> */}
-              <Link href="/" className="about-eight__btn thm-btn__seven">
+              <Link href="/" className="about-eight__btn thm-btn__seven" passHref>
                 Get Started
               </Link>
             </div>

@@ -18,7 +18,7 @@ const CallToSectionThree = () => {
       <div className="auto-container">
         <h3>{title}</h3>
         <div className="button-wrap">
-          <Link href="/about">
+          <Link href="/about" passHref>
             <div className="theme-btn btn-style-three">Discover More</div>
           </Link>
         </div>
