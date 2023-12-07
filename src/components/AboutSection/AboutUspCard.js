@@ -38,14 +38,11 @@ const options = {
   },
 };
 
-const SponsorSix = () => {
+const AboutUspCard = () => {
+    
   return (
-    <div className="sponsor-six">
+    <section className="sponsor-six">
       <div className="auto-container">
-
-        <div className="sec-title-eight text-center">
-          <h2 className="sec-title-eight__title ">Our Esteemed Client</h2>
-        </div>
         <Swiper {...options} className="thm-swiper__slider">
           <div className="swiper-wrapper">
             {sponsorSix.map((image, i) => (
@@ -56,8 +53,8 @@ const SponsorSix = () => {
           </div>
         </Swiper>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default SponsorSix;
+export default AboutUspCard;

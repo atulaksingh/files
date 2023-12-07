@@ -6,7 +6,7 @@ const BlogEightSingle = ({ blog = {} }) => {
   const { image, date, title, text, admin, comments } = blog;
 
   return (
-    <Col md={12} lg={4}>
+    <Col md={12} lg={3}>
       <div className="blog-eight__card">
         <div className="blog-eight__image">
           <Image
@@ -17,12 +17,12 @@ const BlogEightSingle = ({ blog = {} }) => {
           />
         </div>
         <div className="blog-eight__content">
-          <div className="blog-eight__date">{date}</div>
+          {/* <div className="blog-eight__date">{date}</div> */}
           <h3 className="blog-eight__title">
             <Link href="/blog-single">{title}</Link>
           </h3>
           <div className="blog-eight__text">{text}</div>
-          <div className="blog-eight__meta">
+          {/* <div className="blog-eight__meta">
             <Link href="/" passHref>
               <i className="far fa-user-circle"></i>by {admin}
             </Link>
@@ -30,7 +30,7 @@ const BlogEightSingle = ({ blog = {} }) => {
               <i className="far fa-comments"></i>
               {comments} Comments
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </Col>

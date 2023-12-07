@@ -15,7 +15,7 @@ const FunFactsOne = () => {
       <div className="auto-container">
         <div className="inner-container">
           <div className="fact-counter">
-            <Row className="clearfix">
+            {/* <Row className="clearfix">
               {funFacts.map(({ id, title, count }) => (
                 <Col
                   key={id}
@@ -36,7 +36,7 @@ const FunFactsOne = () => {
                   </div>
                 </Col>
               ))}
-            </Row>
+            </Row> */}
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import BlogEightSingle from "./BlogEightSingle";
 
-const { tagline, title, blogs } = blogEight;
+const { tagline, title, blogs,title2 } = blogEight;
 
 const BlogEight = () => {
   return (
@@ -11,7 +11,8 @@ const BlogEight = () => {
       <div className="auto-container">
         <div className="sec-title-eight text-center">
           <div className="sec-title-eight__text">{tagline}</div>
-          <h2 className="sec-title-eight__title">{title}</h2>
+          <h2 className="sec-title-eight__title  mx-auto">{title}</h2>
+          <h2 className="sec-title-eight__title  mx-auto">{title2}</h2>
         </div>
         <Row>
           {blogs.map((blog) => (

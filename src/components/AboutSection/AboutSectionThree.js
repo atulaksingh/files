@@ -79,11 +79,11 @@ const AboutSectionThree = () => {
                   </div>
                 </ReactVisibilitySensor>
               </div>
-              <div className="about-section-three__name">
+              {/* <div className="about-section-three__name">
                 <Image src={personImage.src} alt="" />
                 <h3>{name}</h3>
                 <div>{tagline}</div>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

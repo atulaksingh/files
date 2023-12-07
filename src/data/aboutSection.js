@@ -70,7 +70,7 @@ export const aboutSeven = {
 export const aboutSix = {
   tagline: "Our Company Benefits",
   title: "Empowering Your IT Journey",
-  text: "Experience a seamless IT journey with us. From initial assessment and strategic planning to smooth deployment, ongoing maintenance, and future-proofing upgrades, we're your partner in every phase. Our expertise extends to environmentally conscious end-of-life management, ensuring secure disposal and compliance. Let us navigate your IT lifecycle, empowering your business to thrive in a dynamic digital landscape",
+  text: "Experience a seamless IT journey with us. From initial assessment and strategic planning to smooth deployment, ongoing maintenance and future-proofing upgrades, we're your partner in every phase. Our expertise extends to environmentally conscious end-of-life management, ensuring secure disposal and compliance. Maximize efficiency, minimize risks, and stay ahead in the ever-evolving landscape with our tailored IT lifecycle services ",
   image: image8,
   items: [
     {

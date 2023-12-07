@@ -5085,7 +5085,7 @@ img.lazy-image.loaded {
   min-height: 240px;
   background: var(--thm-base);
   font-weight: 400;
-  font-size: 38px;
+  font-size: 37px;
   line-height: 1.2em;
   text-transform: uppercase;
   letter-spacing: 0px;
@@ -5911,7 +5911,7 @@ img.lazy-image.loaded {
   font-weight: 500;
   color: var(--thm-black);
   text-align: center;
-  padding: 14px 40px 11px;
+  padding: 10px 25px 10px;
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -7600,7 +7600,7 @@ img.lazy-image.loaded {
 }
 
 .featured-section .feature h6 {
-  font-size: 24px;
+  font-size: 17px;
   text-transform: uppercase;
   left: 1px;
   font-weight: 400;
@@ -7612,7 +7612,8 @@ img.lazy-image.loaded {
   position: relative;
   display: block;
   color: var(--thm-text);
-  padding: 10px 0px 0px;
+  padding: 7px 0px 0px;
+  line-height: 1.7rem;
 }
 
 /***
@@ -11002,7 +11003,8 @@ img.lazy-image.loaded {
   position: relative;
   padding: 0;
   color: #ffffff;
-  background: var(--thm-black);
+  /* background: var(--thm-black); */
+  background-color: #3d431f;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11062,7 +11064,7 @@ img.lazy-image.loaded {
 
 .page-banner h1 {
   position: relative;
-  font-size: 100px;
+  font-size: 80px;
   color: #ffffff;
   line-height: 0.9em;
   font-weight: 600;
@@ -11085,7 +11087,7 @@ img.lazy-image.loaded {
 .page-banner .bread-crumb li {
   position: relative;
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   color: #ccd6df;
   font-weight: 400;
@@ -18673,7 +18675,7 @@ img.lazy-image.loaded {
 .funfact-six {
   padding-top: 100px;
   padding-bottom: 70px;
-  background-color: var(--thm-black);
+  background-color: #1A3546;
 }
 
 @media (min-width: 992px) {
@@ -21730,10 +21732,10 @@ img.lazy-image.loaded {
 .blog-eight__title {
   margin: 0;
   color: var(--thm-black);
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.25;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
 }
 
 .blog-eight__title a {

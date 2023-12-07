@@ -130,7 +130,7 @@ export const projectSeven = [
 
 export const projectEight = {
   tagline: "Recent Cases",
-  title: "Our Global presence",
+  title: "Our Global Presence",
   projects: [
     {
       id: 1,

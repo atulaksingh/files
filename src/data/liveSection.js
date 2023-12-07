@@ -2,7 +2,7 @@ import bg from "@/images/zaco/55356.jpg";
 import bg2 from "@/images/zaco/55356.jpg";
 
 const liveSection = {
-  secTitle: "Experience us live",
+  secTitle: "About Zaco",
   bg,
   videoId: "Get7rqXYrbQ",
   title: "Encounter Our Heritage",

@@ -2,14 +2,14 @@ export const sliderSix = [
   {
     id: 1,
     bg: "563548.jpg",
-    text: "Global IT Hardware & Software Solutions Made Seamless",
-    title: "Building Bridges, Breaking Boundaries",
+    text: "Powering the World",
+    title: "Your Global IT Hardware Partner",
   },
   {
     id: 2,
     bg: "932938.jpg",
-    text: "Global IT Hardware & Software Solutions Made Seamless",
-    title: "Global Hardware Solutions And \nservices Made Seamless",
+    text: "End-to-End IT Brilliance",
+    title: "Your Single Point of Contact for IT Hardware, Software and \nDigital Solutions",
   },
 ];
 

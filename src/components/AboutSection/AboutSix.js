@@ -39,7 +39,7 @@ const AboutSix = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           {items.map(({ id, icon, title, text }) => (
             <Col key={id} md={12} lg={4}>
               <div className="about-six__box">
@@ -53,7 +53,7 @@ const AboutSix = () => {
 
             </Col>
           ))}
-        </Row>
+        </Row> */}
       </div>
     </div>
   );

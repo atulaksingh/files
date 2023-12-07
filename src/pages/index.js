@@ -1,3 +1,4 @@
+import AboutSectionThree from "@/components/AboutSection/AboutSectionThree";
 import AboutSeven from "@/components/AboutSection/AboutSeven";
 import AboutSix from "@/components/AboutSection/AboutSix";
 import CallToSectionThree from "@/components/CallToSection/CallToSectionThree";
@@ -12,6 +13,7 @@ import Layout from "@/components/Layout/Layout";
 import LiveSection from "@/components/LiveSection/LiveSection";
 import FooterSix from "@/components/MainFooter/FooterSix";
 import MapSix from "@/components/MapSection/MapSix";
+import BlogEight from "@/components/NewsSection/BlogEight";
 import BlogSix from "@/components/NewsSection/BlogSix";
 import ProjectEight from "@/components/ProjectSection/ProjectEight";
 import ProjectSix from "@/components/ProjectSection/ProjectSix";
@@ -21,6 +23,7 @@ import ServiceSix from "@/components/ServicesSection/ServiceSix";
 import SliderSix from "@/components/SliderSection/SliderSix";
 import SponsorSix from "@/components/SponsorsSection/SponsorSix";
 import SubscribeOne from "@/components/SubscribeSection/SubscribeOne";
+import TeamSection from "@/components/TeamSection/TeamSection";
 import TestimonialsSix from "@/components/TestimonialsSection/TestimonialsSix";
 import TrustedSection from "@/components/TrustedSection/TrustedSection";
 import Dj from "@/components/VideoSection/Dj";
@@ -44,7 +47,7 @@ const Home6 = () => {
       /> */}
       <HeaderSix />
       <HeaderTwo />
-      {/* <MobileMenu /> */}
+      <MobileMenu />
       <SearchPopup />
       <SliderSix />
 
@@ -52,13 +55,15 @@ const Home6 = () => {
 
       <Dj />
 </div> */}
-      <DiscoverSection />
+      {/* <DiscoverSection /> */}
+      <BlogEight />
       <AboutSix />
       <FunFactsOne />
       <TrustedSection />
       <div className="" >
 
-      <LiveSection />
+      {/* <LiveSection /> */}
+      <AboutSectionThree />
       </div>
       <ProjectEight />
       {/* <ServiceSix /> */}
@@ -70,7 +75,8 @@ const Home6 = () => {
 
       <SponsorSix />
 <div  className="">
-<TestimonialsSix />
+{/* <TestimonialsSix /> */}
+<TeamSection />
 
       {/* <Dj2 /> */}
 </div>

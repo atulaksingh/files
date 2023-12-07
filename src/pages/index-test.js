@@ -12,11 +12,11 @@ const Home = () => {
     <Layout pageTitle="Home 01">
       <Style />
       
-      {/* <DemoHeader /> */}
+      <DemoHeader />
       <DemoTop />
       <DemoGallery />
-      {/* <DemoFeatures /> */}
-      {/* <MainFooterDemo /> */}
+      <DemoFeatures />
+      <MainFooterDemo />
     </Layout>
   );
 };

@@ -22,7 +22,7 @@ const socials = [
 ];
 
 const teamSection = {
-  title: "Meet the expert team",
+  title: "Zaco Store",
   teams: [
     {
       id: 1,

@@ -2,19 +2,20 @@ import image from "@/images/resource/featured-image-7.jpg";
 
 const featuredSection = {
   image,
-  title: "MAKE WEBSITES WITHOUT TOUCHING the CODing",
-  text: "We are committed to providing our customers with exceptional service while offering our employees the best training. There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority have suffered time.",
+  title: "About Zaco!",
+  text: "Zaco has been supporting Global companies for over a decade, providing cost-effective IT infrastructure solutions from top OEMs like HP, IBM, SUN/Oracle, Cisco, NetApp, and EMC. Our range includes new, used, and guaranteed servers, storage, networking equipment, and spare parts, helping businesses manage budgets without compromising quality",
   features: [
     {
       id: 1,
-      title: "Free Consultation",
-      text: "Lorem ipsum is not dolor sit amet, consectetur notted.",
+      title: "Expertise in IT Infrastructure",
+      text: "Zaco boasts extensive expertise in providing top-notch IT infrastructure solutions tailored to meet diverse business needs.",
     },
     {
       id: 2,
-      title: "Best team members",
-      text: "Lorem ipsum is not dolor sit amet, consectetur notted.",
+      title: "Affordable Solutions",
+      text: "For over a decade, Zaco has been dedicated to supporting businesses in India by offering cost-effective IT infrastructure solutions, enabling them to manage budgets without compromising quality.",
     },
+    
   ],
 };
 

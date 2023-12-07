@@ -12,19 +12,20 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
           <Link href="/about" passHref>
             <div>
               <Image
-                src={require(`@/images/resource/${image}`).default.src}
+                // src={require(`@/images/resource/${image}`).default.src}
+                src={require(`@/images/zaco/IBM-H-Chassis-400x400.webp`).default.src}
                 alt=""
               />
             </div>
           </Link>
           <ul className="social-links clearfix">
-            {socials.map(({ id, icon, href }) => (
+            {/* {socials.map(({ id, icon, href }) => (
               <li key={id}>
                 <Link href={href} passHref>
                   <span className={icon}></span>
                 </Link>
               </li>
-            ))}
+            ))} */}
           </ul>
         </div>
         <div className="lower-box">

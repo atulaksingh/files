@@ -1,7 +1,7 @@
 import image from "@/images/zaco/553423.jpg";
 
 const trustedSection = {
-  title: "We’re Committed To Deliver High Quality Projects.",
+  title: "We Are Committed To Deliver Complete IT Solutions",
   title2: "Infrastructure Managed Services",
   image,
   text2:"Our services ensure uninterrupted operations through proactive monitoring, swift issue resolution, and regular maintenance. Tailored to your specific needs, our solutions guarantee scalability and compliance, allowing you to focus on driving your business forward while we handle the intricacies of your infrastructure..",

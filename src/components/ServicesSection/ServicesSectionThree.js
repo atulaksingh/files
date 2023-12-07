@@ -3,6 +3,7 @@ import useActive from "@/hooks/useActive";
 import React from "react";
 import { Row } from "react-bootstrap";
 import SingleService from "./SingleService";
+import AboutUspCard from "../AboutSection/AboutUspCard";
 
 const { title, services } = servicesSectionThree;
 
@@ -24,7 +25,9 @@ const ServicesSectionThree = ({ className = "" }) => {
         <div className="services">
           <Row className="clearfix">
             {services.map((service) => (
-              <SingleService service={service} key={service.id} />
+              // <SingleService service={service} key={service.id} />
+
+              <AboutUspCard service={service} key={service.id}/>
             ))}
           </Row>
         </div>
