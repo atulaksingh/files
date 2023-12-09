@@ -12,8 +12,8 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
           <Link href="/about" passHref>
             <div>
               <Image
-                // src={require(`@/images/resource/${image}`).default.src}
-                src={require(`@/images/zaco/IBM-H-Chassis-400x400.webp`).default.src}
+                src={require(`@/images/zaco/${image}`).default.src}
+                // src={require(`@/images/zaco/004.png`).default.src}
                 alt=""
               />
             </div>
@@ -29,10 +29,10 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
           </ul>
         </div>
         <div className="lower-box">
-          <h5>
+          <h5 className="text-sm">
             <Link href="/">{name}</Link>
           </h5>
-          <div className="designation">{designation}</div>
+          {/* <div className="designation">{designation}</div> */}
         </div>
       </div>
     </div>

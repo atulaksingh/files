@@ -76,14 +76,16 @@ const TeamSection = ({ onePage = false }) => {
   const ref = useActive("#team");
 
   return (
-    <div ref={ref} className="team-section no-padd-top" id="team">
+    <div ref={ref} className="team-section no-padd-top mt-24 mx-24" id="team">
       <div className="auto-container">
-        <div className="sec-title centered">
-          <h2>
+        {/* <h2>
             {title}
             <span className="dot">.</span>
-          </h2>
+          </h2> */}
+        <div class="sec-title-six centered">
+          <h2 class="sec-title-six__title">{title}</h2>
         </div>
+
       </div>
       <div className={onePage ? "auto-container" : ""}>
         <div className="carousel-box">
@@ -101,6 +103,10 @@ const TeamSection = ({ onePage = false }) => {
               {teams.map((team) => (
                 <SingleTeam key={team.id} team={team} ref={listRef} />
               ))}
+
+
+
+
             </TinySlider>
           </div>
         </div>

@@ -82,7 +82,7 @@ const Home6 = () => {
 </div>
 
 
-<WeDOSection />
+{/* <WeDOSection /> */}
       {/* <BlogSix /> */}
       {/* <CallToSectionThree /> */}
       {/* <Dj2 /> */}

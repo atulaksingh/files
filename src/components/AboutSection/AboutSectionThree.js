@@ -35,10 +35,13 @@ const AboutSectionThree = () => {
           </Col>
           <Col md={12} lg={6}>
             <div className="about-section-three__content">
-              <div className="sec-title-two text-left">
+              {/* <div className="sec-title-two text-left">
                 <div>{subtitle}</div>
                 <h2>{title}</h2>
-              </div>
+              </div> */}
+              <div class="sec-title-six"><div class="sec-title-six__text"><span>{subtitle}</span></div><h2 class="sec-title-six__title">{title}</h2></div>
+
+              
               <div className="about-section-three__summery">
                 <div>{text}</div>
               </div>

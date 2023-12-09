@@ -4838,7 +4838,7 @@ img.lazy-image.loaded {
 
 .gallery-block-three {
   background-color: #eff1f4;
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 90px;
 }
 
@@ -5284,10 +5284,10 @@ img.lazy-image.loaded {
 .team-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 7px;
@@ -5352,7 +5352,7 @@ img.lazy-image.loaded {
 .team-block .lower-box {
   position: relative;
   display: block;
-  padding: 30px 0px 0;
+  /* padding: 30px 0px 0; */
 }
 
 .team-block .lower-box .designation {
@@ -5361,7 +5361,7 @@ img.lazy-image.loaded {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  line-height: 1.2em;
+  /* line-height: 1.2em; */
   font-weight: 400;
   color: var(--thm-text);
   padding-top: 5px;
@@ -5369,7 +5369,7 @@ img.lazy-image.loaded {
 }
 
 .team-block .lower-box h5 {
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.05em;

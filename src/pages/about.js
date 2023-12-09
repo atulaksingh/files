@@ -38,7 +38,7 @@ const About = () => {
       {/* <TeamSectionTwo /> */}
       {/* <SponsorsSectionTwo /> */}
 
-      {/* <AboutUspCard /> */}
+      <AboutUspCard />
       {/* <ServicesSectionThree className="padd-top" /> */}
       <FunFactSix />
       <FooterSix />

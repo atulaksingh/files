@@ -33,6 +33,8 @@ const TrustedSection = () => {
             <Col xl={7} lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="sec-title">
+                {/* <h2 class="sec-title-six__title">Empowering Your IT Journey</h2> */}
+                {/* <div class="sec-title-six"><div class="sec-title-six__text"></div><h2 class="sec-title-six__title">{title2}</h2></div> */}
                   <h2>
                     {title2}
                     <span className="dot">.</span>
