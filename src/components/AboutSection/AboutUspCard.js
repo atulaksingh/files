@@ -84,7 +84,7 @@ const AboutUspCard = () => {
                 <div className="gallery-item-three ">
                   <Image
                     src={
-                      require(`@/images/zaco/7727.jpg`)
+                      require(`@/images/zaco/Server-Maintenance.webp`)
                         .default.src
                     }
                     alt=""
@@ -101,7 +101,7 @@ const AboutUspCard = () => {
                 <div className="gallery-item-three ">
                   <Image
                     src={
-                      require(`@/images/zaco/7727.jpg`)
+                      require(`@/images/zaco/Storage-Maintenance (1).webp`)
                         .default.src
                     }
                     alt=""
@@ -118,7 +118,7 @@ const AboutUspCard = () => {
                 <div className="gallery-item-three ">
                   <Image
                     src={
-                      require(`@/images/zaco/7727.jpg`)
+                      require(`@/images/zaco/Network-Maintenance-Services.webp`)
                         .default.src
                     }
                     alt=""

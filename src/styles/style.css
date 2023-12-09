@@ -21707,7 +21707,7 @@ img.lazy-image.loaded {
   position: relative;
   margin-top: -20px;
   text-align: center;
-  padding-top: 33px;
+  padding-top: 20px;
 }
 
 .blog-eight__date {
@@ -21732,7 +21732,7 @@ img.lazy-image.loaded {
 .blog-eight__title {
   margin: 0;
   color: var(--thm-black);
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.25;
   font-weight: bold;
   margin-bottom: 5px;
@@ -21751,8 +21751,8 @@ img.lazy-image.loaded {
 .blog-eight__text {
   margin: 0;
   color: var(--thm-text);
-  font-size: 16px;
-  line-height: 1.875;
+  font-size: 14px;
+  line-height: 1.775;
   margin-bottom: 24px;
 }
 
