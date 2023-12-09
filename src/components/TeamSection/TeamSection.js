@@ -82,8 +82,8 @@ const TeamSection = ({ onePage = false }) => {
             {title}
             <span className="dot">.</span>
           </h2> */}
-        <div class="sec-title-six centered">
-          <h2 class="sec-title-six__title">{title}</h2>
+        <div className="sec-title-six centered">
+          <h2 className="sec-title-six__title">{title}</h2>
         </div>
 
       </div>

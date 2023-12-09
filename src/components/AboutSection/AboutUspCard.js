@@ -53,7 +53,7 @@ const AboutUspCard = () => {
           <span>tagline</span>
           <h2 class="sec-title-six__title">title</h2>
         </div> */}
-        <div class="sec-title-six centered"><h2 class="sec-title-six__title">Our USP
+        <div className="sec-title-six centered"><h2 className="sec-title-six__title">Our USP
         </h2></div>
         <Row >
           {/* {items.map(({ id, title, tagline, image }) => ( */}
@@ -65,7 +65,7 @@ const AboutUspCard = () => {
                 <div className="gallery-item-three ">
                   <Image
                     src={
-                      require(`@/images/zaco/7727.jpg`)
+                      require(`@/images/zaco/a1.jpg`)
                         .default.src
                     }
                     alt=""

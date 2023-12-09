@@ -39,7 +39,7 @@ const AboutSectionThree = () => {
                 <div>{subtitle}</div>
                 <h2>{title}</h2>
               </div> */}
-              <div class="sec-title-six"><div class="sec-title-six__text"><span>{subtitle}</span></div><h2 class="sec-title-six__title">{title}</h2></div>
+              <div className="sec-title-six"><div className="sec-title-six__text"><span>{subtitle}</span></div><h2 className="sec-title-six__title">{title}</h2></div>
 
               
               <div className="about-section-three__summery">
