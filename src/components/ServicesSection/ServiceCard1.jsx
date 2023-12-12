@@ -36,7 +36,8 @@ function ServiceCard1() {
                 </div>
                 <h2 className="sec-title-six__title">Empowering Your IT Journey</h2>
               </div>
-              <div className="about-six__text">Experience a seamless IT journey with us. From initial assessment and strategic planning to smooth deployment, ongoing maintenance and future-proofing upgrades, we're your partner in every phase. Our expertise extends to environmentally conscious end-of-life management, ensuring secure disposal and compliance. Maximize efficiency, minimize risks, and stay ahead in the ever-evolving landscape with our tailored IT lifecycle services</div>
+              <div className="about-six__text">Experience a seamless IT journey with us From initial assessment and strategic planning to smooth deployment ongoing maintenance and future-proofing upgrades were your partner in every phase. Our expertise extends to environmentally conscious end-of-life management
+               ensuring secure disposal and compliance. Maximize efficiency minimize risks and stay ahead in the ever-evolving landscape with our tailored IT lifecycle services</div>
             </div>
           </Col>
         

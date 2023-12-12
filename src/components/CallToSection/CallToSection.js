@@ -22,7 +22,7 @@ const CallToSection = ({ className = "", container = true }) => {
                 </div>
               </Link> */}
               <form action="" method="get" className="w-full">
-                <input id="s" maxlength="140" name="searcheosl" size="30" type="text" placeholder="Search by hardware make or model..." />
+                <input id="s" maxLength="140" name="searcheosl" size="30" type="text" placeholder="Search by hardware make or model..." />
                 <button type="submit" value=""></button>
               </form>
             </div>

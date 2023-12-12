@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import BlogEightSingle from '../NewsSection/BlogEightSingle'
 import { blogEight } from '@/data/newsSection';
+import TextSplit from '../Reuseable/TextSplit';
 const { tagline, title, blogs, title2 } = blogEight;
 function ServiceCard2() {
     return (

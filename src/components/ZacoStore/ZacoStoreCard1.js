@@ -110,8 +110,8 @@ const ZacoStoreCard1 = (props) => {
 
 
 
-                            {brands.map((team) => (
-                                <div ref={ref} className={`team-block`}>
+                            {brands.map((team,index) => (
+                                <div ref={ref} key={index} className={`team-block`}>
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <Link href="/about" passHref>

@@ -1,29 +1,30 @@
-// components/TinySlider.js
 import React, { forwardRef, useEffect, useState } from "react";
 import { tns } from "tiny-slider/src/tiny-slider";
 
-const TinySlider = forwardRef(({ children, options = {}, slider, setSlider }, ref) => {
+/**
+ * @param {{children: ReactNode, options: import("tiny-slider/src/tiny-slider").TinySliderSettings, slider?: import("tiny-slider/src/tiny-slider").TinySliderInstance || null, setSlider?: (slider: import("tiny-slider/src/tiny-slider").TinySliderInstance) => void}} props
+ */
+
+const TinySlider = ({ children, options = {}, slider, setSlider }, ref) => {
   const [innerSlider, setInnerSlider] = useState(null);
 
   useEffect(() => {
-    if (options && Object.keys(options).length > 0) {
-      if (setSlider && slider !== undefined) {
-        if (!slider) {
-          setSlider(tns(options));
-        }
-      } else {
-        if (!innerSlider) {
-          setInnerSlider(tns(options));
-        }
+    if (setSlider && slider !== undefined) {
+      if (!slider) {
+        setSlider(tns(options));
+      }
+    } else {
+      if (!innerSlider) {
+        setInnerSlider(tns(options));
       }
     }
-  }, [setSlider, slider, innerSlider, options]);
+  }, [setSlider, slider, innerSlider, ref, options]);
 
   return (
-    <div className={`${options.container?.split(".")[1]} position-relative`} ref={ref}>
+    <div className={`${options.container?.split(".")[1]} position-relative`}>
       {children}
     </div>
   );
-});
+};
 
-export default TinySlider;
+export default forwardRef(TinySlider);
