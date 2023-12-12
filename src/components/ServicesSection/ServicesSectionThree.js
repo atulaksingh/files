@@ -23,11 +23,11 @@ const ServicesSectionThree = ({ className = "" }) => {
           </h2>
         </div>
         <div className="services">
-          <Row className="clearfix">
+          <Row className="clearfix ">
             {services.map((service) => (
-              // <SingleService service={service} key={service.id} />
+              <SingleService service={service} key={service.id} />
 
-              <AboutUspCard service={service} key={service.id}/>
+              // <AboutUspCard service={service} key={service.id}/>
             ))}
           </Row>
         </div>

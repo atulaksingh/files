@@ -206,7 +206,7 @@ const navItems = [
   {
     id: 5,
     name: "Online Store",
-    href: "/portfolio",
+    href: "/store",
     subNavItems: [
       { id: 1, name: "Portfolio", href: "/portfolio" },
       { id: 2, name: "Portfolio Single 01", href: "/portfolio-single" },

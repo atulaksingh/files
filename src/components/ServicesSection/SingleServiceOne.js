@@ -2,9 +2,9 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 import Link from "next/link";
-
+import { GrHostMaintenance } from 'react-icons/gr';
 const SingleServiceOne = ({ service = {} }) => {
-  const { icon, href, title } = service;
+  const {  icon: IconComponent, href, title } = service;
 
   return (
     <Col
@@ -17,7 +17,12 @@ const SingleServiceOne = ({ service = {} }) => {
       <div className="inner-box">
         <div className="bottom-curve"></div>
         <div className="icon-box">
-          <span className={icon}></span>
+          {/* <span className={icon}></span> */}
+          {/* <icon icon={icon} /> */}
+          <IconComponent   />
+          <div>
+          {/* <GrHostMaintenance /> */}
+          </div>
         </div>
         <h6>
           <Link href={href} passHref>

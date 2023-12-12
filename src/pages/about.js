@@ -12,6 +12,8 @@ import Layout from "@/components/Layout/Layout";
 import FooterSix from "@/components/MainFooter/FooterSix";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
+import AboutUSP from "@/components/ProjectSection/AboutUSP";
+import ProjectEight from "@/components/ProjectSection/ProjectEight";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
@@ -38,8 +40,11 @@ const About = () => {
       {/* <TeamSectionTwo /> */}
       {/* <SponsorsSectionTwo /> */}
 
-      <AboutUspCard />
+      {/* <AboutUspCard /> */}
       {/* <ServicesSectionThree className="padd-top" /> */}
+
+
+      <AboutUSP />
       <FunFactSix />
       <FooterSix />
     </Layout>

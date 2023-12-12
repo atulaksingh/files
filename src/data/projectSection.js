@@ -180,6 +180,58 @@ export const projectEight = {
   ],
 };
 
+export const projectUSP = {
+  tagline: "Recent Cases",
+  title: "Our USP",
+  projects: [
+    {
+      id: 1,
+      image: "75647.jpg",
+      title: "Server Maintenance",
+    },
+    {
+      id: 2,
+      image: "64554.jpg",
+      title: "Storage Maintenance",
+    },
+    {
+      id: 3,
+      image: "68563.jpg",
+      title: "Network Maintenance",
+    },
+    {
+      id: 4,
+      image: "865.jpg",
+      title: "Rental Services",
+    },
+    {
+      id: 5,
+      image: "3252.jpg",
+      title: "IMS",
+    },
+    // {
+    //   id: 5,
+    //   image: "project-8-1.jpg",
+    //   title: "Business Growth",
+    // },
+    // {
+    //   id: 6,
+    //   image: "project-8-2.jpg",
+    //   title: "Business Growth",
+    // },
+    // {
+    //   id: 7,
+    //   image: "project-8-3.jpg",
+    //   title: "Business Growth",
+    // },
+    // {
+    //   id: 8,
+    //   image: "project-8-4.jpg",
+    //   title: "Business Growth",
+    // },
+  ],
+};
+
 export const projectSingle = {
   images: ["featured-image-18.jpg", "featured-image-19.jpg"],
   title: "Fimlor Experience",

@@ -1,6 +1,7 @@
 import AboutSectionThree from "@/components/AboutSection/AboutSectionThree";
 import AboutSeven from "@/components/AboutSection/AboutSeven";
 import AboutSix from "@/components/AboutSection/AboutSix";
+import CallToSection from "@/components/CallToSection/CallToSection";
 import CallToSectionThree from "@/components/CallToSection/CallToSectionThree";
 import DiscoverSection from "@/components/DiscoverSection/DiscoverSection";
 import FunFactSix from "@/components/FunFacts/FunFactSix";
@@ -90,8 +91,10 @@ const Home6 = () => {
 
       {/* <VideoSix /> */}
       </div>
+      <CallToSection />
 
       <GetQuoteTwo className="get-quote-two__one-page" />
+      
       {/* <MapSix /> */}
       <FooterSix />
     </Layout>

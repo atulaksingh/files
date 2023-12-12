@@ -23,7 +23,345 @@ const socials = [
 
 const teamSection = {
   title: "Zaco Store",
+  brand:"SHOP BY BRAND",
+  categ:"SHOP BY CATEGORY",
+
   teams: [
+    {
+      id: 1,
+      image: "001.png",
+      name: "Server Hard Disk",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 2,
+      image: "002.png",
+      name: "Tower Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 3,
+      image: "003.png",
+      name: "Catalyst Switch",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 4,
+      image: "004.png",
+      name: "Sun Fire V90 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 5,
+      image: "005.png",
+      name: "Routers",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 6,
+      image: "006.png",
+      name: "Server Mother Board",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 7,
+      image: "007.png",
+      name: "Dell PowerEdge R750 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 8,
+      image: "008.png",
+      name: "IBM Blade Center H Chassis",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 9,
+      image: "009.png",
+      name: "HPE Cloudline CL2800",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 10,
+      image: "010.png",
+      name: "HP BladeSystem",
+      designation: "Designer",
+      socials,
+    },
+    // {
+    //   id: 11,
+    //   image: "team-1.jpg",
+    //   name: "Kevin martin",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 12,
+    //   image: "team-2.jpg",
+    //   name: "Jessica Brown",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 13,
+    //   image: "team-3.jpg",
+    //   name: "John Albert",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 14,
+    //   image: "team-4.jpg",
+    //   name: "Rose ford",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 15,
+    //   image: "team-5.jpg",
+    //   name: "Mike Hardson",
+    //   designation: "Designer",
+    //   socials,
+    // },
+  ],
+  brands: [
+    {
+      id: 1,
+      image: "001.png",
+      name: "Server Hard Disk",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 2,
+      image: "002.png",
+      name: "Tower Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 3,
+      image: "003.png",
+      name: "Catalyst Switch",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 4,
+      image: "004.png",
+      name: "Sun Fire V90 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 5,
+      image: "005.png",
+      name: "Routers",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 6,
+      image: "006.png",
+      name: "Server Mother Board",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 7,
+      image: "007.png",
+      name: "Dell PowerEdge R750 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 8,
+      image: "008.png",
+      name: "IBM Blade Center H Chassis",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 9,
+      image: "009.png",
+      name: "HPE Cloudline CL2800",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 10,
+      image: "010.png",
+      name: "HP BladeSystem",
+      designation: "Designer",
+      socials,
+    },
+    // {
+    //   id: 11,
+    //   image: "team-1.jpg",
+    //   name: "Kevin martin",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 12,
+    //   image: "team-2.jpg",
+    //   name: "Jessica Brown",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 13,
+    //   image: "team-3.jpg",
+    //   name: "John Albert",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 14,
+    //   image: "team-4.jpg",
+    //   name: "Rose ford",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 15,
+    //   image: "team-5.jpg",
+    //   name: "Mike Hardson",
+    //   designation: "Designer",
+    //   socials,
+    // },
+  ],
+  category: [
+    {
+      id: 1,
+      image: "001.png",
+      name: "Server Hard Disk",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 2,
+      image: "002.png",
+      name: "Tower Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 3,
+      image: "003.png",
+      name: "Catalyst Switch",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 4,
+      image: "004.png",
+      name: "Sun Fire V90 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 5,
+      image: "005.png",
+      name: "Routers",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 6,
+      image: "006.png",
+      name: "Server Mother Board",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 7,
+      image: "007.png",
+      name: "Dell PowerEdge R750 Server",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 8,
+      image: "008.png",
+      name: "IBM Blade Center H Chassis",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 9,
+      image: "009.png",
+      name: "HPE Cloudline CL2800",
+      designation: "Designer",
+      socials,
+    },
+    {
+      id: 10,
+      image: "010.png",
+      name: "HP BladeSystem",
+      designation: "Designer",
+      socials,
+    },
+    // {
+    //   id: 11,
+    //   image: "team-1.jpg",
+    //   name: "Kevin martin",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 12,
+    //   image: "team-2.jpg",
+    //   name: "Jessica Brown",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 13,
+    //   image: "team-3.jpg",
+    //   name: "John Albert",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 14,
+    //   image: "team-4.jpg",
+    //   name: "Rose ford",
+    //   designation: "Designer",
+    //   socials,
+    // },
+    // {
+    //   id: 15,
+    //   image: "team-5.jpg",
+    //   name: "Mike Hardson",
+    //   designation: "Designer",
+    //   socials,
+    // },
+  ],
+
+  
+};
+
+export default teamSection;
+
+
+
+
+
+
+
+const brandSection = {
+  title: "SHOP BY BRAND",
+  brands: [
     {
       id: 1,
       image: "001.png",
@@ -132,7 +470,16 @@ const teamSection = {
   ],
 };
 
-export default teamSection;
+// export default brandSection;
+
+
+
+
+
+
+
+
+
 
 export const teamPage = [
   {

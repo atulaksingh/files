@@ -76,7 +76,9 @@ const TeamSection = ({ onePage = false }) => {
   const ref = useActive("#team");
 
   return (
-    <div ref={ref} className="team-section no-padd-top mt-24 mx-24" id="team">
+
+    <>
+       <div ref={ref} className="team-section no-padd-top mt-24 mx-24" id="team">
       <div className="auto-container">
         {/* <h2>
             {title}
@@ -112,6 +114,12 @@ const TeamSection = ({ onePage = false }) => {
         </div>
       </div>
     </div>
+
+    
+    
+    
+    </>
+ 
   );
 };
 

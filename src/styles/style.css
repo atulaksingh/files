@@ -6614,13 +6614,17 @@ img.lazy-image.loaded {
   position: relative;
   float: left;
   display: block;
-  font-size: 60px;
-  line-height: 0.85em;
+  /* font-size: 30px; */
+  /* line-height: 0.85em; */
   text-transform: uppercase;
   color: var(--thm-black);
   font-weight: 500;
-  margin: 0px 0px 25px;
+  margin: 25px 0px 25px;
   z-index: 3;
+  font-size: 28px;
+    /* font-weight: 700;                                                                                 */
+    line-height: 1.18;
+    letter-spacing: -0.5px;
 }
 
 .call-to-section .link-box {
@@ -6630,6 +6634,18 @@ img.lazy-image.loaded {
   z-index: 3;
 }
 
+.n-hs-right input{
+
+
+height: 60px;
+    border-radius: 35px;
+    background: #ffffff;
+    padding: 2px  40px;
+    padding-right: 120px;
+    margin: 0;
+    outline: none;
+    border: none;
+  }
 .call-to-section__no-margin .inner {
   bottom: auto;
   margin-bottom: 0;
@@ -9507,12 +9523,12 @@ img.lazy-image.loaded {
   position: relative;
   float: left;
   display: block;
-  font-size: 70px;
+  font-size: 30px;
   line-height: 0.85em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ffffff;
   font-weight: 400;
-  margin: 0px 0px 25px;
+  margin: 25px 0px 25px;
   z-index: 1;
 }
 

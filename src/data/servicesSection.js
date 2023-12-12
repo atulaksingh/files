@@ -1,14 +1,21 @@
+import { GrHostMaintenance } from 'react-icons/gr';
+import { BsHddNetwork } from 'react-icons/bs';
+import { MdOutlineStorage  } from 'react-icons/md';
+import { LiaServerSolid   } from 'react-icons/lia';
+import { GrTechnology } from 'react-icons/gr';
+import { LuServerCrash   } from 'react-icons/lu';
+ 
 const services = [
   {
     id: 1,
     icon: "flaticon-vector",
-    title: "Modern\nDesigning",
+    title: "Modern\nDesigninggggg",
     text: "Lorem ipsum is are many variations of pass of majority.",
   },
   {
     id: 2,
     icon: "flaticon-digital",
-    title: "MARKETING\nSTRATEGY",
+    title: "Server\nmaintenance",
     text: "Lorem ipsum is are many variations of pass of majority.",
   },
   {
@@ -19,6 +26,12 @@ const services = [
   },
   {
     id: 4,
+    icon: "flaticon-monitor",
+    title: "Website\nDevelopment",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 5,
     icon: "flaticon-monitor",
     title: "Website\nDevelopment",
     text: "Lorem ipsum is are many variations of pass of majority.",
@@ -41,39 +54,39 @@ export default servicesSection;
 export const serviceSectionThree = [
   {
     id: 1,
-    icon: "flaticon-responsive",
+    icon: GrHostMaintenance,
     href: "/web-development",
-    title: "Website\nDevelopment",
+    title: "Server\nmaintenance",
   },
   {
     id: 2,
-    icon: "flaticon-computer",
+    icon: MdOutlineStorage ,
     href: "/graphic-designing",
-    title: "graphic\ndesigning",
+    title: "Storage\nmaintenance",
   },
   {
     id: 3,
-    icon: "flaticon-digital-marketing",
+    icon: BsHddNetwork,
     href: "/digital-marketing",
-    title: "digital\nmarketing",
+    title: "Network\nMaintenance",
   },
   {
     id: 4,
-    icon: "flaticon-development",
+    icon: LiaServerSolid  ,
     href: "/seo",
-    title: "seo & content\nwriting",
+    title: "Rental\nServices",
   },
   {
     id: 5,
-    icon: "flaticon-app-development",
+    icon: GrTechnology ,
     href: "/app-development",
-    title: "App\nDevelopment",
+    title: "IMS",
   },
   {
     id: 6,
-    icon: "flaticon-ui",
+    icon: LuServerCrash ,
     href: "/ui-designing",
-    title: "Ui/UX\ndesigning",
+    title: "ITAD & Buyback",
   },
 ];
 
@@ -187,7 +200,7 @@ export const serviceNine = [
   },
   {
     id: 2,
-    image: "service-9-2.jpg",
+    // image: "service-9-2.jpg",
     icon: "flaticon-computer",
     title: "graphic designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
