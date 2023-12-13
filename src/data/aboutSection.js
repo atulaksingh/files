@@ -8,7 +8,7 @@ import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
 import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
 import image7 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
 import image8 from "@/images/zaco/0077.png";
-import image4 from "@/images/update-1-12-2020/resources/about-1-1.jpg";
+import image4 from "@/images/zaco/0172.jpg";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";
 import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 
@@ -43,11 +43,11 @@ export const aboutSectionThree = {
   image: image4,
   title: "The Right People for your Business",
   subtitle: "welcome to business agency",
-  text: "There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don look even slightly believable.",
+  text: "Amid today's unstable economy, businesses face immense pressure to trim IT budgets. For over a decade, Zaco has been offering cost-effective IT infrastructure solutions to Indian companies, preventing budget overruns. We provide a range of servers, storage, networking equipment, and spare parts from top OEMs like HP, IBM, SUN/Oracle, Cisco, NetApp, EMC, and more – all fully guaranteed.",
   lists: [
-    "If you are going to use a passage",
-    "Lorem Ipsum is not simply random text",
-    "Making this the first true generator on the Internet",
+    "Optimal Solutions",
+    "Comprehensive Offerings",
+    "Simplified Support",
   ],
   barTitle: "Bussiness Success",
   barPercent: 70,

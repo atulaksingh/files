@@ -173,7 +173,7 @@ export const blogEight = {
   blogs: [
     {
       id: 1,
-      image: "blog-8-1.jpg",
+      image: "75645.jpg",
       date: "16 sep",
       title: "IT Hardware Solutions",
       text: "Transform your workspace with our proven IT hardware solutions. Experience uninterrupted performance and superior productivity with our tailored, high-performance offerings.",
@@ -182,7 +182,7 @@ export const blogEight = {
     },
     {
       id: 2,
-      image: "blog-8-2.jpg",
+      image: "4355.jpg",
       date: "16 sep",
       title: "IT Software Solutions",
       text: "Revolutionize your operations with our advanced IT software solutions. Effortlessly streamline processes, enhance efficiency and stay ahead in the digital landscape.",
@@ -191,7 +191,7 @@ export const blogEight = {
     },
     {
       id: 3,
-      image: "blog-8-3.jpg",
+      image: "9878.jpg",
       date: "16 sep",
       title: "IT Asset Disposition",
       text: "Turning obsolete into opportunity. Our IT Asset Disposition services offer a seamless, eco-friendly solution for retiring outdated technology responsibly.",
@@ -200,7 +200,7 @@ export const blogEight = {
     },
     {
       id: 4,
-      image: "blog-8-3.jpg",
+      image: "43534.jpg",
       date: "16 sep",
       title: "Online Store",
       text: "Your Gateway to Tech Excellence. Zaco offers a wide range of Servers, Storages and Networking devices from HP, IBM, Sun Oracle, Net App, EMC, Cisco & more.",

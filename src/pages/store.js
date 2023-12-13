@@ -1,5 +1,6 @@
 import PageBanner from "@/components/BannerSection/PageBanner";
 import GallerySectionOne from "@/components/GallerySection/GallerySectionOne";
+import GetQuoteTwo from "@/components/GetQuote/GetQuoteTwo";
 import HeaderOne from "@/components/Header/HeaderOne";
 import HeaderSix from "@/components/Header/HeaderSix";
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -230,6 +231,8 @@ const Portfolio = () => {
       <ZacoStoreCard1 {...cardData2} />
       {/* <ZacoStoreCard1 {...cardData}/> */}
       </div>
+
+      <GetQuoteTwo />
       <FooterSix />
     </Layout>
   );

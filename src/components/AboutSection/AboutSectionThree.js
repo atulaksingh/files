@@ -26,7 +26,7 @@ const AboutSectionThree = () => {
 
   return (
     <div className="about-section-three">
-      <div className="auto-container">
+      <div className="auto-container my-auto">
         <Row>
           <Col md={12} lg={6}>
             <div className="about-section-three__image">
@@ -53,7 +53,7 @@ const AboutSectionThree = () => {
                   </li>
                 ))}
               </ul>
-              <div className="progress-box">
+              {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <ReactVisibilitySensor
                   offset={{ top: 10 }}
@@ -81,7 +81,7 @@ const AboutSectionThree = () => {
                     </div>
                   </div>
                 </ReactVisibilitySensor>
-              </div>
+              </div> */}
               {/* <div className="about-section-three__name">
                 <Image src={personImage.src} alt="" />
                 <h3>{name}</h3>

@@ -9523,11 +9523,11 @@ height: 60px;
   position: relative;
   float: left;
   display: block;
-  font-size: 30px;
-  line-height: 0.85em;
+  font-size: 40px;
+  line-height: 0.95em;
   /* text-transform: uppercase; */
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 600;
   margin: 25px 0px 25px;
   z-index: 1;
 }

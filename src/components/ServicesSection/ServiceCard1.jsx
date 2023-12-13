@@ -20,24 +20,23 @@ function ServiceCard1() {
       </div>
 
       <div className="auto-container">
-        <Row>
-        <Col md={12} lg={7} className="animated fadeInRight">
-            <div className="" style={{width:"100%;",margin:"auto;"}}>
+        <Row className=''>
+        <Col md={12} lg={6} className="animated fadeInRight ">
+            <div className=" w-full" >
               <Image  src={
-              require(`@/images/zaco/it-lifecycle.png`).default.src
-            } alt="" width={"70%"} />
+              require(`@/images/zaco/4fc575f927.jpg`).default.src
+            } alt=""  className='h-full w-full' />
             </div>
           </Col>
-          <Col md={12} lg={5}>
-            <div className="about-six__content">
+          <Col md={12} lg={6}>
+            <div className="about-six__content mx-2">
               <div className="sec-title-six">
                 <div className="sec-title-six__text">
                   <span>Our Company Benefits</span>
                 </div>
-                <h2 className="sec-title-six__title">Empowering Your IT Journey</h2>
+                <h2 className="sec-title-six__title">Fast and top-notch hardware and software assistance.</h2>
               </div>
-              <div className="about-six__text">Experience a seamless IT journey with us From initial assessment and strategic planning to smooth deployment ongoing maintenance and future-proofing upgrades were your partner in every phase. Our expertise extends to environmentally conscious end-of-life management
-               ensuring secure disposal and compliance. Maximize efficiency minimize risks and stay ahead in the ever-evolving landscape with our tailored IT lifecycle services</div>
+              <div className="about-six__text">We take great pride in delivering swift and exceptional customer support for all software and hardware concerns within the realm of IT. Beyond our rapid resolution times, our commitment lies in offering unparalleled hardware and software assistance in the industry. Our adept team, equipped with extensive training and experience, stays abreast of the latest technologies and trends. This ensures our capability to address any challenge our customers encounter. Our objective is to offer peace of mind, assuring our customers that they can depend on us to handle any IT issue efficiently.</div>
             </div>
           </Col>
         

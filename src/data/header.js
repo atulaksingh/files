@@ -216,13 +216,13 @@ const navItems = [
   },
   {
     id: 6,
-    name: "ITAD",
-    href: "/shop",
+    name: "ITAD Services",
+    href: "/it-equipment-buyback",
     subNavItems: [
-      { id: 1, name: "Shop Page", href: "/shop" },
-      { id: 2, name: "Product Details", href: "/product-details" },
-      { id: 3, name: "Cart Page", href: "/cart" },
-      { id: 4, name: "Checkout Page", href: "/checkout" },
+      { id: 1, name: "IT Equipment Buyback", href: "/it-equipment-buyback" },
+      { id: 2, name: "Server BuyBack Dubai", href: "/server-buyback-dubai" },
+      // { id: 3, name: "Cart Page", href: "/cart" },
+      // { id: 4, name: "Checkout Page", href: "/checkout" },
     ],
   },
   {
