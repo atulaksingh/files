@@ -1,12 +1,12 @@
 export const sliderSix = [
+  // {
+  //   id: 1,
+  //   bg: "563548.jpg",
+  //   text: "Powering the World",
+  //   title: "Your Global IT Hardware Partner",
+  // },
   {
     id: 1,
-    bg: "563548.jpg",
-    text: "Powering the World",
-    title: "Your Global IT Hardware Partner",
-  },
-  {
-    id: 2,
     bg: "932938.jpg",
     text: "End-to-End IT Brilliance",
     title: "Your Single Point of Contact for IT Hardware, Software and \nDigital Solutions",

@@ -9,7 +9,7 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
     <div ref={ref} className={`team-block ${className}`}>
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/about" passHref>
+          <Link href="/store" passHref>
             <div>
               <Image
                 src={require(`@/images/zaco/${image}`).default.src}
@@ -30,7 +30,7 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
         </div>
         <div className="lower-box">
           <h5 className="text-sm">
-            <Link href="/">{name}</Link>
+            <Link href="/store">{name}</Link>
           </h5>
           {/* <div className="designation">{designation}</div> */}
         </div>

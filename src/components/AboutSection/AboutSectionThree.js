@@ -1,4 +1,5 @@
 import { aboutSectionThree } from "@/data/aboutSection";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import CountUp from "react-countup";
@@ -87,6 +88,12 @@ const AboutSectionThree = () => {
                 <h3>{name}</h3>
                 <div>{tagline}</div>
               </div> */}
+              <Link href={"/about"}>
+                  <button className="theme-btn btn-style-one mt-2">
+                    <i className="btn-curve"></i>
+                    <span className="btn-title">ReadMore</span>
+                  </button>
+                </Link>
             </div>
           </Col>
         </Row>

@@ -36,7 +36,7 @@ const Faqs = ({ allFaqs = {} }) => {
         ))}
       </ul>
     </Col>
-  );
+  );    
 };
 
 const FaqsSection = () => {
@@ -44,6 +44,8 @@ const FaqsSection = () => {
     <div className="faqs-section">
       <div className="auto-container">
         <Row className="clearfix">
+
+        <div className="sec-title centered"><h2>IT Equipment BuyBack Benefits<span className="dot">.</span></h2></div>
           {faqsSection.map((allFaqs) => (
             <Faqs key={allFaqs.id} allFaqs={allFaqs} />
           ))}

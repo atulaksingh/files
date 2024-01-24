@@ -1,8 +1,10 @@
 import trustedSection from "@/data/trustedSection";
+import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { title, features, title2, text, textList, image, text2 } = trustedSection;
+const { title, features, title2, text, textList, image, text2 } =
+  trustedSection;
 
 const TrustedSection = () => {
   return (
@@ -33,15 +35,14 @@ const TrustedSection = () => {
             <Col xl={7} lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="sec-title">
-                {/* <h2 class="sec-title-six__title">Empowering Your IT Journey</h2> */}
-                {/* <div class="sec-title-six"><div class="sec-title-six__text"></div><h2 class="sec-title-six__title">{title2}</h2></div> */}
+                  {/* <h2 class="sec-title-six__title">Empowering Your IT Journey</h2> */}
+                  {/* <div class="sec-title-six"><div class="sec-title-six__text"></div><h2 class="sec-title-six__title">{title2}</h2></div> */}
                   <h2>
                     {title2}
                     <span className="dot">.</span>
                   </h2>
                   <div className="lower-text">{text}</div>
                   <div className="">{text2}</div>
-                  
                 </div>
                 <div className="featured-block-two clearfix">
                   <div className="image">
@@ -55,6 +56,12 @@ const TrustedSection = () => {
                     </ul>
                   </div>
                 </div>
+                <Link href={"/it-equipment-buyback"}>
+                  <button className="theme-btn btn-style-one mt-2">
+                    <i className="btn-curve"></i>
+                    <span className="btn-title">ReadMore</span>
+                  </button>
+                </Link>
               </div>
             </Col>
           </Row>

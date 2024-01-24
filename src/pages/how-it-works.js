@@ -19,10 +19,10 @@ const HowItWorks = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <divageBanner title="How It Works" />
+      <PageBanner title="How It Works" />
       <HowItWorksPage />
       <SponsorsSection />
-      <divarallaxSection />
+      <ParallaxSection />
       <FeatureEight />
       <CallToSection />
       <MainFooter normalPadding={false} />

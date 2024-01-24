@@ -26,7 +26,7 @@ const SingleSlideSix = ({ slide = {} }) => {
           <h2 className="slider-six__title">
             <TextSplit text={title} />
           </h2>
-          <Link href="/" className="slider-six__btn thm-btn__six">
+          <Link  href="/store" className="slider-six__btn thm-btn__six">
             Discover More
           </Link>
         </div>

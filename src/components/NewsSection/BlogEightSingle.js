@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Image } from "react-bootstrap";
 
 const BlogEightSingle = ({ blog = {} }) => {
-  const { image, date, title, text, admin, comments } = blog;
+  const { image, date, title, text, admin, comments ,href} = blog;
 
   return (
     <Col md={12} lg={3}>
@@ -19,7 +19,7 @@ const BlogEightSingle = ({ blog = {} }) => {
         <div className="blog-eight__content">
           {/* <div className="blog-eight__date">{date}</div> */}
           <h3 className="blog-eight__title">
-            <Link href="/blog-single">{title}</Link>
+            <Link href={`${href}`}>{title}</Link>
           </h3>
           <div className="blog-eight__text">{text}</div>
           {/* <div className="blog-eight__meta">

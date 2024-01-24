@@ -48,7 +48,7 @@ const SliderSix = () => {
             <SingleSlideSix key={slide.id} slide={slide} />
           ))}
         </div>
-        <div className="slider-bottom-box clearfix">
+        {/* <div className="slider-bottom-box clearfix">
           <div className="main-slider__nav">
             <div
               className="swiper-button-prev"
@@ -63,7 +63,7 @@ const SliderSix = () => {
               <span className="fa fa-angle-right"></span>
             </div>
           </div>
-        </div>
+        </div> */}
       </Swiper>
     </div>
   );

@@ -29,7 +29,7 @@ function ServiceCard1() {
             </div>
           </Col>
           <Col md={12} lg={6}>
-            <div className="about-six__content mx-2">
+            <div className="about-six__content mx-2 my-4">
               <div className="sec-title-six">
                 <div className="sec-title-six__text">
                   <span>Our Company Benefits</span>

@@ -92,8 +92,12 @@ export const featureSeven = {
 
 export const featureEight = {
   image: image3,
-  title: "We’re here to help your businesses growth",
-  text: "There are many variations of pass of lorem ips but the majority have suffered alteration in some form. Injected humour not randomised words which.",
+  title: "Zaco’s IT Hardware Collection Centers",
+  text: "Zaco is India’s leading comprehensive buyer for IT equipment from all brands namely Dell, HPE, IBM, Cisco, Sun Microsystems, Lenovo and many more in major metro cities of India!",
+  text1:"Our Mumbai, Delhi, Chennai, Bengaluru, Hyderabad and Kolkata pickup centers offer triple advantage under our buyback program:",
+  text2:"Easy for customers all over India to get their IT hardware picked up at one of our collection centers.",
+  text3:"Zaco offers the best price for your used or outdated (End-of-Life) hardware and IT equipment inclusive of servers, storage, workstations, server accessories, routers, switches and more.",
+  text4:"Peace of mind as IT equipment disposal is not your worry but our responsibility.",
   barTitle: "Digital marketing",
   percent: 70,
 };

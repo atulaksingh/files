@@ -878,7 +878,7 @@ img {
   position: absolute;
   left: 0px;
   top: 100%;
-  width: 220px;
+  width: max-content;
   z-index: 100;
   display: none;
   background: #ffffff;
@@ -2073,7 +2073,7 @@ img.lazy-image.loaded {
   color: #686a6f;
   line-height: 40px;
   font-weight: 400;
-  padding: 14px 30px;
+  padding: 14px 14px;
   background-color: #f4f5f8;
   border: 1px solid #f4f5f8;
   border-radius: 7px;
@@ -2103,7 +2103,7 @@ img.lazy-image.loaded {
 }
 
 .default-form .form-group textarea {
-  height: 185px;
+  height: 135px;
   resize: none;
 }
 
@@ -3631,6 +3631,17 @@ img.lazy-image.loaded {
   margin-bottom: 0px;
 }
 
+.sec-title1 h2 {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  color: var(--thm-black);
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
 .sec-title h2 strong {
   font-weight: 700;
 }
@@ -4370,7 +4381,7 @@ img.lazy-image.loaded {
 ***/
 .we-do-section {
   position: relative;
-  padding: 240px 0px 90px;
+  padding: 90px 0px 90px;
   background: #ffffff url(../assets/images/background/pattern-2.png) left top
     repeat;
 }
@@ -4536,11 +4547,11 @@ img.lazy-image.loaded {
   font-size: 20px;
   line-height: 32px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  padding: 20px 40px;
+  padding: 10px 30px;
   padding-right: 60px;
   color: var(--thm-black);
   -webkit-transition: all 500ms ease;
@@ -4556,7 +4567,7 @@ img.lazy-image.loaded {
 .accordion-box .block .acc-btn:before {
   position: absolute;
   right: 35px;
-  top: 20px;
+  top: 10px;
   height: 30px;
   font-size: 15px;
   font-weight: 600;
@@ -9157,12 +9168,12 @@ height: 60px;
 
 @media (min-width: 1200px) {
   .feature-eight__content {
-    padding: 100px;
+    padding: 60px;
   }
 }
 
 .feature-eight__text {
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 
 .feature-eight .progress-box {
@@ -10409,7 +10420,7 @@ height: 60px;
   content: "";
   position: absolute;
   top: 30px;
-  bottom: 30px;
+  bottom: -30px;
   right: 0;
   left: -30px;
   background-color: var(--thm-base);
@@ -16716,16 +16727,16 @@ height: 60px;
   margin: 0;
   text-transform: uppercase;
   color: var(--thm-black);
-  font-size: 40px;
+  font-size: 25px;
   line-height: 1;
 }
 
 .history-timeline__text {
   margin: 0;
   color: var(--thm-text);
-  font-size: 16px;
-  line-height: 34px;
-  margin-top: 30px;
+  font-size: 15px;
+  line-height: 29px;
+  margin-top: 12px;
 }
 
 .history-timeline__image {
@@ -16754,7 +16765,7 @@ height: 60px;
 
 @media (min-width: 1200px) {
   .history-timeline__card .row {
-    padding-top: 80px;
+    /* padding-top: 80px; */
   }
 }
 
@@ -16794,7 +16805,8 @@ height: 60px;
 
 @media (min-width: 1200px) {
   .history-timeline__card {
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
+    padding-bottom: 0px;
     margin-bottom: 0;
   }
   .history-timeline__card:last-child {
@@ -17479,6 +17491,7 @@ height: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 20px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -18466,13 +18479,13 @@ height: 60px;
 @media (min-width: 992px) {
   .about-six {
     padding-bottom: 150px;
-    padding-top: 120px;
+    /* padding-top: 120px; */
   }
 }
 
 @media (min-width: 1200px) {
   .about-six {
-    padding-bottom: 235px;
+    /* padding-bottom: 235px; */
   }
 }
 
@@ -22189,8 +22202,10 @@ height: 60px;
   height: 54px;
   background-color: var(--thm-base);
   position: absolute;
-  bottom: 135px;
-  right: 50px;
+  /* bottom: 135px;
+  right: 50px; */
+  bottom: 5px;
+  right: 5px;
   color: var(--thm-black);
   font-size: 22px;
   border-radius: 50%;
@@ -23547,10 +23562,10 @@ height: 60px;
 }
 
 .contact-two__text {
-  max-width: 351px;
+  /* max-width: 351px; */
   margin: 0;
   font-size: 16px;
-  line-height: 34px;
+  line-height: 25px;
 }
 
 .contact-two__social {

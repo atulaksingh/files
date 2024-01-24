@@ -5,6 +5,11 @@ import logo6 from "@/images/zaco/Zacow1 (1) (1).png";
 import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
+import flag from "@/images/zaco/INDIA-FLAG.png";
+import flag1 from "@/images/zaco/uk-flag.jpg";
+import flag2 from "@/images/zaco/uae-flag2.png";
+import flag3 from "@/images/zaco/canada-flag-conveted-.jpg";
+import flag4 from "@/images/zaco/usa.jpg";
 
 export const footer = { year: new Date().getFullYear(), author: "Linoor" };
 
@@ -23,6 +28,11 @@ export const mainFooter = {
   logo6,
   logo7,
   logo8,
+  flag,
+  flag1,
+  flag2,
+  flag3,
+  flag4,
   bg: demoBg,
   title: "Let’s Start Working Together",
   about:

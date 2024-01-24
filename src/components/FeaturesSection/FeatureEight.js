@@ -4,7 +4,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-const { image, title, text, barTitle, percent } = featureEight;
+const { image, title, text,text1,text2,text3,text4, barTitle, percent } = featureEight;
 
 const FeatureEight = () => {
   const [countStart, setCountStart] = useState(false);
@@ -31,8 +31,13 @@ const FeatureEight = () => {
                   {title} <span className="dot">.</span>
                 </h2>
               </div>
-              <div className="feature-eight__text">{text}</div>
-              <div className="progress-box">
+              <div className="feature-eight__text leading-relaxed">{text}</div>
+              <div className="feature-eight__text font-bold my-2 leading-relaxed">{text1}</div>
+              <div className="feature-eight__text leading-relaxed my-1">     1. {text2}</div>
+              <div className="feature-eight__text leading-relaxed my-1"> 2. {text3}</div>
+              <div className="feature-eight__text leading-relaxed my-1"> 3. {text4}</div>
+              {/* <div className="feature-eight__text">{text}</div> */}
+              {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <VisibilitySensor
                   offset={{ top: 10 }}
@@ -57,7 +62,7 @@ const FeatureEight = () => {
                     </div>
                   </div>
                 </VisibilitySensor>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

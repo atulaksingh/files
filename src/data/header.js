@@ -193,11 +193,13 @@ const navItems = [
     name: "Services",
     href: "/services",
     subNavItems: [
-      { id: 1, name: "Server maintenance", href: "/services" },
-      { id: 2, name: "Storage maintenance", href: "/services-2"},
-      { id: 3, name: "Network maintenance", href: "/web-development" },
-      { id: 4, name: "Rental Services", href: "/graphic-designing" },
-      { id: 5, name: "Infrastructure Managed Services (IMS)", href: "/digital-marketing" },
+      { id: 1, name: "Server maintenance", href: "/server-maintenance" },
+      { id: 2, name: "Storage maintenance", href: "/storage-maintenance"},
+      { id: 3, name: "Network maintenance", href: "/network-maintenance" },
+      { id: 4, name: "Rental Services", href: "/rental-services" },
+      { id: 5, name: "Infrastructure Managed Services (IMS)", href: "/ims" },
+      { id: 6, name: "IT Hardware Solution & Services", href: "/it-hardware-solution" },
+      { id: 7, name: "IT Software Solution", href: "/it-software-solution" },
       // { id: 6, name: "SEO & Content Writing", href: "/seo" },
       // { id: 7, name: "App Development", href: "/app-development" },
       // { id: 8, name: "UI/UX Designing", href: "/ui-designing" },
@@ -238,11 +240,11 @@ const navItems = [
   {
     id: 8,
     name: "Contact Us",
-    href: "/contact",
-    subNavItems: [
-      { id: 1, name: "Contact 01", href: "/contact" },
-      { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },
-    ],
+    href: "/contact-2",
+    // subNavItems: [
+    //   { id: 1, name: "Contact 01", href: "/contact-2" },
+    //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },
+    // ],
   },
 ];
 

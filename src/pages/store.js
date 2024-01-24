@@ -16,7 +16,7 @@ import React from "react";
 // Define different data for each instance of ZacoStoreCard1
 const cardData = {
   title: 'Card Title',
-  id:".my-slider1",
+  id: ".my-slider1",
   brands: [
     {
       id: 1,
@@ -117,7 +117,7 @@ const cardData = {
 };
 const cardData2 = {
   title: 'Card Title',
-  id:".my-slider2",
+  id: ".my-slider2",
   brands: [
     {
       id: 1,
@@ -227,9 +227,9 @@ const Portfolio = () => {
       {/* <GallerySectionOne portfolio /> */}
       {/* <ZacoStoreCard1 tittle={teamSection.brand} brands={teamSection.brands} />
       <ZacoStoreCard1 tittle={teamSection.categ} brands={teamSection.category} /> */}
-<div style={{ marginBottom: '20px' }}>
-      <ZacoStoreCard1 {...cardData2} />
-      {/* <ZacoStoreCard1 {...cardData}/> */}
+      <div style={{ marginBottom: '20px' }}>
+        <ZacoStoreCard1 {...cardData2} />
+        {/* <ZacoStoreCard1 {...cardData}/> */}
       </div>
 
       <GetQuoteTwo />

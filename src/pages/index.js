@@ -58,7 +58,7 @@ const Home6 = () => {
 </div> */}
       {/* <DiscoverSection /> */}
       <BlogEight />
-      <AboutSix />
+      {/* <AboutSix /> */}
       <FunFactsOne />
       <TrustedSection />
       <div className="" >
@@ -83,7 +83,7 @@ const Home6 = () => {
 </div>
 
 
-{/* <WeDOSection /> */}
+<WeDOSection />         
       {/* <BlogSix /> */}
       {/* <CallToSectionThree /> */}
       {/* <Dj2 /> */}

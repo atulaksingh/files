@@ -13,6 +13,7 @@ const options = {
   autoplay: { delay: 5000 },
 };
 
+
 const SliderSeven = () => {
   return (
     <div className="slider-seven">

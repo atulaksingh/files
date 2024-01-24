@@ -64,8 +64,10 @@ export const contactSection = {
 };
 
 export const contactSectionTwo = {
-  title: "Write us any message",
-  text: "Lorem Ipsum is simply proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum.",
+  title: "Sell your IT Equipment & Server Hardware to Zaco",
+  text1: "Are you looking for a place to sell your old and used IT servers along with the server spare parts?",
+  text2: "Do you want to get rid of your used server IT equipment like used HP servers, used DELL servers or used IBM servers?",
+  text3: "Are you in search of a reliable and environment-conscious firm that will take care of your IT equipment and used server hardware by a sustainable and defined process?",
   socials: [
     "fab fa-twitter",
     "fab fa-facebook",

@@ -2,32 +2,36 @@
 import { useRootContext } from "@/context/context";
 import headerData from "@/data/header";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { Image } from "react-bootstrap";
+import ReactFlagsSelect from "react-flags-select";
 
-const { title, phone, socials, logo6, email,eosl,blog ,abb,gc} = headerData;
+const { title, phone, socials, logo6, email, eosl, blog, abb, gc } = headerData;
 
 const HeaderSix = () => {
   const { toggleMenu } = useRootContext();
+  const [select, setSelect] = useState("IN");
+  const onSelect = (code) => setSelect(code);
+  // console.log("SELECT", select);
 
   return (
     <>
       <header className="header-six">
-      <div className="auto-container">
-        <div className="header-six__logo">
-          <Link href="/index-main" passHref>
-            {/* <a> */}
+        <div className="auto-container">
+          <div className="header-six__logo">
+            <Link href="/index-main" passHref>
+              {/* <a> */}
               {/* <Image src={logo6.src} width={134} alt={title} /> */}
-            {/* </a> */}
-          </Link>
+              {/* </a> */}
+            </Link>
 
-          <div onClick={toggleMenu} className="mobile-nav-toggler">
-            <span className="icon flaticon-menu-2"></span>
-            <span className="txt">Menu</span>
+            <div onClick={toggleMenu} className="mobile-nav-toggler">
+              <span className="icon flaticon-menu-2"></span>
+              <span className="txt">Menu</span>
+            </div>
           </div>
-        </div>
 
-        {/* <div className="header-six__social">
+          {/* <div className="header-six__social">
           {socials.map(({ id, icon, href }) => (
             <a key={id} href={href}>
               <i className={icon}></i>
@@ -35,40 +39,54 @@ const HeaderSix = () => {
           ))}
         </div> */}
 
-        <div className="header-six__info">
-        <Link
-            href={`tel:${phone.split(" ").join("")}`}
-            className="header-six__info__link"
-            passHref
-          >
-            {/* <i className="flaticon-call"></i> */}
-            {gc}
-          </Link>
-          <Link
-            href={`tel:${phone.split(" ").join("")}`}
-            className="header-six__info__link"
-            passHref
-          >
-            {/* <i className="flaticon-call"></i> */}
-            {eosl}
-          </Link>
+          <div className="header-six__info">
+            {/* <Link
+              href={`tel:${phone.split(" ").join("")}`}
+              className="header-six__info__link"
+              passHref
+            >
+              <i className="flaticon-call"></i>
+              {gc}
+            </Link> */}
+          
+            <Link
+              href={"/eosl"}
+              className="header-six__info__link"
+              passHref
+            >
+              {/* <i className="flaticon-call"></i> */}
+              {eosl}
+            </Link>
 
-          <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
-            {/* <i className="flaticon-email-2"></i> */}
-            {blog}
-          </Link>
-          <Link href="/" className="header-six__info__link" passHref>
-            {/* <i className="flaticon-email-2"></i> */}
-            {abb}
-          </Link>
-          {/* <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
+            <Link
+              href={`mailto:${email}`}
+              className="header-six__info__link"
+              passHref
+            >
+              {/* <i className="flaticon-email-2"></i> */}
+              {blog}
+            </Link>
+            <Link href="/" className="header-six__info__link" passHref>
+              {/* <i className="flaticon-email-2"></i> */}
+              {abb}
+            </Link>
+
+            <div className="">
+              <ReactFlagsSelect
+              className="p-0.5 "
+                selected={select}
+                onSelect={onSelect}
+                countries={["IN", "GB", "UAE", "AE", "CA"]}
+               
+              />
+            </div>
+            {/* <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
             <i className="flaticon-email-2"></i>
             {abb}
           </Link> */}
+          </div>
         </div>
-      </div>
-    </header>
-    
+      </header>
     </>
     // <header className="header-six">
     //   <div className="auto-container">

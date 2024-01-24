@@ -34,26 +34,26 @@ export const funFactSix = [
   {
     id: 1,
     icon: "flaticon-architect",
-    count: 6805,
-    text: "Team Members",
+    count: 15,
+    text: "Countries Served",
   },
   {
     id: 2,
     icon: "flaticon-architect-1",
-    count: 906,
-    text: "Project Completed",
+    count: 1000,
+    text: "Clients",
   },
   {
     id: 3,
     icon: "flaticon-buildings",
-    count: 200,
-    text: "Service Providing",
+    count: 300000,
+    text: "Spares",
   },
   {
     id: 4,
     icon: "flaticon-satisfaction",
-    count: 9760,
-    text: "Happy Customers",
+    count: 2,
+    text: "More then decades Exprience",
   },
 ];
 
