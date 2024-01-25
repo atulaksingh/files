@@ -1,3 +1,4 @@
+"use client"
 import PageBanner from "@/components/BannerSection/PageBanner";
 import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import EoslCard from "@/components/EOSL/EoslCard";

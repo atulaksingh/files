@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -81,7 +82,7 @@ function EoslCard(props) {
 
                 <table className="w-full  text-center py-10">
                   <thead>
-                    <tr>
+                    <tr className="font-[600] text-[14px]">
                       <th>MODEL</th>
                       <th>EOSL DATE</th>
                       <th>CATEGORY</th>
@@ -89,7 +90,7 @@ function EoslCard(props) {
                   </thead>
                   <tbody>
                     {item.eosls.map((item,index) => (
-                      <tr key={index} className="text-base">
+                      <tr key={index} className="text-[14px] font-[400]">
                         <td >{item.model}</td>
                         <td>{item.eosl_date}</td>
                         <td>{item.category}</td>

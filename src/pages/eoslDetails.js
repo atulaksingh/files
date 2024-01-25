@@ -1,3 +1,4 @@
+"use client"
 import PageBanner from "@/components/BannerSection/PageBanner";
 import HeaderSix from "@/components/Header/HeaderSix";
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -108,7 +109,7 @@ function EoslDetails({ EoslData, brand }) {
                       <td className="text-right">
                         <button className="theme-btn btn-style-one mt-2">
                           <i className="btn-curve"></i>
-                          <span className="btn-title">View More</span>
+                          <span className="btn-title">Request A Quote</span>
                         </button>
                       </td>
                     </tr>
