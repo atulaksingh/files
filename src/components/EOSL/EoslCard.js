@@ -29,19 +29,20 @@ function EoslCard(props) {
       <div className="mx-60 py-10">
         <div className="grid grid-cols-2">
           <div className="col-span-1 w-72">
-            <select
-              className="form-select form-select-md"
-              aria-label="large select example"
-              value={selectedBrand}
-              onChange={handleBrandChange}
-            >
-              <option value="all">All</option>
-              {data.map((item) => (
-                <option key={item.brand.id} value={item.brand.brand_name}>
-                  {item.brand.brand_name}
-                </option>
-              ))}
-            </select>
+          <select
+  className="form-select form-select-md"
+  aria-label="large select example"
+  value={selectedBrand}
+  onChange={handleBrandChange}
+>
+  <option value="all">All</option>
+  {data.map((item) => (
+    <option key={item.brand.id} value={item.brand.brand_name}>
+      {item.brand.brand_name}
+    </option>
+  ))}
+</select>
+            
           </div>
           <div className="col-span-1  mx-auto">
             <div className="search ">
@@ -69,7 +70,7 @@ function EoslCard(props) {
 
         <div className="grid grid-cols-2 gap-10 ">
           {filteredData.map((item, index) => (
-            <div className="shadow-2xl ">
+            <div key={index} className="shadow-2xl ">
               <div className="p-4">
                 <div
                   className="text-2xl font-thin  text-black leading-loose"
@@ -87,8 +88,8 @@ function EoslCard(props) {
                     </tr>
                   </thead>
                   <tbody>
-                    {item.eosls.map((item) => (
-                      <tr className="text-base">
+                    {item.eosls.map((item,index) => (
+                      <tr key={index} className="text-base">
                         <td >{item.model}</td>
                         <td>{item.eosl_date}</td>
                         <td>{item.category}</td>

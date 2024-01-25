@@ -5,14 +5,14 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterSix from "@/components/MainFooter/FooterSix";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import { useRouter } from "next/router";
 import axios from "axios";
-function eoslDetails({ EoslData,brand }) {
-
-  const [selectedBrand, setSelectedBrand] = useState(brand); 
+function EoslDetails({ EoslData, brand }) {
+  const [selectedBrand, setSelectedBrand] = useState(brand);
   // Set the initial value
-  const [eoslData, setEoslData] = useState(EoslData); 
+  const [eoslData, setEoslData] = useState(EoslData);
   // Initialize with the data from props
 
   const router = useRouter();
@@ -36,7 +36,6 @@ function eoslDetails({ EoslData,brand }) {
 
     // Update the URL with the selected brand using Next.js router
     router.push(`/eoslDetails?brand=${brandValue}`);
-  
   };
   return (
     <>
@@ -52,23 +51,20 @@ function eoslDetails({ EoslData,brand }) {
           <div className="grid grid-cols-2">
             <div className="col-span-1 w-72">
               <div>Select Brand</div>
-         
-
-
 
               <select
-              className="form-select form-select-md"
-              aria-label="large select example"
-              value={selectedBrand}
-              onChange={handleBrandChange}
-            >
-              <option value="all">All</option>
-              {eoslData?.brands?.map((item) => (
-                <option key={item.id} value={item.brand_name}>
-                  {item.brand_name}
-                </option>
-              ))}
-            </select>
+                className="form-select form-select-md"
+                aria-label="large select example"
+                value={selectedBrand}
+                onChange={handleBrandChange}
+              >
+                <option value="all">All</option>
+                {eoslData?.brands?.map((item) => (
+                  <option key={item.id} value={item.brand_name}>
+                    {item.brand_name}
+                  </option>
+                ))}
+              </select>
             </div>
             <div className="col-span-1  mx-auto">
               <div className="search ">
@@ -118,8 +114,6 @@ function eoslDetails({ EoslData,brand }) {
                     </tr>
                   </>
                 ))}
-
-             
               </tbody>
             </table>
           </div>
@@ -135,7 +129,7 @@ export async function getServerSideProps(context) {
   try {
     // console.log("data3786478326")
     const { brand } = context.query;
-// setSelectedBrand(brand)
+    // setSelectedBrand(brand)
     // console.log("data3786478326",brand)
     // Make a GET request using Axios
     const response = await axios.get(
@@ -149,7 +143,7 @@ export async function getServerSideProps(context) {
     return {
       props: {
         EoslData,
-        brand
+        brand,
       },
     };
   } catch (error) {
@@ -163,4 +157,4 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default eoslDetails;
+export default EoslDetails;
