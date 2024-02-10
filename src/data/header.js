@@ -222,7 +222,7 @@ const navItems = [
     href: "/it-equipment-buyback",
     subNavItems: [
       { id: 1, name: "IT Equipment Buyback", href: "/it-equipment-buyback" },
-      { id: 2, name: "Server BuyBack Dubai", href: "/server-buyback-dubai" },
+      { id: 2, name: "Server BuyBack Dubai", href: "/server-buyback" },
       // { id: 3, name: "Cart Page", href: "/cart" },
       // { id: 4, name: "Checkout Page", href: "/checkout" },
     ],
@@ -293,7 +293,7 @@ const headerData = {
   email: "needhelp@linoor.com",
   blog:"Blog",
   abb:"Case Studies",
-  eosl:"Eosl Library",
+  eosl:"EOSL Library",
   gc:"Global Locations ",
   icon,
   socials,

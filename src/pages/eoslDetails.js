@@ -59,7 +59,7 @@ function EoslDetails({ EoslData, brand }) {
                 value={selectedBrand}
                 onChange={handleBrandChange}
               >
-                <option value="all">All</option>
+                {/* <option value="all">All</option> */}
                 {eoslData?.brands?.map((item) => (
                   <option key={item.id} value={item.brand_name}>
                     {item.brand_name}
@@ -92,7 +92,7 @@ function EoslDetails({ EoslData, brand }) {
           <div className="my-10">
             <table className="table ">
               <thead>
-                <tr className="bg-[#EFEFEF] text-gray-600">
+                <tr className="bg-[#EFEFEF] text-gray-600 font-[800]">
                   <th scope="col">MODEL</th>
                   <th scope="col">EOSL DATE</th>
                   <th scope="col">CATEGORY</th>
@@ -102,10 +102,10 @@ function EoslDetails({ EoslData, brand }) {
               <tbody>
                 {eoslData?.eosls?.map((item) => (
                   <>
-                    <tr className="text-md font-semibold">
-                      <td>{item.model}</td>
-                      <td>{item.eosl_date}</td>
-                      <td>{item.category}</td>
+                    <tr className="text-[16px] font-[700]">
+                      <td>{item?.model}</td>
+                      <td>{item?.eosl_date}</td>
+                      <td>{item?.category}</td>
                       <td className="text-right">
                         <button className="theme-btn btn-style-one mt-2">
                           <i className="btn-curve"></i>

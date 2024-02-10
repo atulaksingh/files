@@ -10,7 +10,7 @@ const { title, phone, socials, logo6, email, eosl, blog, abb, gc } = headerData;
 
 const HeaderSix = () => {
   const { toggleMenu } = useRootContext();
-  const [select, setSelect] = useState("IN");
+  const [select, setSelect] = useState("country");
   const onSelect = (code) => setSelect(code);
   // console.log("SELECT", select);
 
@@ -27,7 +27,7 @@ const HeaderSix = () => {
 
             <div onClick={toggleMenu} className="mobile-nav-toggler">
               <span className="icon flaticon-menu-2"></span>
-              <span className="txt">Menu</span>
+              <span className="txt">Menus</span>
             </div>
           </div>
 
@@ -48,36 +48,34 @@ const HeaderSix = () => {
               <i className="flaticon-call"></i>
               {gc}
             </Link> */}
-          
-            <Link
-              href={"/eosl"}
-              className="header-six__info__link"
-              passHref
-            >
+
+            <Link href={"/eosl"} className="header-six__info__link" passHref>
               {/* <i className="flaticon-call"></i> */}
               {eosl}
             </Link>
 
             <Link
-              href={`mailto:${email}`}
+              href={`/blog`}
               className="header-six__info__link"
               passHref
             >
               {/* <i className="flaticon-email-2"></i> */}
               {blog}
             </Link>
-            <Link href="/" className="header-six__info__link" passHref>
+            <Link href="/case-study" className="header-six__info__link" passHref>
               {/* <i className="flaticon-email-2"></i> */}
               {abb}
             </Link>
 
             <div className="">
               <ReactFlagsSelect
-              className="p-0.5 "
+                className="p-0.5 "
                 selected={select}
                 onSelect={onSelect}
                 countries={["IN", "GB", "UAE", "AE", "CA"]}
-               
+                // countries={["US", "GB", "FR", "DE", "IT"]}
+                // customLabels={{ IN: "India", GB: "EN-GB", UAE: "UAE", AE: "AE", CA: "CA" }}
+                placeholder="Global Locations" 
               />
             </div>
             {/* <Link href={`mailto:${email}`} className="header-six__info__link" passHref>

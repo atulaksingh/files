@@ -29,7 +29,6 @@ const About = () => {
       <HeaderTwo/>
       <MobileMenu />
       <SearchPopup />
-      <divageBanner title="About Us" />
       <PageBanner title="About Us" />
       {/* <DiscoverSection ShowTitle={false} /> */}
       <FeaturedSection className="featured-section__about-two" />
