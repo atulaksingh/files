@@ -74,7 +74,7 @@ const WhyChooseUs = (
                 closely with our customers from the initial planning phase to
                 the final implementation and beyond. Through our consultative
                 approach and software support services, we fully manage projects
-                to meet organizations' strategic goals within budget and
+                to meet organizations&apos; strategic goals within budget and
                 timelines. Our customized, end-to-end solutions prioritize
                 quality, value and flexibility. Backed by industry-leading
                 expertise, we ensure clients have access to the right

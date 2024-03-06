@@ -43,7 +43,7 @@ const ContactSectionTwo = () => {
                 services.
               </div>
               <div className="contact-two__text ">
-                Zaco's comprehensive IT asset disposition services provide a
+                Zaco&apos;s comprehensive IT asset disposition services provide a
                 solution to help clients worldwide safely and sustainably
                 dispose all types of outdated IT assets. With over 15 years of
                 experience in ITAD, we have the expertise and global
