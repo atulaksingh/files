@@ -2,7 +2,7 @@ import featuredSection from "@/data/featuredSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, title, text, features } = featuredSection;
+const { image, title, text,text2, features } = featuredSection;
 
 const FeaturedSection = ({ className = "" }) => {
   return (
@@ -24,8 +24,9 @@ const FeaturedSection = ({ className = "" }) => {
                   <span className="dot">.</span>
                 </h2>
                 <div className="lower-text">{text}</div>
+                <div className="lower-text">{text2}</div>
               </div>
-              <div className="features">
+              {/* <div className="features">
                 <Row className="clearfix">
                   {features.map(({ id, title, text }) => (
                     <Col key={id} md={6} sm={12} className="feature">
@@ -36,7 +37,7 @@ const FeaturedSection = ({ className = "" }) => {
                     </Col>
                   ))}
                 </Row>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

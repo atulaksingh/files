@@ -38,10 +38,10 @@ const TestimonialsSection = () => {
     <div ref={ref} className="testimonials-section" id="testimonials">
       <div className="auto-container">
         <div className="sec-title">
-          <h2>
+          {/* <h2>
             {title}
             <span className="dot">.</span>
-          </h2>
+          </h2> */}
         </div>
         <div className="carousel-box">
           <div className="testimonials-carousel">

@@ -23,9 +23,9 @@ function itequipmentbuyback() {
                 <HeaderTwo />
                 <MobileMenu />
                 <SearchPopup />
-                <NewBanner title="IT Equipment & Server Buyback at Zaco" title2="We offer best price for disposing your IT hardware" />
+                <NewBanner title="IT Asset Disposition Services" title2="We offer best price for disposing your IT hardware" />
                 <ContactSectionTwo />
-                <FeatureEight />
+                {/* <FeatureEight /> */}
                 <FaqsSection />
                 <HistoryTimeline />
                 <CallToSectionTwo className="alternate" />

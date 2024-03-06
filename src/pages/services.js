@@ -13,6 +13,7 @@ import ServiceCard1 from "@/components/ServicesSection/ServiceCard1";
 import ServiceCard2 from "@/components/ServicesSection/ServiceCard2";
 import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
+import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
 
@@ -33,11 +34,13 @@ const services = () => {
       {/* <ServiceCard2 /> */}
       {/* <ServicesSectionThree className="padd-top" /> */}
       {/* <ServicesSectionThree className="padd-top" /> */}
-      {/* <GrHostMaintenance />
-      <BsHddNetwork />
-      <GrHostMaintenance /> */}
-      <ServicesSectionOne />
+      {/* <GrHostMaintenance /> */}
+      {/* <BsHddNetwork /> */}
+      {/* <GrHostMaintenance /> */}
+      {/* <ServicesSectionOne /> */}
       {/* <WeWorkSection /> */}
+
+      <TestimonialsSection />
       <CallToSectionTwo className="alternate" />
       <FooterSix />
     </Layout>

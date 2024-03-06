@@ -58,7 +58,7 @@ const Home6 = () => {
 </div> */}
       {/* <DiscoverSection /> */}
       <BlogEight />
-      {/* <AboutSix /> */}
+      <AboutSix />
       <FunFactsOne />
       <TrustedSection />
       <div className="" >

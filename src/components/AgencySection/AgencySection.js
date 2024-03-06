@@ -53,7 +53,7 @@ const AgencySection = () => {
           </Col>
           <Col xl={6} lg={12} md={12} sm={12} className="right-col">
             <div className="inner">
-              <div className="text">{text}</div>
+              <div className="text font-bold">{text}</div>
               <div className="featured-block-two clearfix">
                 <div className="image">
                   <Image src={image.src} alt="" />

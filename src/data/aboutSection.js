@@ -240,3 +240,53 @@ export const aboutMeCounter = {
     },
   ],
 };
+
+
+const whyChooseUsData = {
+  title: "Customer feedbacks",
+  testimonials: [
+    {
+      id: 1,
+      image: "author-1.jpg",
+      name: "Multi-vendor support",
+      text: "As a provider of IT solutions across hardware brands, we have the expertise to manage IT infrastructure and support for all major OEMs. Through flexible service level agreements, we offer comprehensive support packages for multiple OEMs that protect your IT hardware investments. Our maintenance and support services allow for multi-vendor management from a single provider.",
+    },
+    {
+      id: 2,
+      image: "author-2.jpg",
+      name: "Distributor of Data Center Equipment:",
+      text: "Zaco is a one-stop destination for all your data center infrastructure needs. Whether you need new standardized equipment or hard-to-find legacy hardware, Zaco sources from a vast inventory of high-quality IT assets/hardware globally. Our team of experts can help you procure, deploy, and support the right mix of hardware and software solutions for your unique environment.",
+    },
+    {
+      id: 3,
+      image: "author-3.jpg",
+      name: "Overall Software Solution Provider:",
+      text: "There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      id: 4,
+      image: "author-1.jpg",
+      name: "Shirley Smith",
+      designation: "Director",
+      text: "There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      id: 5,
+      image: "author-2.jpg",
+      name: "Mike hardson",
+      designation: "Director",
+      text: "There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      id: 6,
+      image: "author-3.jpg",
+      name: "Sarah albert",
+      designation: "Director",
+      text: "There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+  ],
+};
+
+
+
+export default whyChooseUsData;

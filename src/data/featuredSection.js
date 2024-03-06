@@ -3,8 +3,10 @@ import image from "@/images/resource/featured-image-7.jpg";
 const featuredSection = {
   image,
   title: "About Zaco!",
-  text: "Zaco has been supporting Global companies for over a decade, providing cost-effective IT infrastructure solutions from top OEMs like HP, IBM, SUN/Oracle, Cisco, NetApp, and EMC. Our range includes new, used, and guaranteed servers, storage, networking equipment, and spare parts, helping businesses manage budgets without compromising quality",
-  features: [
+  text: "Founded in 2000, Zaco Computers is a leading global provider of IT infrastructure solutions. For over two decades, we have helped thousands of organizations across industries to optimize their IT environments.",
+ text2:"We provide a wide range of pre-owned and refurbished servers, storage, networking equipment and spare parts from all leading OEMs including HP, IBM, Oracle, Cisco, NetApp, EMC and others. All of our inventory is fully tested and backed by a comprehensive warranty for peace of mind.",
+  
+ features: [
     {
       id: 1,
       title: "Expertise in IT Infrastructure",

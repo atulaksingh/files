@@ -1,8 +1,10 @@
+
+
 import Link from "next/link";
 import React, { forwardRef } from "react";
 import { Image } from "react-bootstrap";
 
-const SingleTestimonial = (
+const WhyChooseCard = (
   { testimonial = {}, className = "", userSelect = false },
   ref
 ) => {
@@ -12,9 +14,9 @@ const SingleTestimonial = (
     <div
       ref={ref}
       style={{ userSelect: userSelect ? "auto" : "none" }}
-      className={`testi-block test-block1 ${className}`}
+      className={`testi-block ${className}`}
     >
-      <div className="inner h-[335px]">
+      <div className="inner">
         {/* <div className="icon">
           <span>“</span>
         </div> */}
@@ -30,7 +32,7 @@ const SingleTestimonial = (
             </Link>
           </div> */}
           <div className="name">{name}</div>
-          <div className="designation">{designation}</div>
+          {/* <div className="designation">{designation}</div> */}
         </div>
         <div className="text">{text}</div>
       </div>
@@ -38,4 +40,4 @@ const SingleTestimonial = (
   );
 };
 
-export default forwardRef(SingleTestimonial);
+export default forwardRef(WhyChooseCard);

@@ -1,4 +1,5 @@
 import AboutUspCard from "@/components/AboutSection/AboutUspCard";
+import WhyChooseUs from "@/components/AboutSection/WhyChooseUs";
 import AgencySection from "@/components/AgencySection/AgencySection";
 import PageBanner from "@/components/BannerSection/PageBanner";
 import DiscoverSection from "@/components/DiscoverSection/DiscoverSection";
@@ -19,6 +20,7 @@ import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
 import SponsorsSectionTwo from "@/components/SponsorsSection/SponsorsSectionTwo";
 import TeamSectionTwo from "@/components/TeamSection/TeamSectionTwo";
+import TestimonialSectionPage from "@/components/TestimonialsSection/TestimonialSectionPage";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import React from "react";
 
@@ -36,6 +38,8 @@ const About = () => {
       {/* <FunFacts /> */}
       {/* <divarallaxSection /> */}
       <AgencySection />
+      {/* <TestimonialSectionPage /> */}
+      <WhyChooseUs />
       {/* <TeamSectionTwo /> */}
       {/* <SponsorsSectionTwo /> */}
 
