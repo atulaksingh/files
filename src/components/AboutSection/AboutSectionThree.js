@@ -10,6 +10,9 @@ const {
   title,
   subtitle,
   text,
+  text2,
+  text3,
+  text4,
   lists,
   barTitle,
   barPercent,
@@ -30,7 +33,7 @@ const AboutSectionThree = () => {
       <div className="auto-container my-auto">
         <Row>
           <Col md={12} lg={6}>
-            <div className="about-section-three__image">
+            <div className="about-section-three__image ">
               <Image src={image.src} alt="" />
             </div>
           </Col>
@@ -40,20 +43,27 @@ const AboutSectionThree = () => {
                 <div>{subtitle}</div>
                 <h2>{title}</h2>
               </div> */}
-              <div className="sec-title-six"><div className="sec-title-six__text"><span>{subtitle}</span></div><h2 className="sec-title-six__title">{title}</h2></div>
-
-              
-              <div className="about-section-three__summery">
-                <div>{text}</div>
+              <div className="sec-title-six">
+                <div className="sec-title-six__text">
+                  <span>{subtitle}</span>
+                </div>
+                <h2 className="sec-title-six__title">{title}</h2>
               </div>
-              <ul className="list-unstyled about-section-three__list">
+
+              <div className="about-section-three__summery text-justify">
+                <div>{text}</div>
+                <div>{text2}</div>
+                {/* <div>{text3}</div>
+                <div>{text4}</div> */}
+              </div>
+              {/* <ul className="list-unstyled about-section-three__list">
                 {lists.map((text, i) => (
                   <li key={i}>
                     <i className="fa fa-check-circle"></i>
                     {text}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
               {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <ReactVisibilitySensor
@@ -88,15 +98,35 @@ const AboutSectionThree = () => {
                 <h3>{name}</h3>
                 <div>{tagline}</div>
               </div> */}
-              <Link href={"/about"}>
+              {/* <Link href={"/about"}>
                   <button className="theme-btn btn-style-one mt-2">
                     <i className="btn-curve"></i>
                     <span className="btn-title">ReadMore</span>
                   </button>
-                </Link>
+                </Link> */}
             </div>
           </Col>
         </Row>
+      </div>
+      <div className="mx-56">
+        <div className="about-section-three__summery mt-3">
+          <div className="text-justify">
+            Through proactive IT maintenance and remote management tools, we
+            help predict and prevent potential problems before they impact you.
+            This allows your teams to focus on growth without worrying about
+            infrastructure reliability in different locations and time zones.
+            Whenever and wherever you need us, our global coverage has you
+            covered. You can swiftly rely on Zaco Computers to keep your
+            international IT Infrastructure Managed services running smoothly.
+          </div>
+          {/* <div>{text4}</div> */}
+        </div>
+        <Link href={"/about"}>
+          <button className="theme-btn btn-style-one mt-2">
+            <i className="btn-curve"></i>
+            <span className="btn-title">ReadMore</span>
+          </button>
+        </Link>
       </div>
     </div>
   );

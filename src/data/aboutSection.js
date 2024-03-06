@@ -41,14 +41,17 @@ export const aboutSectionTwo = {
 
 export const aboutSectionThree = {
   image: image4,
-  title: "The Right People for your Business",
+  title:
+    "Reliable IT Services & Infrastructure Support Wherever You Do Business",
   subtitle: "welcome to business agency",
-  text: "Amid today's unstable economy, businesses face immense pressure to trim IT budgets. For over a decade, Zaco has been offering cost-effective IT infrastructure solutions to Indian companies, preventing budget overruns. We provide a range of servers, storage, networking equipment, and spare parts from top OEMs like HP, IBM, SUN/Oracle, Cisco, NetApp, EMC, and more – all fully guaranteed.",
-  lists: [
-    "Optimal Solutions",
-    "Comprehensive Offerings",
-    "Simplified Support",
-  ],
+  text: "As a global business, you need an IT partner you can depend on wherever your operations take you. At Zaco Computers, we provide Infrastructure Managed Services to help multinational companies run their IT seamlessly across borders.",
+  text2:
+    "Our experts monitor your servers, networks and hardware round the clock 24x7 from our multiple support centers. With a large server spare parts inventory, we're able to resolve issues quickly to minimize disruptions. Customizable IT support plans tailored to your specific business needs ensure optimal performance and compliance with various global regulations.",
+  text3:
+    "Through proactive IT maintenance and remote management tools, we help predict and prevent potential problems before they impact you. This allows your teams to focus on growth without worrying about infrastructure reliability in different locations and time zones.",
+  text4:
+    "Whenever and wherever you need us, our global coverage has you covered. You can swiftly rely on Zaco Computers to keep your international IT Infrastructure Managed services running smoothly.",
+  lists: ["Optimal Solutions", "Comprehensive Offerings", "Simplified Support"],
   barTitle: "Bussiness Success",
   barPercent: 70,
   aboutPerson: { name: "William Smith", tagline: "Co Founder", image: image5 },
@@ -76,37 +79,37 @@ export const aboutSix = {
     {
       id: 1,
       title: "Assessment and Planning",
-      text:"Offering evaluations of current IT infrastructure, identifying strengths, weaknesses, and opportunities for improvement.",
+      text: "Offering evaluations of current IT infrastructure, identifying strengths, weaknesses, and opportunities for improvement.",
       icon: "flaticon-idea",
     },
     {
       id: 2,
       title: "Implementation and Deployment",
-      text:" Assisting in the selection and procurement of hardware components best suited for the organization's needs.Setting up networks, configuring routers, switches, firewalls, etc.",
+      text: " Assisting in the selection and procurement of hardware components best suited for the organization's needs.Setting up networks, configuring routers, switches, firewalls, etc.",
       icon: "flaticon-mouse",
     },
     {
       id: 3,
       title: "Maintenance and Support",
       text: "Providing ongoing support to ensure hardware and networks operate smoothly. Addressing issues promptly to minimize downtime.",
-      icon:"flaticon-briefcase"
+      icon: "flaticon-briefcase",
     },
     {
       id: 4,
       title: "Optimization and Upgrades",
-      text:"Analyzing and enhancing the performance of existing systems.",
+      text: "Analyzing and enhancing the performance of existing systems.",
       icon: "flaticon-idea",
     },
     {
       id: 5,
       title: "End-of-Life Management",
-      text:" Properly managing the disposal of outdated hardware, following environmentally friendly practices. Ensuring secure data erasure or migration when retiring old hardware.",
+      text: " Properly managing the disposal of outdated hardware, following environmentally friendly practices. Ensuring secure data erasure or migration when retiring old hardware.",
       icon: "flaticon-mouse",
     },
     {
       id: 6,
       title: "Consultancy and Advisory Services",
-      text:"Providing advice on IT strategy, future-proofing, and technology roadmaps. Assisting in maintaining compliance with industry standards and regulations.",
+      text: "Providing advice on IT strategy, future-proofing, and technology roadmaps. Assisting in maintaining compliance with industry standards and regulations.",
       icon: "flaticon-briefcase",
     },
   ],
@@ -241,7 +244,6 @@ export const aboutMeCounter = {
   ],
 };
 
-
 const whyChooseUsData = {
   title: "Customer feedbacks",
   testimonials: [
@@ -286,7 +288,5 @@ const whyChooseUsData = {
     },
   ],
 };
-
-
 
 export default whyChooseUsData;

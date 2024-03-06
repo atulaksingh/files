@@ -5,7 +5,9 @@ const trustedSection = {
   title2: "Infrastructure Managed Services",
   image,
   text2:"Our services ensure uninterrupted operations through proactive monitoring, swift issue resolution, and regular maintenance. Tailored to your specific needs, our solutions guarantee scalability and compliance, allowing you to focus on driving your business forward while we handle the intricacies of your infrastructure..",
-  text: "Infrastructure Managed Services are the cornerstone of a resilient and efficient IT environment. At Zaco Computers, we specialize in overseeing and maintaining your infrastructure, covering hardware, networks, and server systems.\n ",
+  text: "Infrastructure Managed Services (IMS) are the backbone of a resilient and efficient IT environment. At Zaco Computers, we specialize in overseeing and maintaining your infrastructure, covering hardware, networks, and server systems.\n ",
+  text3: "Our services ensure uninterrupted operations through proactive monitoring, swift issue resolution, and regular maintenance. Tailored to your specific needs, our solutions guarantee scalability and compliance, allowing you to focus on driving your business forward while we handle the intricacies of your infrastructure.\n ",
+  text4: "Our services cater to the unique needs of global clients, ensuring seamless operations and compliance with industry standards.\n ",
   textList: [
     "Network Management.",
     "Server Management.",
