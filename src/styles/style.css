@@ -3967,7 +3967,7 @@ img.lazy-image.loaded {
 .about-section .text-column .inner {
   position: relative;
   display: block;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .about-section .text-column .sec-title {
@@ -10587,7 +10587,7 @@ height: 60px;
 
 @media (min-width: 1440px) {
   .about-me-one__content {
-    padding-left: 70px;
+    /* padding-left: 70px; */
   }
 }
 
@@ -16416,6 +16416,16 @@ height: 60px;
     margin-right: auto;
   }
 }
+  .sec-title .dj1 {
+    position: relative;
+    display: block;
+    font-size: 44px;
+    line-height: 0.9em;
+    text-transform: uppercase;
+    color: var(--thm-black);
+    font-weight: 400;
+    margin-bottom: 0px;
+}
 
 .video-one__content .block-text {
   margin: 0;
@@ -17318,7 +17328,8 @@ height: 60px;
 }
 
 .sec-title-eight {
-  margin-bottom: 47px;
+  /* margin-bottom: 47px; */
+  margin-bottom: 20px;
 }
 
 .sec-title-eight__text {
@@ -22277,7 +22288,8 @@ height: 60px;
 @media (min-width: 1200px) {
   .about-ten__content {
     padding-left: 100px;
-    padding-top: 116px;
+    /* padding-top: 116px; */
+    padding-top: 10px;
   }
 }
 
@@ -22304,7 +22316,7 @@ height: 60px;
 
 @media (min-width: 1200px) {
   .about-ten__box + .about-ten__box {
-    margin-top: 53px;
+    margin-top: 15px;
   }
 }
 

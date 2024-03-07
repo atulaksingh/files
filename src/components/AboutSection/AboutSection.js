@@ -28,13 +28,14 @@ const AboutSection = () => {
           <Col xl={6} lg={12} md={12} sm={12} className="text-column">
             <div className="inner">
               <div className="sec-title">
-                <h2>
+                <div className="dj1">
                   <TextSplit text={title} />
-                  <span className="dot">.</span>
-                </h2>
-                <div className="lower-text">{text1}</div>
+                  <span className="dot"></span>
+                </div>
+                {/* <div className="lower-text">{text1}</div> */}
+                <div className="text clearfix mt-4 text-justify">{text1}</div>
               </div>
-              <div className="text">
+              {/* <div className="text">
                 <div>{text2}</div>
               </div>
               <div className="text clearfix">
@@ -49,7 +50,7 @@ const AboutSection = () => {
                     {since}
                   </span>
                 </div>
-              </div>
+              </div> */}
               <div className="link-box">
                 <Link href="/about" passHref>
                   <div className="theme-btn btn-style-one">

@@ -54,6 +54,36 @@ const weDOSection = {
     },
   
   ],
+
+
+  faqs4: [
+    {
+      id: 1,
+      title: "Routine Server Maintenance",
+      text:": We perform regular preventive maintenance tasks, including system updates, hardware health checks, security audits and performance optimization to identify and address potential issues before they impact your server operations"
+    },
+    {
+      id: 2,
+      title: "24/7 Monitoring and Support",
+      text:'Our proactive monitoring tools keep a watchful eye on your servers and our dedicated support team is available 24/7 to address any issues promptly and efficiently.'
+    },
+    {
+      id: 3,
+      title: "Backup and Disaster Recovery: ",
+      text:"We offer comprehensive backup and disaster recovery solutions to safeguard your critical data and ensure business continuity in case of unexpected events."
+    },
+    {
+      id: 4,
+      title: "Hardware and Software Support",
+      text:"Our team can provide expert IT support for both hardware and software issues, ensuring your servers remain operational and perform at their peak"
+    },
+    {
+      id: 5,
+      title: "On-site and Remote Support",
+      text:"We offer flexible support options, including on-site visits for complex issues and remote support for efficient troubleshooting and problem resolution."
+    },
+  
+  ],
 };
 
 export default weDOSection;

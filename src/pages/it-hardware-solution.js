@@ -1,5 +1,7 @@
+import AboutMeOne from "@/components/AboutSection/AboutMeOne";
 import PageBanner from "@/components/BannerSection/PageBanner";
 import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
+import FeaturedSection from "@/components/FeaturedSection/FeaturedSection";
 import HeaderTwo from "@/components/Header/HeaderTwo";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
@@ -24,11 +26,9 @@ function ithardwaresolution() {
         <MobileMenu />
         <SearchPopup />
         <PageBanner title="Empowering businesses worldwide with reliable IT hardware and expert support" />
-        {/* <WeDOSection /> */}
         <IHSS />
-        {/* <ServiceCard1 /> */}
+        <AboutMeOne />
 
-        <TestimonialsSection />
         <CallToSectionTwo className="alternate" />
         <FooterSix />
       </Layout>

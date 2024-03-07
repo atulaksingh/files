@@ -15,9 +15,9 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOne = {
   image1,
   image2,
-  title: "We’re the best agency\nin downtown",
+  title: "Your Trusted Partner for Server Maintenance Services",
   text1:
-    "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    "At Zaco Computers, we understand the vital role servers play in the smooth operation of your business. That's why we offer comprehensive server maintenance services designed to keep your servers running efficiently, securely and reliably. Whether you have a single server or a complex network infrastructure, our team of highly skilled and certified IT engineers is equipped to provide the support you need to achieve optimal performance with minimize downtime.",
   text2:
     "Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever.",
   textList: [
@@ -175,29 +175,39 @@ export const aboutEleven = {
 export const aboutTen = {
   image: image12,
   tagline: "Why Choose Us",
-  title: "The Largest Business Experts",
+  title: "Benefits of Choosing Zaco Computers for Server Maintenance",
   text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   boxes: [
     {
       id: 1,
       title: "Customer Experience",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
+      text: "Our proactive server maintenance approach helps prevent issues and optimizes server performance, leading to increased uptime and efficiency.",
     },
     {
       id: 2,
       title: "Customer Experience",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
+      text: "We ensure your servers are protected with the latest security measures, minimizing the risk of data breaches and cyber-attacks. Our prompt and efficient server support minimizes downtime and ensures your business operations remain uninterrupted",
+    },
+  
+    {
+      id: 4,
+      title: "Customer Experience",
+      text: "By preventing costly server failures and data loss, our server maintenance support and services can help you save money in the long run.",
+    },
+    {
+      id: 5,
+      title: "Customer Experience",
+      text: "With our expertise and dedication, you can enjoy peace of mind knowing your critical servers are in good hands",
     },
   ],
 };
 
 export const aboutMeOne = {
   image: image13,
-  title: "Jessica brown",
-  text: "Lorem ipsum dolor sit amet, con adipiscing elit tiam convallis elit id impedie. Quisq commodo simply free ornare tortor. Excepteur sint occaecat sunt in culpa qui officia deserunt mollit.",
-  text2:
-    "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-  text3: "I help my clients stand out and they help me grow.",
+  title: "Why Choose Zaco Computers as your IT Solutions Provider?",
+  text: "With our global presence, we understand the diverse needs of businesses worldwide. Our team is equipped to provide localized support and guidance, ensuring you receive the best possible IT services and solutions.",
+  text2:"We have more than two decades of rich experience and a track record for delivering successful IT solutions to businesses of all sizes and across various industries. Our commitment to quality and customer satisfaction has earned us a reputation as a trusted IT solutions partner. We offer everything you need for your IT infrastructure, from hardware procurement to expert IT hardware support. This eliminates the need to manage multiple vendors, saving you time and resources.",
+  text3: "Ready to take your IT infrastructure to the next level? Contact our team today to discuss your specific needs and discover how Zaco Computers can be your trusted partner for all your IT hardware requirements.",
   socials: [
     {
       id: 1,

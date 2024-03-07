@@ -23,17 +23,17 @@ const AboutMeOne = () => {
                   <span className="dot">.</span>
                 </h2>
               </div>
-              <div className="about-me-one__social">
+              {/* <div className="about-me-one__social">
                 {socials.map(({ id, icon, href }) => (
                   <Link key={id} href={href} passHref>
                     <i className={icon}></i>
                   </Link>
                 ))}
-              </div>
+              </div> */}
               <div className="about-me-one__text">{text}</div>
               <div className="about-me-one__text">{text2}</div>
-              <div className="about-me-one__qoute">{text3}</div>
-              <Row className="about-me-one__certificate-row">
+              <div className="about-me-one__text">{text3}</div>
+              {/* <Row className="about-me-one__certificate-row">
                 {certificates.map((image, i) => (
                   <Col key={i} md={6}>
                     <Image
@@ -45,7 +45,7 @@ const AboutMeOne = () => {
                     />
                   </Col>
                 ))}
-              </Row>
+              </Row> */}
             </div>
           </Col>
         </Row>
