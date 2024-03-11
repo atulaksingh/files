@@ -30,7 +30,6 @@ function serverMaintenance() {
         <Card1 />
         <AboutTen />
         <Card2 />
-        {/* <FeatureEight /> */}
         <CallToSectionTwo className="alternate" />
         <FooterSix />
       </Layout>

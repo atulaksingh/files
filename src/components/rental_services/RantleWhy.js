@@ -1,3 +1,6 @@
+
+
+
 import { aboutMeOne } from "@/data/aboutSection";
 import Link from "next/link";
 import React from "react";
@@ -5,21 +8,17 @@ import { Col, Image, Row } from "react-bootstrap";
 
 const { image, title, text, text2, text3, socials, certificates } = aboutMeOne;
 
-const AboutMeOne = () => {
+const RantleWhy = () => {
   return (
     <div className="about-me-one">
       <div className="auto-container">
         <Row>
+       
           <Col md={12} lg={6}>
-            <div className="about-me-one__image">
-              <Image src={image.src} alt="" />
-            </div>
-          </Col>
-          <Col md={12} lg={6}>
-            <div className="about-me-one__content">
+            <div className="about-me-one__content mt-14">
               <div className="sec-title">
                 <h2>
-                  {title}
+                  Why Choose Zaco for Server Rental?
                   <span className="dot">.</span>
                 </h2>
               </div>
@@ -30,9 +29,8 @@ const AboutMeOne = () => {
                   </Link>
                 ))}
               </div> */}
-              <div className="about-me-one__text lg:mt-5">{text}</div>
-              <div className="about-me-one__text">{text2}</div>
-              <div className="about-me-one__text">{text3}</div>
+              <div className="about-me-one__text text-justify mt-4">Choose from an extensive range of servers on rent, including physical dedicated servers, cloud servers, etc. all leading OEM brands like Dell, HP, IBM, Cisco and much more. Scale your server resources up or down seamlessly, based on your evolving business demands. Also while enjoying the benefits of using powerful servers without the upfront investment costs associated with purchasing hardware. Our server rental services are available across various countries, ensuring consistent support and IT infrastructure wherever you operate. We offer flexible server rental terms that cater to short-term and long-term projects. Our server rental services are available in various configurations and can be customized to meet your specific needs. You can also benefit from from our team of experienced professionals who can assist you in selecting the right server rental solution and provide ongoing technical support.</div>
+       
               {/* <Row className="about-me-one__certificate-row">
                 {certificates.map((image, i) => (
                   <Col key={i} md={6}>
@@ -48,10 +46,15 @@ const AboutMeOne = () => {
               </Row> */}
             </div>
           </Col>
+          <Col md={12} lg={6}>
+            <div className="about-me-one__image">
+              <Image src={image.src} alt="" />
+            </div>
+          </Col>
         </Row>
       </div>
     </div>
   );
 };
 
-export default AboutMeOne;
+export default RantleWhy;

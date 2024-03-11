@@ -84,6 +84,44 @@ const weDOSection = {
     },
   
   ],
+  faqs5: [
+    {
+      id: 1,
+      title: "IT Network Support",
+      text:"Our experienced team of IT experts is dedicated to providing comprehensive network support solutions tailored to meet your specific needs. Whether it's troubleshooting network issues, optimizing network performance, or implementing security protocols, we are here to keep your network running smoothly."
+    },
+    {
+      id: 2,
+      title: "Managed IT Network Services",
+      text:"With our Managed IT Network Services, you can offload the day-to-day management of your network to our experts, allowing you to focus on your core business objectives. From proactive monitoring and maintenance to timely upgrades, we proactively manage every aspect of your network to ensure its reliability and security."
+    },
+    {
+      id: 3,
+      title: "IT Networking Services ",
+      text:"Zaco Computers offers a wide range of IT Networking Services aimed at helping businesses to build, expand, and optimize their network infrastructure. Whether you're setting up a new network, expanding your existing one, or migrating to the cloud, our team has the expertise and resources to support your overall networking needs."
+    },
+    
+  
+  ],
+  faqs6: [
+    {
+      id: 1,
+      title: "Server Storage Maintenance Services",
+      text:"Unlock the full potential of your storage infrastructure with Zaco's server storage maintenance solutions. Our team of experienced technicians is dedicated to providing proactive maintenance and timely repairs to minimize downtime and maximize uptime."
+    },
+      {
+      id: 2,
+      title: "Tailored Server Storage Solutions",
+      text:"We recognize that every business has unique enterprise storage requirements. That's why we offer tailored server storage solutions to meet your specific needs. Whether you require additional storage capacity, data migration or performance optimization, we have you covered."
+    },
+    {
+      id: 3,
+      title: "Third-Party Storage Maintenance Experts ",
+      text:"Partnering with Zaco for third-party storage maintenance means entrusting your critical data to seasoned professionals. Our extensive in-hand inventory hardware collection sets us apart from other third-party maintenance companies. With a diverse range of equipment readily available, we're uniquely positioned to provide swift and effective solutions to your storage maintenance needs, ensuring that your storage environment remains robust and reliable."
+    },
+    
+  
+  ],
 };
 
 export default weDOSection;

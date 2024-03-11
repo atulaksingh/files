@@ -6,9 +6,9 @@ import { Col, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { title2, featuredImage, text, barTitle, barPercent, faqs4,faqs3 } =
+const { title2, featuredImage, text, barTitle, barPercent, faqs6, } =
   weDOSection;
-function Card1() {
+function StorageService() {
   const [countStart, setCountStart] = useState(false);
   const [currentFaq, setCurrentFaq] = useState(1);
 
@@ -21,16 +21,16 @@ function Card1() {
     <>
       <section className="we-do-section">
         <div className="auto-container">
-          <div className="sec-title-eight text-center">
-            <h2 className="sec-title-eight__title pb-14">Our Server Maintenance Services Include </h2>
+          <div className="sec-title-eight text-center pb-14">
+            <h2 className="sec-title-eight__title">Our Storage Maintenance Services Include </h2>
           </div>
           <Row className="clearfix">
-         
+        
             <Col lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="faq-box">
                   <ul className="accordion-box clearfix">
-                    {faqs4.map(({ id, title, text }) => (
+                    {faqs6.map(({ id, title, text }) => (
                       <li
                         key={id}
                         className={`accordion block${
@@ -60,7 +60,6 @@ function Card1() {
                 </div>
               </div>
             </Col>
-
             <Col lg={6} md={12} sm={12} className="left-col ">
               <div className="h-full">
                 <Image
@@ -68,7 +67,7 @@ function Card1() {
                     "https://res.cloudinary.com/dt0j68vdr/image/upload/v1706954907/mplk57adylusacv1u2ar.jpg"
                   }
                   alt=""
-                  className="h-full"
+                  className=""
                 />
               </div>
             </Col>
@@ -82,4 +81,4 @@ function Card1() {
   );
 }
 
-export default Card1;
+export default StorageService;

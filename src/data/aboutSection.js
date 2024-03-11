@@ -176,6 +176,8 @@ export const aboutTen = {
   image: image12,
   tagline: "Why Choose Us",
   title: "Benefits of Choosing Zaco Computers for Server Maintenance",
+  title2: "Why Choose Zaco for Storage Maintenance",
+  title3: "Benefits of Renting Servers | Why Get Servers on Rent with Zaco",
   text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   boxes: [
     {
@@ -199,6 +201,51 @@ export const aboutTen = {
       title: "Customer Experience",
       text: "With our expertise and dedication, you can enjoy peace of mind knowing your critical servers are in good hands",
     },
+  ],
+
+
+
+  boxes1: [
+    {
+      id: 1,
+      title: "Customer Experience",
+      text: "Expertise Our team brings years of experience and expertise to every storage maintenance project, ensuring that your systems are in capable hands",
+    },
+    {
+      id: 2,
+      title: "Customer Experience",
+      text: "Reliability With Zaco, you can count on consistent, dependable service that prioritizes both, the integrity and availability of your data",
+    },
+  
+    {
+      id: 3,
+      title: "Customer Experience",
+      text: "Flexibility We offer flexible storage maintenance plans tailored to your budget and business objectives, allowing you to scale your IT infrastructure as needed",
+    },
+    {
+      id: 4,
+      title: "Customer Experience",
+      text: "Customer Focus: At the heart of our operations is a commitment to customer satisfaction. We strive to exceed your expectations at every turn, providing personalized support and third-party storage maintenance service. Partner with Zaco Computers Pvt. Ltd. for comprehensive storage maintenance solutions that empower your business to thrive in today's data-driven world. Reach out to us today to learn more about how we can support your storage infrastructure needs",
+    },
+  ],
+  boxes2: [
+    {
+      id: 1,
+      title: "Customer Experience",
+      text: "Free up capital for other business priorities.Respond quickly to changing business needs by scaling your server resources effortlessly",
+    },
+    {
+      id: 2,
+      title: "Customer Experience",
+      text: "Eliminate the burden of managing in-house server infrastructure. Enjoy peace of mind knowing our dedicated 24/7 support team is available around the clock to address any concerns",
+    },
+  
+    {
+      id: 3,
+      title: "Customer Experience",
+      text: "Contact Zaco Computers today to discuss your specific server rental needs. We will work closely with you to understand your unique requirements and recommend the most suitable server solution to empower your global business operations.",
+    },
+    
   ],
 };
 

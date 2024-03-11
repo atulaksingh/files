@@ -7,6 +7,7 @@ import FeaturedSection from "@/components/FeaturedSection/FeaturedSection";
 import FunFactSix from "@/components/FunFacts/FunFactSix";
 import FunFacts from "@/components/FunFacts/FunFacts";
 import HeaderOne from "@/components/Header/HeaderOne";
+import HeaderSix from "@/components/Header/HeaderSix";
 import HeaderTwo from "@/components/Header/HeaderTwo";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
@@ -28,6 +29,7 @@ const About = () => {
   return (
     <Layout pageTitle="About Us">
       <Style />
+      <HeaderSix />
       <HeaderTwo/>
       <MobileMenu />
       <SearchPopup />
