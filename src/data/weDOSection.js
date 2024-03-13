@@ -122,6 +122,63 @@ const weDOSection = {
     
   
   ],
+  faqs7: [
+    {
+      id: 1,
+      title: "Affordable Solutions",
+      text:"Our IMS provides cost-effectiveness without compromising on quality. Value-driven services ensure you get the most out of your investment."
+    },
+      {
+      id: 2,
+      title: "Tailored Service Contracts",
+      text:"We believe in flexibility. We customize the service level agreements (SLAs) to meet your unique requirements.This adapts precise alignment with your business needs.."
+    },
+    {
+      id: 3,
+      title: "Remote Support ",
+      text:"Geography is no barrier for us. Our expert team provides seamless remote assistance.Uninterrupted service delivery ensures that all your operations run smoothly."
+    },
+    
+  
+  ],
+  faqs8: [
+    {
+      id: 1,
+      title: "Focus on your Core Competency",
+      text:"Entrust your IT infrastructure to us, allowing your internal teams to concentrate on strategic initiatives for your core competency. Our experts will handle all intricate IT Infrastructure Management tasks."
+    },
+      {
+      id: 2,
+      title: "Streamlined Operations",
+      text:"Reduce the need for an extensive in-house IT staff.Our experienced team efficiently manages your IT needs ensuring operational efficiency."
+    },
+    {
+      id: 3,
+      title: "Proven Expertise ",
+      text:"Benefit from our collective knowledge and successful project deliveries.We bring peak efficiency to your IT infrastructure."
+    },
+    
+  
+  ],
+  faqs9: [
+    {
+      id: 1,
+      title: "Cost Savings",
+      text:"Our solutions are cost-effective compared to maintaining an in-house IT sub-department for IMS. Also, we ensure that the quality is not compromised."
+    },
+      {
+      id: 2,
+      title: "Customized SLAs",
+      text:"Service Level Agreements (SLAs) can be tailored to meet your specific needs.Enjoy our personalized service and support."
+    },
+    {
+      id: 3,
+      title: "Co-location Services ",
+      text:"At Zaco, we offer co-location services that are cost-efficient, secure and reliable. Technical Support is from our experts for hardware maintenance (including servers, storage systems, and network equipment."
+    },
+    
+  
+  ],
 };
 
 export default weDOSection;
