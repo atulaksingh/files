@@ -11,10 +11,9 @@ const options = {
   spaceBetween: 30,
   slidesPerView: 2,
   autoplay: { delay: 2000 },
-  
 
   // loop:true,
-  
+
   breakpoints: {
     0: {
       slidesPerView: 1,
@@ -40,20 +39,17 @@ const ProjectEight = () => {
   return (
     <div className="project-eight">
       <div className="auto-container">
-        <div className="sec-title-eight text-center">
-          <div className="sec-title-eight__text">{tagline}</div>
-          <h2 className="sec-title-eight__title">{title}</h2>
+      
+        <div className="sec-title-six">
+          <h2 className="sec-title-six__title text-center pb-14">{title}</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider">
-          <div className="swiper-wrapper" style={{borderRadius:"100px"}}>
-            {projects.map(({ id, image, title ,href}) => (
+          <div className="swiper-wrapper" style={{ borderRadius: "100px" }}>
+            {projects.map(({ id, image, title, href }) => (
               <SwiperSlide key={id}>
                 <div className="project-eight__item">
                   <Image
-                    src={
-                      require(`@/images/zaco/${image}`)
-                        .default.src
-                    }
+                    src={require(`@/images/zaco/${image}`).default.src}
                     alt=""
                   />
                   <div className="project-eight__content">
@@ -63,7 +59,9 @@ const ProjectEight = () => {
                       </div>
                     </Link>
                     <h3 className="project-eight__title">
-                      <Link href={`${href}`} passHref>{title}</Link>
+                      <Link href={`${href}`} passHref>
+                        {title}
+                      </Link>
                     </h3>
                   </div>
                 </div>

@@ -39,7 +39,7 @@ const TrustedSection = () => {
                   {/* <div class="sec-title-six"><div class="sec-title-six__text"></div><h2 class="sec-title-six__title">{title2}</h2></div> */}
                   <h2>
                     {title2}
-                    <span className="dot">.</span>
+                    {/* <span className="dot">.</span> */}
                   </h2>
                   <div className="lower-text">{text}</div>
                   <div className="">{text2}</div>
@@ -57,7 +57,7 @@ const TrustedSection = () => {
                   </div>
                 </div>
                 <Link href={"/it-equipment-buyback"}>
-                  <button className="theme-btn btn-style-one mt-2">
+                  <button className="theme-btn btn-style-one mt-4">
                     <i className="btn-curve"></i>
                     <span className="btn-title">ReadMore</span>
                   </button>

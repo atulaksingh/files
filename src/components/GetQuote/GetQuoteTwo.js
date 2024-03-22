@@ -20,13 +20,14 @@ const GetQuoteTwo = ({ className = "" }) => {
         <Row className="clearfix">
           <Col lg={6} md={12} sm={12} className="left-col">
 
-            <MapSix />
+            {/* <MapSix /> */}
        
-            {/* <div className="news-two__image mt-10">
+            <div className="news-two__image h-full">
               <Image
-                src={require(`@/images/zaco/shutterstock_download (1) (1).jpg`).default.src}
+                src={require(`@/images/zaco/get_in_touch.jpg`).default.src}
+                className="h-full"
               />
-            </div> */}
+            </div>
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">
 

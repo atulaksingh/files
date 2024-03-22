@@ -17,7 +17,7 @@ const HeaderSix = () => {
   return (
     <>
       <header className="header-six">
-        <div className="auto-container">
+        <div className="container-fluid flex">
           <div className="header-six__logo">
             <Link href="/index-main" passHref>
               {/* <a> */}

@@ -7,6 +7,16 @@ import image15 from "@/images/zaco/Larsen-and-Toubro-Logo.webp";
 import image16 from "@/images/zaco/wipro-logo.webp";
 import image4 from "@/images/zaco/932938.jpg";
 import image2 from "@/images/update-1-12-2020/resources/client-1.png";
+import brandsupportimg1 from "@/images/zaco/brandsupport/1373px-Hewlett_Packard_Enterprise_logo.webp";
+import brandsupportimg2 from "@/images/zaco/brandsupport/Cisco-logo-1400x738.webp";
+import brandsupportimg3 from "@/images/zaco/brandsupport/dell_logo_2016-1400x462.webp";
+import brandsupportimg4 from "@/images/zaco/brandsupport/Fortinet-Logo-e1556550537594.webp";
+import brandsupportimg5 from "@/images/zaco/brandsupport/IBM-Logo-1400x636.webp";
+import brandsupportimg6 from "@/images/zaco/brandsupport/microsoft-logo.webp";
+import brandsupportimg7 from "@/images/zaco/brandsupport/red-hat-logo.webp";
+import brandsupportimg8 from "@/images/zaco/brandsupport/Secoen-logo.webp";
+import brandsupportimg9 from "@/images/zaco/brandsupport/veeam-logo-1400x250.webp";
+import brandsupportimg10 from "@/images/zaco/brandsupport/vmware-logo.webp";
 
 const sponsors = [
   "1.png",
@@ -58,9 +68,20 @@ export const sponsorSix = [
   image14,
   image15,
   image16,
- 
 ];
 
+export const brandSupportImage = [
+  brandsupportimg1,
+  brandsupportimg2,
+  brandsupportimg3,
+  brandsupportimg4,
+  brandsupportimg5,
+  brandsupportimg6,
+  brandsupportimg7,
+  brandsupportimg8,
+  brandsupportimg9,
+  brandsupportimg10,
+];
 
 export const sponsorEight = [
   image4,

@@ -25,7 +25,7 @@ const WeDOSection = () => {
               <div className="sec-title">
                 <h2 style={{fontSize:"44px", fontWeight:"500"}}>
                   <TextSplit text={title} />
-                  <span className="dot">.</span>
+                  {/* <span className="dot">.</span> */}
                 </h2>
               </div>
               <div className="featured-block clearfix">

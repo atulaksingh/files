@@ -45,7 +45,7 @@ const AboutSectionThree = () => {
               </div> */}
               <div className="sec-title-six">
                 <div className="sec-title-six__text">
-                  <span>{subtitle}</span>
+                  {/* <span>{subtitle}</span> */}
                 </div>
                 <h2 className="sec-title-six__title">{title}</h2>
               </div>
@@ -108,7 +108,7 @@ const AboutSectionThree = () => {
           </Col>
         </Row>
       </div>
-      <div className="mx-56">
+      <div className="mx-3 lg:mx-56">
         <div className="about-section-three__summery mt-3">
           <div className="text-justify">
             Through proactive IT maintenance and remote management tools, we
@@ -122,7 +122,7 @@ const AboutSectionThree = () => {
           {/* <div>{text4}</div> */}
         </div>
         <Link href={"/about"}>
-          <button className="theme-btn btn-style-one mt-2">
+          <button className="theme-btn btn-style-one mt-4">
             <i className="btn-curve"></i>
             <span className="btn-title">ReadMore</span>
           </button>

@@ -22,7 +22,7 @@ const socials = [
 ];
 
 const teamSection = {
-  title: "Zaco Store",
+  title: "Our Online Store",
   brand:"SHOP BY BRAND",
   categ:"SHOP BY CATEGORY",
 

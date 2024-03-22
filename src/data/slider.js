@@ -8,7 +8,7 @@ export const sliderSix = [
   {
     id: 1,
     bg: "932938.jpg",
-    text: "End-to-End IT Brilliance",
+    text: "Global IT Business Solutions Provider ",
     title: "Your Single Point of Contact for IT Hardware, Software and \nDigital Solutions",
   },
 ];

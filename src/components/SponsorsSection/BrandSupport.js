@@ -1,4 +1,6 @@
-import { sponsorSix } from "@/data/sponsorsSection";
+
+
+import { brandSupportImage } from "@/data/sponsorsSection";
 import React from "react";
 import { Image } from "react-bootstrap";
 import SwiperCore, { Autoplay } from "swiper";
@@ -38,17 +40,17 @@ const options = {
   },
 };
 
-const SponsorSix = () => {
+const BrandSupport = () => {
   return (
     <div className="sponsor-six">
       <div className="auto-container">
 
         <div className="sec-title-eight text-center">
-          <h2 className="sec-title-eight__title ">Our Esteemed Client</h2>
+          <h2 className="sec-title-eight__title ">Brands we support </h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider py-10">
-          <div className="swiper-wrapper">
-            {sponsorSix.map((image, i) => (
+          <div className="swiper-wrapper flex align-middle justify-center items-center">
+            {brandSupportImage.map((image, i) => (
               <SwiperSlide key={i}>
                 <Image src={image.src} alt="" />
               </SwiperSlide>
@@ -60,4 +62,4 @@ const SponsorSix = () => {
   );
 };
 
-export default SponsorSix;
+export default BrandSupport;

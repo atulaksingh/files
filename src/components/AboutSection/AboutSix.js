@@ -1,4 +1,5 @@
 import { aboutSix } from "@/data/aboutSection";
+import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
@@ -25,12 +26,19 @@ const AboutSix = () => {
           <Col md={12} lg={5}>
             <div className="about-six__content">
               <div className="sec-title-six">
-                <div className="sec-title-six__text">
+                {/* <div className="sec-title-six__text">
                   <span>{tagline}</span>
-                </div>
+                </div> */}
                 <h2 className="sec-title-six__title">{title}</h2>
               </div>
               <div className="about-six__text">{text}</div>
+
+              <Link href={"/services"} className="">
+                  <button className="theme-btn btn-style-one mt-3">
+                    <i className="btn-curve"></i>
+                    <span className="btn-title">Know More</span>
+                  </button>
+                </Link>
             </div>
           </Col>
           <Col md={12} lg={7} className="animated fadeInRight">

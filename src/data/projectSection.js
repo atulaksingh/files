@@ -140,6 +140,18 @@ export const projectEight = {
     },
     {
       id: 2,
+      image: "86778.jpg",
+      title: "United Kingdom",
+      href:"/contact-2"
+    },
+    {
+      id: 3,
+      image: "9282.jpg",
+      title: "UAE ",
+      href:"/contact-2"
+    },
+    {
+      id: 4,
       image: "4532.jpg",
       title: "Canada",
       href:"/contact-2"
@@ -149,18 +161,7 @@ export const projectEight = {
     //   image: "7727.jpg",
     //   title: "Congo",
     // },
-    {
-      id: 4,
-      image: "86778.jpg",
-      title: "London",
-      href:"/contact-2"
-    },
-    {
-      id: 5,
-      image: "9282.jpg",
-      title: "Dubai",
-      href:"/contact-2"
-    },
+
     // {
     //   id: 5,
     //   image: "project-8-1.jpg",

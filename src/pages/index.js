@@ -22,6 +22,7 @@ import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServiceSix from "@/components/ServicesSection/ServiceSix";
 import SliderSix from "@/components/SliderSection/SliderSix";
+import BrandSupport from "@/components/SponsorsSection/BrandSupport";
 import SponsorSix from "@/components/SponsorsSection/SponsorSix";
 import SubscribeOne from "@/components/SubscribeSection/SubscribeOne";
 import TeamSection from "@/components/TeamSection/TeamSection";
@@ -52,7 +53,7 @@ const Home6 = () => {
       <SearchPopup />
       <SliderSix />
 
-{/* <div className="" >
+      {/* <div className="" >
 
       <Dj />
 </div> */}
@@ -61,40 +62,34 @@ const Home6 = () => {
       <AboutSix />
       <FunFactsOne />
       <TrustedSection />
-      <div className="" >
-
-      {/* <LiveSection /> */}
-      <AboutSectionThree />
+      <div className="">
+        {/* <LiveSection /> */}
+        <AboutSectionThree />
       </div>
       <ProjectEight />
       {/* <ServiceSix /> */}
       {/* <SubscribeOne /> */}
       {/* <ProjectSix /> */}
       {/* <FunFactSix /> */}
-      
-
 
       <SponsorSix />
-<div  className="">
-{/* <TestimonialsSix /> */}
-<TeamSection />
+      <BrandSupport />
+      <div className="">
+        {/* <TestimonialsSix /> */}
+        <TeamSection />
 
-      {/* <Dj2 /> */}
-</div>
+        {/* <Dj2 /> */}
+      </div>
 
-
-<WeDOSection />         
+      <WeDOSection />
       {/* <BlogSix /> */}
       {/* <CallToSectionThree /> */}
       {/* <Dj2 /> */}
-      <div className="my-3">
-
-      {/* <VideoSix /> */}
-      </div>
+      <div className="my-3">{/* <VideoSix /> */}</div>
       <CallToSection />
 
       <GetQuoteTwo className="get-quote-two__one-page" />
-      
+
       {/* <MapSix /> */}
       <FooterSix />
     </Layout>

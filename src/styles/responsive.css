@@ -400,7 +400,8 @@
   }
 
   .we-do-section {
-    padding: 210px 0px 60px;
+    /* padding: 210px 0px 60px; */
+    padding: 90px 0px 60px;
   }
 
   .page-banner .inner-container {

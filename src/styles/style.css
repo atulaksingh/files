@@ -4387,7 +4387,7 @@ img.lazy-image.loaded {
 }
 .we-do-section {
   position: relative;
-  padding: 90px 0px 90px;
+  padding: 140px 0px 90px;
   background: #ffffff url(../assets/images/background/pattern-2.png) left top
     repeat;
 }
@@ -18470,7 +18470,7 @@ height: 60px;
 
 /* sponsor six */
 .sponsor-six {
-  border-bottom: 1px solid #e2e7ea;
+  /* border-bottom: 1px solid #e2e7ea; */
   padding-bottom: 40px;
   padding-top: 60px;
 }
@@ -22063,14 +22063,14 @@ height: 60px;
 
 /* Project eight */
 .project-eight {
-  padding-top: 96px;
+  /* padding-top: 96px; */
   padding-bottom: 100px;
 }
 
 @media (min-width: 1200px) {
   .project-eight {
-    padding-top: 116px;
-    padding-bottom: 120px;
+    /* padding-top: 116px;
+    padding-bottom: 120px; */
   }
 }
 
