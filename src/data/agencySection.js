@@ -15,7 +15,7 @@ const agencySection = {
     },
     {
       id: "tab-3",
-      text: "Our History",
+      text: "Our Legacy",
     },
   ],
   tabContents: [

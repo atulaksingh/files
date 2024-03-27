@@ -124,7 +124,7 @@ const AboutSectionThree = () => {
         <Link href={"/about"}>
           <button className="theme-btn btn-style-one mt-4">
             <i className="btn-curve"></i>
-            <span className="btn-title">ReadMore</span>
+            <span className="btn-title">Read More</span>
           </button>
         </Link>
       </div>

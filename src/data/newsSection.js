@@ -176,7 +176,7 @@ export const blogEight = {
       image: "75645.jpg",
       date: "16 sep",
       title: "IT Hardware Solutions",
-      text: "Transform your workspace with our proven IT hardware solutions. Experience uninterrupted performance and superior productivity with our tailored, high-performance offerings.",
+      text: "Transform your workspace with our proven IT hardware solutions. Experience us uninterrupted performance and superior productivity with our tailored, high-performance offerings.",
       admin: "Admin",
       comments: 2,
       href:'/it-hardware-solution'

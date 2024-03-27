@@ -16,7 +16,8 @@ const AgencySection = () => {
             <div className="inner">
               <div className="sec-title">
                 <h2>
-                  <TextSplit text={title} /> <span className="dot">.</span>
+                  <TextSplit text={title} /> 
+                  {/* <span className="dot">.</span> */}
                 </h2>
               </div>
               <div className="default-tabs tabs-box">
