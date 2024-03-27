@@ -13,7 +13,7 @@ const GetQuoteTwo = ({ className = "" }) => {
   //   handleSubmit,
   //   formState: { errors },
   // } = useForm();
-
+ 
   return (
     <div className={`get-quote-two ${className}`}>
       <div className="auto-container">

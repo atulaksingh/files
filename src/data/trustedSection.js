@@ -9,10 +9,10 @@ const trustedSection = {
   text3: "Our services ensure uninterrupted operations through proactive monitoring, swift issue resolution, and regular maintenance. Tailored to your specific needs, our solutions guarantee scalability and compliance, allowing you to focus on driving your business forward while we handle the intricacies of your infrastructure.\n ",
   text4: "Our services cater to the unique needs of global clients, ensuring seamless operations and compliance with industry standards.\n ",
   textList: [
-    "Network Management.",
-    "Server Management.",
-    "Cloud Infrastructure.",
-    "Backup and Disaster Recovery.",
+    "Network Management",
+    "Server Management",
+    "Cloud Infrastructure",
+    "Backup and Disaster Recovery",
   ],
   features: [
     {

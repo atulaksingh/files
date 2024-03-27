@@ -39,7 +39,7 @@ const HeaderSix = () => {
           ))}
         </div> */}
 
-          <div className="header-six__info">
+          <div className="header-six__info max-h-10 ">
             {/* <Link
               href={`tel:${phone.split(" ").join("")}`}
               className="header-six__info__link"
@@ -69,7 +69,10 @@ const HeaderSix = () => {
 
             <div className="">
               <ReactFlagsSelect
-                className="p-0.5 "
+                // className="p-0.5 "
+                // selectedSize={14}
+                // optionsSize={14}
+                fullWidth={false}
                 selected={select}
                 onSelect={onSelect}
                 countries={["IN", "GB", "UAE", "AE", "CA"]}

@@ -3,7 +3,7 @@ import featuredImage from "@/images/resource/featured-image-4.jpg";
 const weDOSection = {
   title: "Sell your IT Equipment & Server Hardware to Zaco",
   featuredImage,
-  text: "Zaco offers a reliable solution for selling old and used IT server equipment in India. Whether it's HP, DELL, IBM servers, or Cisco networking equipment, Zaco ensures a sustainable process for handling and recycling these assets. By filling a form, sellers can seamlessly offload their equipment, trusting Zaco's team to manage the rest..",
+  text: "Zaco offers a reliable solution for selling old and used IT server equipment in India. Whether it's HP, DELL, IBM servers, or Cisco networking equipment, Zaco ensures a sustainable process for handling and recycling these assets. By filling a form, sellers can seamlessly offload their equipment, trusting Zaco's team to manage the rest.",
   barTitle: "Digital marketing",
   barPercent: 70,
   faqs: [
