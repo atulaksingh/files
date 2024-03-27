@@ -108,8 +108,8 @@ const AboutSectionThree = () => {
           </Col>
         </Row>
       </div>
-      <div className=" lg:mx-56">
-        <div className="about-section-three__summery mt-3">
+      <div className="lg:mx-56">
+        <div className=" mt-3">
           <div className="text-justify">
             Through proactive IT maintenance and remote management tools, we
             help predict and prevent potential problems before they impact you.
