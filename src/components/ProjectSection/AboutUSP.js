@@ -42,10 +42,11 @@ const { tagline, title, projects } = projectUSP;
 const AboutUSP = () => {
   return (
     <div className="project-eight">
-      <div className="auto-container">
-        <div className="sec-title-eight text-center">
-          <div className="sec-title-eight__text">{tagline}</div>
-          <h2 className="sec-title-eight__title">{title}</h2>
+      <div className="auto-container ">
+       <div className="py-14">
+       <div className="sec-title-eight text-center">
+          {/* <div className="sec-title-eight__text">{tagline}</div> */}
+          <h2 className="sec-title-eight__title pb-3">{title}</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider">
           <div className="swiper-wrapper" style={{borderRadius:"100px"}}>
@@ -74,6 +75,7 @@ const AboutUSP = () => {
             ))}
           </div>
         </Swiper>
+       </div>
       </div>
     </div>
   );

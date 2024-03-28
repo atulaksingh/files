@@ -20,8 +20,9 @@ const FeaturedSection = ({ className = "" }) => {
             <div className="inner">
               <div className="sec-title">
                 <h2>
-                  {title}
-                  <span className="dot">.</span>
+                  {/* {title} */}
+                  Meet Zaco Your Gateway to Tech Brilliance
+                  {/* <span className="dot">.</span> */}
                 </h2>
                 <div className="lower-text">{text}</div>
                 <div className="lower-text">{text2}</div>

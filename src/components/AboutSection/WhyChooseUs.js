@@ -17,7 +17,7 @@ const WhyChooseUs = (
           <h2 className="sec-title-eight__title">WHY CHOOSE US</h2>
         </div>
         {/* <h2 className="sec-title-eight__title">WHY CHOOSE US</h2> */}
-        <Row className="clearfix">
+        <Row className="clearfix py-10">
           <div
             // ref={ref}
             className="testi-block animated fadeInLeft col-lg-6 col-md-12 col-sm-12"

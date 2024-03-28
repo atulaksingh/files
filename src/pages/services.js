@@ -13,6 +13,7 @@ import ServiceCard1 from "@/components/ServicesSection/ServiceCard1";
 import ServiceCard2 from "@/components/ServicesSection/ServiceCard2";
 import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
+import WhyChooseUs from "@/components/ServicesSection/WhyChooseUs";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
@@ -21,26 +22,24 @@ const services = () => {
   return (
     <Layout pageTitle="Services">
       <Style />
-  
-
-
       <Style />
-      <HeaderTwo/>
+      <HeaderTwo />
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Services" />
       {/* <BlogEight /> */}
+      {/* <ServicesSectionOne /> */}
+      {/* <WeWorkSection /> */} 
       <ServiceCard1 />
+
+      <WhyChooseUs className="featured-section__about-two" />
       {/* <ServiceCard2 /> */}
       {/* <ServicesSectionThree className="padd-top" /> */}
       {/* <ServicesSectionThree className="padd-top" /> */}
       {/* <GrHostMaintenance /> */}
       {/* <BsHddNetwork /> */}
       {/* <GrHostMaintenance /> */}
-      {/* <ServicesSectionOne /> */}
-      {/* <WeWorkSection /> */}
-
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <CallToSectionTwo className="alternate" />
       <FooterSix />
     </Layout>
