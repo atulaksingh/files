@@ -25,7 +25,7 @@ function ims() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Empowering businesses worldwide with reliable IT hardware and expert support" />
+        <PageBanner title="Global IT Hardware Solutions and Support" />
 
         <IntroductionIMS />
         <ImsBenefits />

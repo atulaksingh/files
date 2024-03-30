@@ -18,11 +18,11 @@ const WhyChooseUs = ({ className = "" }) => {
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">
             <div className="inner">
-              <div className="sec-title">
-                <h2>We Shape IT Support and Services to Perfection</h2>
+              <div className="sec-title" >
+                <h2 className="" >We Shape IT Support and Services to Perfection</h2>
                 <div className="lower-text">
                   Through exceptional service and continuous learning, we craft
-                  IT hardware solutions perfectly suited to our customers'
+                  IT hardware solutions perfectly suited to our customers&apos;
                   unique needs. Our highly-trained IT solutions team is
                   committed to delivering an unmatched customer experience while
                   also pursuing new skills and knowledge that allow us to
