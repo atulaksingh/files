@@ -22,7 +22,7 @@ function networkMaintenance() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Global IT Hardware Solutions and Support" />
+        <PageBanner title="IT Network Support and Maintenance" />
         <Introduction />
         <ServiceCard />
         <Support />

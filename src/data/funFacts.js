@@ -53,7 +53,7 @@ export const funFactSix = [
     id: 4,
     icon: "flaticon-satisfaction",
     count: 2,
-    text: "More then decades Exprience",
+    text: "More than 2 decades Exprience",
   },
 ];
 

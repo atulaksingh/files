@@ -25,7 +25,7 @@ function ims() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Global IT Hardware Solutions and Support" />
+        <PageBanner title="IT Infrastructure Managed Services" />
 
         <IntroductionIMS />
         <ImsBenefits />

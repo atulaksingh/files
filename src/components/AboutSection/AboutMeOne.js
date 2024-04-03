@@ -20,7 +20,7 @@ const AboutMeOne = () => {
               <div className="sec-title">
                 <h2>
                   {title}
-                  <span className="dot">.</span>
+                  {/* <span className="dot">.</span> */}
                 </h2>
               </div>
               {/* <div className="about-me-one__social">

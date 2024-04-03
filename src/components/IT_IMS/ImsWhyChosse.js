@@ -73,7 +73,7 @@ function ImsWhyChosse() {
               <div className="inner">
                 <div className="faq-box">
                   <div className="text text-justify">
-                  Our Cybersecurity solution prevents 99% of cyberattacks. Your systems need to be security-ready for Ransomware, Trojans, etc. If your system is not secured with the required solution, it might cost you dearly.
+                  Our Cybersecurity solution prevents <strong>99% of cyberattacks</strong>. Your systems need to be security-ready for Ransomware, Trojans, etc. If your system is not secured with the required solution, it might cost you dearly.
                   </div>
                   <div className="text text-justify">
                   We provide a one-stop solution which is a complete IT Infrastructure Management Solution in terms of co-locating servers (including maintenance services) with managed services of the above-mentioned software. The entire hardware and software management responsibility is on us.

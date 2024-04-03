@@ -199,7 +199,7 @@ const navItems = [
       { id: 4, name: "Rental Services", href: "/rental-services" },
       { id: 5, name: "Infrastructure Managed Services (IMS)", href: "/ims" },
       { id: 6, name: "IT Hardware Solution & Services", href: "/it-hardware-solution" },
-      { id: 7, name: "IT Software Solution", href: "/it-software-solution" },
+      // { id: 7, name: "IT Software Solution", href: "/it-software-solution" },
       // { id: 6, name: "SEO & Content Writing", href: "/seo" },
       // { id: 7, name: "App Development", href: "/app-development" },
       // { id: 8, name: "UI/UX Designing", href: "/ui-designing" },
@@ -229,7 +229,7 @@ const navItems = [
   },
   {
     id: 7,
-    name: "Resources  ",
+    name: "Resources ",
     href: "/blog-grid",
     subNavItems: [
       { id: 1, name: "Blog Sidebar", href: "/blog" },

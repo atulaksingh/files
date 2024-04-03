@@ -44,7 +44,7 @@ const SponsorSix = () => {
       <div className="auto-container">
 
         <div className="sec-title-eight text-center">
-          <h2 className="sec-title-eight__title ">Our Esteemed Client</h2>
+          <h2 className="sec-title-eight__title ">Our Esteemed Clients</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider py-10">
           <div className="swiper-wrapper">

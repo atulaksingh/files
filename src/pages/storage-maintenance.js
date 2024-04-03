@@ -28,7 +28,7 @@ function storageMaintenance() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Global IT Hardware Solutions and Support" />
+        <PageBanner title="Storage Maintenance Services" />
         <StorageIntroduction />
         <StorageService />
         <StorageWhyZaco />

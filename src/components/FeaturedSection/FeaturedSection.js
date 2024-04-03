@@ -21,7 +21,7 @@ const FeaturedSection = ({ className = "" }) => {
               <div className="sec-title">
                 <h2>
                   {/* {title} */}
-                  Meet Zaco Your Gateway to Tech Brilliance
+                  Meet Zaco<span>:</span> Your Gateway to Tech Brilliance
                   {/* <span className="dot">.</span> */}
                 </h2>
                 <div className="lower-text">{text}</div>

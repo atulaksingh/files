@@ -35,7 +35,7 @@ const RantalIntro = () => {
                   <span className="dot"></span>
                 </div>
                 {/* <div className="lower-text">{text1}</div> */}
-                <div className="text clearfix mt-4 text-justify">At Zaco Computers, we understand the dynamic needs of businesses operating in today&apos;s globalized environment. To support your growth and agility, we offer comprehensive server rental services designed to cater to your specific requirements, no matter your location.</div>
+                <div className="text clearfix mt-4 text-justify">At Zaco Computers, we understand the dynamic needs of businesses operating in today&apos;s globalized environment. To support your growth and agility, we offer comprehensive <strong> server rental services </strong>designed to cater to your specific requirements, no matter your location.</div>
               </div>
               {/* <div className="text">
                 <div>{text2}</div>

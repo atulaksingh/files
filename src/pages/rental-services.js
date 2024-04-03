@@ -24,7 +24,7 @@ function rentalServices() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Global IT Hardware Solutions and Support" />
+        <PageBanner title="Server Rental Services" />
         <RantalIntro />
         <RantleWhy />
         <RantleBenefit />

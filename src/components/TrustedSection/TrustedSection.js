@@ -25,7 +25,7 @@ const TrustedSection = () => {
                       <div className="count">
                         <span>0{id}</span>
                       </div>
-                      <h6>{title}</h6>
+                      <h3 className="text-[26px]">{title}</h3>
                       <div className="sub-text">{subtitle}</div>
                     </div>
                   ))}

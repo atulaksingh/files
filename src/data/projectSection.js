@@ -187,7 +187,7 @@ export const projectEight = {
 
 export const projectUSP = {
   tagline: "Recent Cases",
-  title: "Our USP",
+  title: "Our USPs",
   projects: [
     {
       id: 1,
@@ -212,7 +212,7 @@ export const projectUSP = {
     {
       id: 5,
       image: "3252.jpg",
-      title: "IMS",
+      title: "Infrastructure Managed Services",
     },
     // {
     //   id: 5,

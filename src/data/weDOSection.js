@@ -28,7 +28,7 @@ const weDOSection = {
     {
       id: 1,
       title: "Extensive Hardware Portfolio",
-      text: "From servers and storage to networking equipment and peripherals, we offer a vast selection of high-performance hardware from leading brands like Dell, HP, Lenovo, Cisco, and IBM. Browse our carefully curated catalog to find the perfect fit for your specific requirements, budget and industry..",
+      text: "From servers and storage to networking equipment and peripherals, we offer a vast selection of high-performance hardware from leading brands like Dell, HP, Lenovo, Cisco, and IBM. Browse our carefully curated catalog to find the perfect fit for your specific requirements, budget and industry.",
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ const weDOSection = {
     {
       id: 1,
       title: "Global Support Network",
-      text: "Our dedicated team of highly trained and certified engineers is available 24/7 to provide you with expert support, regardless of your location. We offer a wide range of IT hardware support options, including on-site, remote and phone support to ensure that you receive timely and effective assistance whenever needed..",
+      text: "Our dedicated team of highly trained and certified engineers is available 24/7 to provide you with expert support, regardless of your location. We offer a wide range of IT hardware support options, including on-site, remote and phone support to ensure that you receive timely and effective assistance whenever needed.",
     },
     {
       id: 2,
@@ -60,7 +60,7 @@ const weDOSection = {
     {
       id: 1,
       title: "Routine Server Maintenance",
-      text:": We perform regular preventive maintenance tasks, including system updates, hardware health checks, security audits and performance optimization to identify and address potential issues before they impact your server operations"
+      text:"We perform regular preventive maintenance tasks, including system updates, hardware health checks, security audits and performance optimization to identify and address potential issues before they impact your server operations"
     },
     {
       id: 2,
@@ -136,7 +136,7 @@ const weDOSection = {
     {
       id: 3,
       title: "Remote Support ",
-      text:"Geography is no barrier for us. Our expert team provides seamless remote assistance.Uninterrupted service delivery ensures that all your operations run smoothly."
+      text:"Geography is no barrier for us. Our expert team provides seamless remote assistance. Uninterrupted service delivery ensures that all your operations run smoothly."
     },
     
   
@@ -150,12 +150,12 @@ const weDOSection = {
       {
       id: 2,
       title: "Streamlined Operations",
-      text:"Reduce the need for an extensive in-house IT staff.Our experienced team efficiently manages your IT needs ensuring operational efficiency."
+      text:"Reduce the need for an extensive in-house IT staff. Our experienced team efficiently manages your IT needs ensuring operational efficiency."
     },
     {
       id: 3,
       title: "Proven Expertise ",
-      text:"Benefit from our collective knowledge and successful project deliveries.We bring peak efficiency to your IT infrastructure."
+      text:"Benefit from our collective knowledge and successful project deliveries. We bring peak efficiency to your IT infrastructure."
     },
     
   
@@ -169,7 +169,7 @@ const weDOSection = {
       {
       id: 2,
       title: "Customized SLAs",
-      text:"Service Level Agreements (SLAs) can be tailored to meet your specific needs.Enjoy our personalized service and support."
+      text:"Service Level Agreements (SLAs) can be tailored to meet your specific needs. Enjoy our personalized service and support."
     },
     {
       id: 3,

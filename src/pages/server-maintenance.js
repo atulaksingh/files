@@ -25,7 +25,7 @@ function serverMaintenance() {
         <HeaderTwo />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Global IT Hardware Solutions and Support" />
+        <PageBanner title="Server Maintenance Services" />
         <AboutSection />
         <Card1 />
         <AboutTen />
