@@ -15,7 +15,7 @@ const HeaderEight = () => {
 
   return (
     <header className="header-eight">
-      <div className="header-eight__topbar">
+      {/* <div className="header-eight__topbar">
         <div className="auto-container">
           <ul className="header-eight__topbar__info">
             <li>
@@ -30,13 +30,13 @@ const HeaderEight = () => {
           <div className="header-eight__topbar__right">
             <div>{title3}</div>
             <div className="header-eight__topbar__social">
-              {socials.map(({ id, icon, href }) => (
-                <Link key={id} href={href} className={icon} passHref></Link>
-              ))}
+            {socials.map(({ id, icon, href }) => (
+  <Link key={id} href={href} className={icon} passHref></Link>
+))}
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <nav
         className={`mainmenu-eight main-header${
@@ -47,9 +47,9 @@ const HeaderEight = () => {
           <div className="nav-outer mainmenu-eight__inner ">
             <div className="mainmenu-eight__left">
               <Link href="/index-main" passHref>
-                <Link>
+                {/* <Link> */}
                   <Image src={logo8.src} width={134} alt={title} />
-                </Link>
+                {/* </Link> */}
               </Link>
               <div onClick={toggleMenu} className="mobile-nav-toggler">
                 <span className="icon flaticon-menu-2"></span>

@@ -35,7 +35,7 @@ const AboutEleven = () => {
                 <Image
                   key={i}
                   src={
-                    require(`@/images/update-01-10-2021/resources/${image}`)
+                    require(`@/images/zaco/${image}`)
                       .default.src
                   }
                   alt=""

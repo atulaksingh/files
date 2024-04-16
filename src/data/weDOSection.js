@@ -179,6 +179,78 @@ const weDOSection = {
     
   
   ],
+  CanadaWhyChooseData: [
+    {
+      id: 1,
+      title: "Expertise:",
+      text:"Our team of seasoned professionals brings a wealth of knowledge and expertise to every project, ensuring that you receive best-in-class IT solutions tailored to your unique requirements."
+    },
+      {
+      id: 2,
+      title: "Innovation:",
+      text:"We stay ahead of the curve with cutting-edge technology solutions that drive innovation and transform businesses."
+    },
+    {
+      id: 3,
+      title: "Reliability:",
+      text:"Count on Zaco for dependable services to keep your business running smoothly day in and day out."
+    },
+    {
+      id: 4,
+      title: "Customer-Centric Approach:",
+      text:"Your success is our priority. We work closely with you to understand your goals and challenges, delivering personalized solutions that exceed your expectations. Join hands with Zaco Computers Pvt. Ltd. to embark on a journey of digital transformation and unprecedented reliable growth. Let us be your partner in realizing the full potential of technology for your business."
+    },
+    
+  
+  ],
+  UKWhyChooseData: [
+    {
+      id: 1,
+      title: "Expertise: ",
+      text:"Our team brings years of experience and expertise to every domain, ensuring you receive the highest quality service and support."
+    },
+      {
+      id: 2,
+      title: "Innovation:",
+      text:"We stay ahead of the curve, constantly exploring new technologies and solutions to keep your business at the forefront of innovation."
+    },
+    {
+      id: 3,
+      title: "Reliability:",
+      text:"Count on us to deliver dependable high-quality service that you can trust."
+    },
+    {
+      id: 4,
+      title: "Customer-Centric Approach:",
+      text:"Your satisfaction is our top priority, and we're committed to delivering exceptional service and support every step of the way.Partner with Zaco Computers UK Limited for reliable IT solutions and unparalleled support. Contact us today to learn more about how we can help your business thrive in today's digital world.  "
+    },
+    
+  
+  ],
+  UAEWhyChooseData: [
+    {
+      id: 1,
+      title: "Expertise: ",
+      text:"With years of experience in the industry, our team brings a wealth of knowledge and expertise to every project."
+    },
+      {
+      id: 2,
+      title: "Innovation:",
+      text:"To keep your company on the cutting edge of innovation, we remain ahead of the curve by continuously investigating new technologies and solutions."
+    },
+    {
+      id: 3,
+      title: "Reliability:",
+      text:"You can rely on us to provide you with trustworthy, consistent and high-quality service."
+    },
+    {
+      id: 4,
+      title: "Customer-Centric Approach:",
+      text:"Our first goal is to make sure that you're satisfied and we're dedicated to providing outstanding service and support at every turn."
+    },
+    
+  
+  ],
 };
 
 export default weDOSection;

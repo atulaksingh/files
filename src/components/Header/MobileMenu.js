@@ -1,9 +1,9 @@
-import NavItem from "@/components/Header/NavItem";
-import { useRootContext } from "@/context/context";
-import headerData from "@/data/header";
-import Link from "next/link";
+// MobileMenu.js
 import React from "react";
 import { Image } from "react-bootstrap";
+import { useRootContext } from "@/context/context";
+import headerData from "@/data/header";
+import NavItem from "@/components/Header/NavItem";
 
 const { icon, text, email, phone, socials, navItems, navItemsTwo } = headerData;
 
@@ -23,12 +23,12 @@ const MobileMenu = ({ onePage = false }) => {
       </div>
       <div className="side-menu__block-inner">
         <div className="side-menu__top justify-content-end">
-          <div
+          <a
             onClick={toggleMenu}
             className="side-menu__toggler side-menu__close-btn"
           >
             <Image src={icon.src} alt="" />
-          </div>
+          </a>
         </div>
 
         <nav className="mobile-nav__container">
@@ -45,16 +45,16 @@ const MobileMenu = ({ onePage = false }) => {
         </nav>
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
-          <div>{text}</div>
-          <div>
-            <Link href={`mailto:${email}`} passHref>{email}</Link> <br />{" "}
-            <Link href={`tel:${phone.split(" ").join("")}`}>{phone}</Link>
-          </div>
+          <p>{text}</p>
+          <p>
+            <a href={`mailto:${email}`}>{email}</a> <br />{" "}
+            <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+          </p>
           <div className="side-menu__social">
             {socials.map(({ id, icon, href }) => (
-              <Link key={id} href={href} passHref>
+              <a key={id} href={href}>
                 <i className={icon}></i>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

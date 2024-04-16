@@ -1,4 +1,3 @@
-import ContextProvider from "@/context/ContextProvider";
 import "@/vendors/animate.css";
 import "@/vendors/custom-animate.css";
 import "@/vendors/flaticon.css";
@@ -17,6 +16,7 @@ import 'tailwindcss/tailwind.css';
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
+import ContextProvider from "@/context/ContextProvider";
 
 // import "@/styles/index.css"
 

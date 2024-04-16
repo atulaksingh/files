@@ -4,8 +4,8 @@ import headerData from "@/data/header";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
+import { useRouter } from 'next/router';
 import ReactFlagsSelect from "react-flags-select";
-
 const { title, phone, socials, logo6, email, eosl, blog, abb, gc } = headerData;
 
 const HeaderSix = () => {
@@ -13,7 +13,32 @@ const HeaderSix = () => {
   const [select, setSelect] = useState("country");
   const onSelect = (code) => setSelect(code);
   // console.log("SELECT", select);
+  const [selectedCountry, setSelectedCountry] = useState('');
+  const router = useRouter();
 
+  const handleCountrySelect = (countryCode) => {
+    setSelectedCountry(countryCode);
+    // Perform redirection based on selected country
+    switch (countryCode) {
+      case 'IN':
+        router.push('/about');
+        break;
+      case 'GB':
+        router.push('/UK');
+        break;
+      case 'UAE':
+      case 'AE':
+        router.push('/UAE');
+        break;
+      case 'CA':
+        router.push('/canada');
+        break;
+      default:
+        // Redirect to a default page if no specific redirection defined
+        router.push('/about');
+        break;
+    }
+  };
   return (
     <>
       <header className="header-six">
@@ -67,7 +92,7 @@ const HeaderSix = () => {
               {abb}
             </Link>
 
-            <div className="">
+            {/* <div className="">
               <ReactFlagsSelect
                 // className="p-0.5 "
                 // selectedSize={14}
@@ -80,7 +105,20 @@ const HeaderSix = () => {
                 // customLabels={{ IN: "India", GB: "EN-GB", UAE: "UAE", AE: "AE", CA: "CA" }}
                 placeholder="Global Locations" 
               />
-            </div>
+            </div> */}
+
+
+<div className="">
+      <ReactFlagsSelect
+        fullWidth={false}
+        selected={selectedCountry}
+        onSelect={handleCountrySelect}
+        countries={["IN", "GB", "UAE", "AE", "CA"]}
+        placeholder="Global Locations" 
+      />
+    </div>
+
+
             {/* <Link href={`mailto:${email}`} className="header-six__info__link" passHref>
             <i className="flaticon-email-2"></i>
             {abb}

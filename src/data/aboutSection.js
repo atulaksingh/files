@@ -149,7 +149,7 @@ export const aboutEight = {
 };
 
 export const aboutEleven = {
-  images: ["932938.jpg"],
+  images: ["about-11-1-1.jpg"],
   tagline: "Our Company Introduction",
   title: "We Ensure Only Quality Consulting Services for our Clients",
   text: "Quis aliqua sunt nisi consectetur anim ullamco ea deserunt non voluptate nisi sit elit exercitation eu Lorem. Mollit occaecat nisi occaecat fugiat ullamco.",
@@ -200,6 +200,29 @@ export const aboutTen = {
       id: 5,
       title: "Customer Experience",
       text: "With our expertise and dedication, you can enjoy peace of mind knowing your critical servers are in good hands.",
+    },
+  ],
+  canadapoints: [
+    {
+      id: 1,
+      title: "Expertise:",
+      text: "Our team of seasoned professionals brings a wealth of knowledge and expertise to every project, ensuring that you receive best-in-class IT solutions tailored to your unique requirements.",
+    },
+    {
+      id: 2,
+      title: "Innovation:",
+      text: "We stay ahead of the curve with cutting-edge technology solutions that drive innovation and transform businesses.",
+    },
+  
+    {
+      id: 4,
+      title: "Reliability:",
+      text: "Count on Zaco for dependable services to keep your business running smoothly day in and day out.",
+    },
+    {
+      id: 5,
+      title: "Customer-Centric Approach:",
+      text: "Your success is our priority. We work closely with you to understand your goals and challenges, delivering personalized solutions that exceed your expectations.",
     },
   ],
 

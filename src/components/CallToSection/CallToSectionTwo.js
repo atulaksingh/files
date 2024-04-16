@@ -14,7 +14,6 @@ const CallToSectionTwo = ({
 
               CONTACT YOUR IT <br/> SOLUTIONS PROVIDER NOW
               {/* We’re Ready to Bring Bigger <br />& Stronger Projects */}
-              <div className="text-sm mt-2  text-white"> Our team of experts is here and will be happy to help you.<br /> Send us a message or give us a call depending on your requirements.</div>
             </h2>
           </div>
           
@@ -29,6 +28,7 @@ const CallToSectionTwo = ({
           
         </div>
 
+        <h3 className="text-sm   text-white"> Our team of experts is here and will be happy to help you.<br /> Send us a message or give us a call depending on your requirements.</h3>
 
       </div>
     </div>
