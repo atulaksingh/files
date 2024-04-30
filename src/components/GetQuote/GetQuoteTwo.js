@@ -24,8 +24,9 @@ const GetQuoteTwo = ({ className = "" }) => {
        
             <div className="news-two__image h-full">
               <Image
-                src={require(`@/images/zaco/get_in_touch.jpg`).default.src}
+                src={require(`@/images/zaco/homepage/GET-IN-TOUCH.png`).default.src}
                 className="h-full"
+                alt="GET-IN-TOUCH"
               />
             </div>
           </Col>

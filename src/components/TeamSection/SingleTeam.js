@@ -12,7 +12,7 @@ const SingleTeam = ({ team = {}, className = "" }, ref) => {
           <Link href="/store" passHref>
             <div>
               <Image
-                src={require(`@/images/zaco/${image}`).default.src}
+                src={require(`@/images/zaco/homepage/${image}`).default.src}
                 // src={require(`@/images/zaco/004.png`).default.src}
                 alt=""
               />

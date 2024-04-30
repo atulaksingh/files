@@ -1,4 +1,4 @@
-import image from "@/images/zaco/553423.jpg";
+import image from "@/images/zaco/homepage/INFRASTRUCTURE-MANAGED-SERVICES.jpg";
 
 const trustedSection = {
   title: "We Are Committed To Deliver Complete IT Solutions",

@@ -134,25 +134,25 @@ export const projectEight = {
   projects: [
     {
       id: 1,
-      image: "00089.jpg",
+      image: "INDIA.jpg",
       title: "India",
       href:"/contact-2"
     },
     {
       id: 2,
-      image: "86778.jpg",
+      image: "UK.jpg",
       title: "United Kingdom",
       href:"/contact-2"
     },
     {
       id: 3,
-      image: "9282.jpg",
+      image: "UAE.jpg",
       title: "UAE ",
       href:"/contact-2"
     },
     {
       id: 4,
-      image: "4532.jpg",
+      image: "CANADA.jpg",
       title: "Canada",
       href:"/contact-2"
     },

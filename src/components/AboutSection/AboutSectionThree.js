@@ -108,7 +108,7 @@ const AboutSectionThree = () => {
           </Col>
         </Row>
       </div>
-      <div className="lg:mx-56">
+      <div className="px-3 lg:px-0 lg:mx-9">
         <div className=" mt-3">
           <div className="text-justify">
             Through proactive IT maintenance and remote management tools, we

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function caseStudy() {
   return (
-    <div>case-study</div>
-  )
+    <>
+      <div>Zit Services</div>
+    </>
+  );
 }
 
-export default caseStudy
+export default caseStudy;

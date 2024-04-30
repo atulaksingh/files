@@ -49,7 +49,7 @@ const ProjectEight = () => {
               <SwiperSlide key={id}>
                 <div className="project-eight__item">
                   <Image
-                    src={require(`@/images/zaco/${image}`).default.src}
+                    src={require(`@/images/zaco/homepage/${image}`).default.src}
                     alt=""
                   />
                   <div className="project-eight__content">

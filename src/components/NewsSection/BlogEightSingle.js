@@ -11,7 +11,7 @@ const BlogEightSingle = ({ blog = {} }) => {
         <div className="blog-eight__image">
           <Image
             src={
-              require(`@/images/zaco/${image}`).default.src
+              require(`@/images/zaco/homepage/${image}`).default.src
             }
             alt=""
           />
