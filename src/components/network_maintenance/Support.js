@@ -6,7 +6,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-const { image, title, text, barTitle, percent } = featureEight;
+const { netorksupport, title, text, barTitle, percent } = featureEight;
 
 const Support = () => {
   const [countStart, setCountStart] = useState(false);
@@ -23,7 +23,7 @@ const Support = () => {
         <Row>
           <Col md={12} lg={5}>
             <div className="feature-eight__image">
-              <Image src={image.src} alt="" />
+              <Image src={netorksupport.src} alt="" />
             </div>
           </Col>
           <Col md={12} lg={7}>

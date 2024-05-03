@@ -2,6 +2,8 @@ import image1 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTN
 import image2 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-2.png";
 import serverStorageimg1 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-1.png";
 import serverStorageimg2 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-2.png";
+import networkmaintenanceimg1 from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/YOUR-TRUSTED-PARTNER-FOR-STORAGE-MAINTENANCE-SERVICES-1.png";
+import networkmaintenanceimg2 from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/YOUR-TRUSTED-PARTNER-FOR-STORAGE-MAINTENANCE-SERVICES-2.png";
 import image3 from "@/images/resource/featured-image-15.jpg";
 // import image2 from "@/images/resource/featured-image-2.jpg";
 import image12 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/Benefits-of-Choosing-Zaco-Computers-for-Server-Maintenance.jpg";
@@ -20,6 +22,8 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOne = {
   image1,
   image2,
+  networkmaintenanceimg1,
+  networkmaintenanceimg2,
   serverStorageimg1,
   serverStorageimg2,
   title: "Your Trusted Partner for Server Maintenance Services",

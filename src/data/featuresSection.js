@@ -2,6 +2,7 @@ import bg from "@/images/background/image-3.jpg";
 import image from "@/images/resource/featured-image-13.jpg";
 import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
 import image3 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/READY-TO-EXPERIENCE-THE-BENEFITS-OF-RELIABLE-SERVER-MAINTENANCE.png";
+import netorksupport from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/WHY-CHOOSE-ZACO-NETWORK-SUPPORT-&SERVICES.png";
 
 const featuresSection = {
   bg,
@@ -92,6 +93,8 @@ export const featureSeven = {
 
 export const featureEight = {
   image: image3,
+   netorksupport,
+
   title: "Zaco’s IT Hardware Collection Centers",
   text: "Zaco is India’s leading comprehensive buyer for IT equipment from all brands namely Dell, HPE, IBM, Cisco, Sun Microsystems, Lenovo and many more in major metro cities of India!",
   text1:"Our Mumbai, Delhi, Chennai, Bengaluru, Hyderabad and Kolkata pickup centers offer triple advantage under our buyback program:",

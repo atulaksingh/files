@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
-
+import bg from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/Our-Network-Maintenance-Services-Include.png";
 const { title2, featuredImage, text, barTitle, barPercent, faqs5, } =
   weDOSection;
 function ServiceCard() {
@@ -24,7 +24,7 @@ function ServiceCard() {
       <section className="we-do-section">
         <div className="auto-container">
           <div className="sec-title-eight text-center">
-            <h2 className="sec-title-eight__title pb-14">Our Server Maintenance Services Include </h2>
+            <h2 className="sec-title-eight__title pb-14">Our Network Maintenance Services Include </h2>
           </div>
           <Row className="clearfix">
  
@@ -68,7 +68,7 @@ function ServiceCard() {
               <div className="h-full">
                 <Image
                   src={
-                    "https://res.cloudinary.com/dt0j68vdr/image/upload/v1706954907/mplk57adylusacv1u2ar.jpg"
+                    bg.src
                   }
                   alt=""
                   className=""

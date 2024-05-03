@@ -9,7 +9,6 @@ import bg from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/Our-Server-Maintenance
 const { title2, featuredImage, text, barTitle, barPercent, faqs4,faqs3 } =
   weDOSection;
 function Card1() {
-  console.log("img",bg)
   const [countStart, setCountStart] = useState(false);
   const [currentFaq, setCurrentFaq] = useState(1);
 
