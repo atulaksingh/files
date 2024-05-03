@@ -2,7 +2,7 @@ import featuredSection from "@/data/featuredSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, title, text, text2, features } = featuredSection;
+const { image1,image2,image3,image4, title, text, text2, features } = featuredSection;
 
 const WhyChooseUs = ({ className = "" }) => {
   return (
@@ -12,7 +12,7 @@ const WhyChooseUs = ({ className = "" }) => {
           <Col lg={6} md={12} sm={12} className="left-col">
             <div className="inner animated fadeInLeft">
               <div className="image-box">
-                <Image src={image.src} alt="" />
+                <Image src={image1.src} alt="" />
               </div>
             </div>
           </Col>
@@ -58,7 +58,7 @@ const WhyChooseUs = ({ className = "" }) => {
             <Col lg={6} md={12} sm={12} className="left-col">
               <div className="inner animated fadeInLeft">
                 <div className="image-box">
-                  <Image src={image.src} alt="" />
+                  <Image src={image3.src} alt="" />
                 </div>
               </div>
             </Col>
@@ -70,7 +70,7 @@ const WhyChooseUs = ({ className = "" }) => {
             <Col lg={6} md={12} sm={12} className="left-col">
               <div className="inner animated fadeInLeft">
                 <div className="image-box">
-                  <Image src={image.src} alt="" />
+                  <Image src={image2.src} alt="" />
                 </div>
               </div>
             </Col>
@@ -112,7 +112,7 @@ const WhyChooseUs = ({ className = "" }) => {
             <Col lg={6} md={12} sm={12} className="left-col">
               <div className="inner animated fadeInLeft">
                 <div className="image-box">
-                  <Image src={image.src} alt="" />
+                  <Image src={image4.src} alt="" />
                 </div>
               </div>
             </Col>

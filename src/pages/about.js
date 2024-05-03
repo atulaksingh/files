@@ -24,7 +24,7 @@ import TeamSectionTwo from "@/components/TeamSection/TeamSectionTwo";
 import TestimonialSectionPage from "@/components/TestimonialsSection/TestimonialSectionPage";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import React from "react";
-
+import bg from "@/images/zaco/ABOUTUS/ABOUT-US-banner.png";
 const About = () => {
   return (
     <Layout pageTitle="About Us">
@@ -33,7 +33,7 @@ const About = () => {
       <HeaderTwo/>
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="About Us" />
+      <PageBanner title="About Us" BnImage={bg}/>
       {/* <DiscoverSection ShowTitle={false} /> */}
       <FeaturedSection className="featured-section__about-two" />
       {/* <TestimonialsSection /> */}

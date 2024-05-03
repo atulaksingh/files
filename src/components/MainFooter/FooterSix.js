@@ -160,8 +160,8 @@ const FooterSix = () => {
                 <Image src={flag2.src} width={45} alt="" />
                 <div className="my-1 text-center">UAE</div>
               </div>
-              <div>
-                <Image src={flag3.src} width={45} alt="" />
+              <div className="text-center">
+                <Image src={flag3.src} width={45} alt="" className=" m-auto"/>
                 <div className="my-1 text-center">CANADA</div>
               </div>
               {/* <div>

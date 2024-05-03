@@ -6027,10 +6027,10 @@ img.lazy-image.loaded {
 .agency-section .featured-block-two .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  /* -ms-filter: grayscale(100%); */
+  /* -moz-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
   border-radius: 50%;
 }
 

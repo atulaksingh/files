@@ -17,7 +17,7 @@ import WhyChooseUs from "@/components/ServicesSection/WhyChooseUs";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
-
+import bg from "@/images/zaco/SERVICES/SERVICES-banner.png";
 const services = () => {
   return (
     <Layout pageTitle="Services">
@@ -26,7 +26,7 @@ const services = () => {
       <HeaderTwo />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Services" />
+      <PageBanner title="Services"  BnImage={bg}/>
       {/* <BlogEight /> */}
       {/* <ServicesSectionOne /> */}
       {/* <WeWorkSection /> */} 
