@@ -1,19 +1,19 @@
 import Link from "next/link";
 import React from "react";
-
+import bg from "@/images/zaco/ABOUTUS/ABOUT-US-banner.png";
 const PageBanner = ({
   title = "",
   page = "",
   parent = "",
   parentHref = "/",
-  BnImage
+  // BnImage
 }) => {
   // console.log("bg",hello)
   return (
     <div className="page-banner">
       <div
         className="image-layer"
-        style={{ backgroundImage: `url(${BnImage.src})` }}
+        style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
       <div className="shape-1"></div>
       <div className="shape-2"></div>

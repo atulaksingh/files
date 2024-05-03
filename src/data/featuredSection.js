@@ -1,9 +1,11 @@
+import image from "@/images/zaco/ABOUTUS/MEET-ZACO.png";
 import image1 from "@/images/zaco/SERVICES/WE-SHAPE-IT-SUPPORT-AND-SERVICES.jpg";
 import image2 from "@/images/zaco/SERVICES/REMOTE-IT-SUPPORT-FOR-BUSINESSES-GLOBALLY.jpg";
 import image3 from "@/images/zaco/SERVICES/EXPERT-IT-SUPPORT-SERVICES-FOR-YOUR-BUSINESS.jpg";
 import image4 from "@/images/zaco/SERVICES/EFFICIENT-GLOBAL-IT-SUPPORT-FOR-BUSINESSES.jpg";
 
 const featuredSection = {
+  image,
   image1,
   image2,
   image3,

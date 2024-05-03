@@ -26,7 +26,8 @@ const services = () => {
       <HeaderTwo />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Services"  BnImage={bg}/>
+      <PageBanner title="Services" />
+      {/* <PageBanner title="Services"  BnImage={bg}/> */}
       {/* <BlogEight /> */}
       {/* <ServicesSectionOne /> */}
       {/* <WeWorkSection /> */} 

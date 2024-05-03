@@ -33,7 +33,8 @@ const About = () => {
       <HeaderTwo/>
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="About Us" BnImage={bg}/>
+      <PageBanner title="About Us"/>
+      {/* <PageBanner title="About Us" BnImage={bg}/> */}
       {/* <DiscoverSection ShowTitle={false} /> */}
       <FeaturedSection className="featured-section__about-two" />
       {/* <TestimonialsSection /> */}
