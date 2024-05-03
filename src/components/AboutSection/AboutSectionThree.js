@@ -33,8 +33,8 @@ const AboutSectionThree = () => {
       <div className="auto-container my-auto">
         <Row>
           <Col md={12} lg={6}>
-            <div className="about-section-three__image ">
-              <Image src={image.src} alt="" />
+            <div className="about-section-three__image h-full">
+              <Image src={image.src} alt="" height={"100%"} style={{height:"100%"}}/>
             </div>
           </Col>
           <Col md={12} lg={6}>
@@ -55,6 +55,22 @@ const AboutSectionThree = () => {
                 <div>{text2}</div>
                 {/* <div>{text3}</div>
                 <div>{text4}</div> */}
+             
+          <div className="text-justify">
+            Through proactive IT maintenance and remote management tools, we
+            help predict and prevent potential problems before they impact you.
+            This allows your teams to focus on growth without worrying about
+            infrastructure reliability in different locations and time zones.
+            Whenever and wherever you need us, our global coverage has you
+            covered. You can swiftly rely on Zaco Computers to keep your
+            international IT Infrastructure Managed services running smoothly.
+          </div>
+        <Link href={"/about"}>
+          <button className="theme-btn btn-style-one mt-4">
+            <i className="btn-curve"></i>
+            <span className="btn-title">Read More</span>
+          </button>
+        </Link>
               </div>
               {/* <ul className="list-unstyled about-section-three__list">
                 {lists.map((text, i) => (
@@ -108,7 +124,7 @@ const AboutSectionThree = () => {
           </Col>
         </Row>
       </div>
-      <div className="px-3 lg:px-0 lg:mx-9">
+      {/* <div className="px-3 lg:px-0 lg:mx-9">
         <div className=" mt-3">
           <div className="text-justify">
             Through proactive IT maintenance and remote management tools, we
@@ -119,7 +135,6 @@ const AboutSectionThree = () => {
             covered. You can swiftly rely on Zaco Computers to keep your
             international IT Infrastructure Managed services running smoothly.
           </div>
-          {/* <div>{text4}</div> */}
         </div>
         <Link href={"/about"}>
           <button className="theme-btn btn-style-one mt-4">
@@ -127,7 +142,7 @@ const AboutSectionThree = () => {
             <span className="btn-title">Read More</span>
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -17936,7 +17936,7 @@ height: 60px;
 .footer-six {
   background-color: var(--thm-black);
   padding-top: 100px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 @media (min-width: 992px) {

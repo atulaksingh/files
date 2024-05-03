@@ -7,7 +7,7 @@ import image10 from "@/images/update-01-10-2021/resources/about-eight-1-1.png";
 import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
 import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
 import image7 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
-import image8 from "@/images/zaco/0077.png";
+import image8 from "@/images/zaco/homepage/Empowering-Your-IT-Journey.jpg";
 // import image4 from "@/images/zaco/0172.jpg";
 import image4 from "@/images/zaco/homepage/Reliable-IT-Services-&-Infrastructure-Support.jpg";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";

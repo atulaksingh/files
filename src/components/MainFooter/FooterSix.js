@@ -146,7 +146,7 @@ const FooterSix = () => {
             className="text-white  mt-5  py-5"
             style={{ borderBlock: "2px solid white" }}
           >
-            <div className="flex flex-wrap justify-around align-middle items-center my-4">
+            <div className="flex flex-wrap justify-around align-middle items-center ">
               <div className="text-lg font-semibold">Countries</div>
               <div>
                 <Image src={flag.src} width={45} alt="" />
@@ -231,7 +231,7 @@ const FooterSix = () => {
         </div>
       </div>
       <div className="footer-six__copyright">
-        <div className="auto-container">
+        <div className="auto-container flex justify-between align-middle items-center">
           <div>
             © Copyright 2023 Zaco Computers Pvt. Ltd. All Rights Reserved.
           </div>
