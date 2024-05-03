@@ -1,7 +1,7 @@
 import bg from "@/images/background/image-3.jpg";
 import image from "@/images/resource/featured-image-13.jpg";
 import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
-import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
+import image3 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/READY-TO-EXPERIENCE-THE-BENEFITS-OF-RELIABLE-SERVER-MAINTENANCE.png";
 
 const featuresSection = {
   bg,

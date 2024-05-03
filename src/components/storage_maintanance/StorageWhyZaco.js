@@ -4,16 +4,16 @@ import { aboutTen } from "@/data/aboutSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, tagline, title2, text, boxes1 } = aboutTen;
+const { serverStorageimg3, tagline, title2, text, boxes1 } = aboutTen;
 
 const StorageWhyZaco = () => {
   return (
-    <div className="about-ten mb-10 ">
+    <div className="about-ten mb-14 mt-14">
       <div className="auto-container">
         <Row>
           <Col lg={5} className="animated fadeInLeft">
             <div className="about-ten__image">
-              <Image src={image.src} alt="" />
+              <Image src={serverStorageimg3.src} alt="" />
             </div>
           </Col>
           <Col lg={7} className="d-flex">

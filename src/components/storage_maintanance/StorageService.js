@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
-
+import bg from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/Our-Storage-Maintenance-Services-Include.png";
 const { title2, featuredImage, text, barTitle, barPercent, faqs6, } =
   weDOSection;
 function StorageService() {
@@ -64,7 +64,7 @@ function StorageService() {
               <div className="h-full">
                 <Image
                   src={
-                    "https://res.cloudinary.com/dt0j68vdr/image/upload/v1706954907/mplk57adylusacv1u2ar.jpg"
+                    bg.src
                   }
                   alt=""
                   className=""

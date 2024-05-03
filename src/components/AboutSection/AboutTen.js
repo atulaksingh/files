@@ -6,7 +6,7 @@ const { image, tagline, title, text, boxes } = aboutTen;
 
 const AboutTen = () => {
   return (
-    <div className="about-ten mb-10 ">
+    <div className="about-ten mb-10 mt-20">
       <div className="auto-container">
         <Row>
           <Col lg={5} className="animated fadeInLeft">

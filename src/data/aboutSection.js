@@ -1,7 +1,11 @@
-import image1 from "@/images/resource/featured-image-1.jpg";
+import image1 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-1.jpg";
+import image2 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-2.png";
+import serverStorageimg1 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-1.png";
+import serverStorageimg2 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-2.png";
 import image3 from "@/images/resource/featured-image-15.jpg";
-import image2 from "@/images/resource/featured-image-2.jpg";
-import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
+// import image2 from "@/images/resource/featured-image-2.jpg";
+import image12 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/Benefits-of-Choosing-Zaco-Computers-for-Server-Maintenance.jpg";
+import serverStorageimg3 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/Why-Choose-Zaco-for-Storage-Maintenance.png";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-1.png";
 import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
@@ -16,6 +20,8 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOne = {
   image1,
   image2,
+  serverStorageimg1,
+  serverStorageimg2,
   title: "Your Trusted Partner for Server Maintenance Services",
   text1:
     "At Zaco Computers, we understand the vital role servers play in the smooth operation of your business. That's why we offer comprehensive server maintenance services designed to keep your servers running efficiently, securely and reliably. Whether you have a single server or a complex network infrastructure, our team of highly skilled and certified IT engineers is equipped to provide the support you need to achieve optimal performance with minimize downtime.",
@@ -175,6 +181,7 @@ export const aboutEleven = {
 
 export const aboutTen = {
   image: image12,
+  serverStorageimg3: serverStorageimg3,
   tagline: "Why Choose Us",
   title: "Benefits of Choosing Zaco Computers for Server Maintenance",
   title2: "Why Choose Zaco for Storage Maintenance",

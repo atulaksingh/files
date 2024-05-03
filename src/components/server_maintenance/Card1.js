@@ -5,10 +5,11 @@ import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
-
+import bg from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/Our-Server-Maintenance-Services-Include.jpg";
 const { title2, featuredImage, text, barTitle, barPercent, faqs4,faqs3 } =
   weDOSection;
 function Card1() {
+  console.log("img",bg)
   const [countStart, setCountStart] = useState(false);
   const [currentFaq, setCurrentFaq] = useState(1);
 
@@ -65,11 +66,12 @@ function Card1() {
               <div className="h-full">
                 <Image
                   src={
-                    "https://res.cloudinary.com/dt0j68vdr/image/upload/v1706954907/mplk57adylusacv1u2ar.jpg"
+                    bg.src
                   }
                   alt=""
                   className="h-full"
                 />
+                
               </div>
             </Col>
           </Row>

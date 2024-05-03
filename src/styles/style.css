@@ -3943,10 +3943,10 @@ img.lazy-image.loaded {
 .about-section .image-column .image-block img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   border-radius: 7px;
 }
 
@@ -9138,8 +9138,8 @@ height: 60px;
 .feature-eight__image img {
   max-width: 100%;
   border-radius: 8px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
   background-color: #1c1e22;
   display: block;
   margin-left: auto;
