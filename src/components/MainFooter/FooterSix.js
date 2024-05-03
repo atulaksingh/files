@@ -143,7 +143,7 @@ const FooterSix = () => {
           </Row>
 
           <div
-            className="text-white  mt-5  py-5"
+            className="text-white  mt-4  py-3.5"
             style={{ borderBlock: "2px solid white" }}
           >
             <div className="flex flex-wrap justify-around align-middle items-center ">

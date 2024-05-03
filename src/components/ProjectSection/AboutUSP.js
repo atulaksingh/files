@@ -55,7 +55,7 @@ const AboutUSP = () => {
                 <div className="project-eight__item">
                   <Image
                     src={
-                      require(`@/images/zaco/${image}`)
+                      require(`@/images/zaco/ABOUTUS/${image}`)
                         .default.src
                     }
                     alt=""

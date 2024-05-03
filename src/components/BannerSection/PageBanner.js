@@ -1,4 +1,4 @@
-import bg from "@/images/zaco/4454.jpg";
+import bg from "@/images/zaco/ABOUTUS/ABOUT-US-banner.png";
 import Link from "next/link";
 import React from "react";
 

@@ -1,4 +1,4 @@
-import image from "@/images/resource/featured-image-6.jpg";
+import image from "@/images/zaco/ABOUTUS/BEST-DESIGN.png";
 
 const agencySection = {
   image,

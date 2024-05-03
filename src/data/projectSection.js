@@ -191,27 +191,27 @@ export const projectUSP = {
   projects: [
     {
       id: 1,
-      image: "75647.jpg",
+      image: "Server-Maintenance.png",
       title: "Server Maintenance",
     },
     {
       id: 2,
-      image: "64554.jpg",
+      image: "Storage-Maintenance.png",
       title: "Storage Maintenance",
     },
     {
       id: 3,
-      image: "68563.jpg",
+      image: "Network-Maintenance.png",
       title: "Network Maintenance",
     },
     {
       id: 4,
-      image: "865.jpg",
+      image: "Server-Rental.png",
       title: "Rental Services",
     },
     {
       id: 5,
-      image: "3252.jpg",
+      image: "infrastructure-managed-services.png",
       title: "Infrastructure Managed Services",
     },
     // {
