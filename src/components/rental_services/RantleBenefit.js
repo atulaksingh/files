@@ -5,7 +5,7 @@ import { aboutTen } from "@/data/aboutSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, tagline, title3, text, boxes2 } = aboutTen;
+const { rentalBenefit, tagline, title3, text, boxes2 } = aboutTen;
 
 const RantleBenefit = () => {
   return (
@@ -14,7 +14,7 @@ const RantleBenefit = () => {
         <Row>
           <Col lg={5} className="animated fadeInLeft">
             <div className="about-ten__image">
-              <Image src={image.src} alt="" />
+              <Image src={rentalBenefit.src} alt="" />
             </div>
           </Col>
           <Col lg={7} className="d-flex">

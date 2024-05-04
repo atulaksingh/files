@@ -1,11 +1,14 @@
 import image1 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-1.jpg";
 import image2 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-2.png";
+import serverrentalimg1 from "@/images/zaco/SERVER-RENTAL-SERVICES/SERVER-RENTAL-SERVICES-1.png";
+import serverrentalimg2 from "@/images/zaco/SERVER-RENTAL-SERVICES/SERVER-RENTAL-SERVICES-2.png";
 import serverStorageimg1 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-1.png";
 import serverStorageimg2 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-2.png";
 import networkmaintenanceimg1 from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/YOUR-TRUSTED-PARTNER-FOR-STORAGE-MAINTENANCE-SERVICES-1.png";
 import networkmaintenanceimg2 from "@/images/zaco/NETWORK-SUPPORT-AND-MAINTENANCE/YOUR-TRUSTED-PARTNER-FOR-STORAGE-MAINTENANCE-SERVICES-2.png";
 import image3 from "@/images/resource/featured-image-15.jpg";
 // import image2 from "@/images/resource/featured-image-2.jpg";
+import rentalBenefit from "@/images/zaco/SERVER-RENTAL-SERVICES/Benefits.png";
 import image12 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/Benefits-of-Choosing-Zaco-Computers-for-Server-Maintenance.jpg";
 import serverStorageimg3 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/Why-Choose-Zaco-for-Storage-Maintenance.png";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
@@ -17,11 +20,13 @@ import image8 from "@/images/zaco/homepage/Empowering-Your-IT-Journey.jpg";
 // import image4 from "@/images/zaco/0172.jpg";
 import image4 from "@/images/zaco/homepage/Reliable-IT-Services-&-Infrastructure-Support.jpg";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";
-import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
+import rentawhy from "@/images/zaco/SERVER-RENTAL-SERVICES/WHY-CHOOSE-ZACO-FOR-SERVER-RENTAL.png";
 
 export const aboutSectionOne = {
   image1,
   image2,
+  serverrentalimg1,
+  serverrentalimg2,
   networkmaintenanceimg1,
   networkmaintenanceimg2,
   serverStorageimg1,
@@ -185,6 +190,7 @@ export const aboutEleven = {
 
 export const aboutTen = {
   image: image12,
+  rentalBenefit,
   serverStorageimg3: serverStorageimg3,
   tagline: "Why Choose Us",
   title: "Benefits of Choosing Zaco Computers for Server Maintenance",
@@ -285,7 +291,7 @@ export const aboutTen = {
 };
 
 export const aboutMeOne = {
-  image: image13,
+  image: rentawhy,
   title: "Why Choose Zaco Computers as your IT Solutions Provider?",
   text: "With our global presence, we understand the diverse needs of businesses worldwide. Our team is equipped to provide localized support and guidance, ensuring you receive the best possible IT services and solutions.",
   text2:"We have more than two decades of rich experience and a track record for delivering successful IT solutions to businesses of all sizes and across various industries. Our commitment to quality and customer satisfaction has earned us a reputation as a trusted IT solutions partner. We offer everything you need for your IT infrastructure, from hardware procurement to expert IT hardware support. This eliminates the need to manage multiple vendors, saving you time and resources.",

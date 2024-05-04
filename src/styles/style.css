@@ -10575,8 +10575,8 @@ height: 60px;
 
 .about-me-one__image img {
   border-radius: 8px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
   max-width: 100%;
   margin-bottom: 50px;
 }
@@ -18069,8 +18069,8 @@ height: 60px;
 .footer-six__copyright {
   background-color: #172f3e;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  /* padding-top: 35px;
+  padding-bottom: 35px; */
 }
 
 .footer-six__copyright p {

@@ -15,7 +15,7 @@ const RantleWhy = () => {
         <Row>
        
           <Col md={12} lg={6}>
-            <div className="about-me-one__content mt-14">
+            <div className="about-me-one__content ">
               <div className="sec-title">
                 <h2>
                   Why Choose Zaco for Server Rental?
@@ -47,7 +47,7 @@ const RantleWhy = () => {
             </div>
           </Col>
           <Col md={12} lg={6}>
-            <div className="about-me-one__image">
+            <div className="about-me-one__image mt-5">
               <Image src={image.src} alt="" />
             </div>
           </Col>
