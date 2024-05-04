@@ -8,7 +8,7 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { image1, image2, title, text1, text2, textList, since } =
+const { imsintro1, imsintro2, title, text1, text2, textList, since } =
   aboutSectionOne;
 
 const IntroductionIMS = () => {
@@ -21,10 +21,10 @@ const IntroductionIMS = () => {
           <Col xl={6} lg={12} md={12} sm={12} className="image-column">
             <div className="inner">
               <div className="image-block animated fadeInLeft">
-                <Image src={image1.src} alt="" />
+                <Image src={imsintro1.src} alt="" />
               </div>
               <div className="image-block animated fadeInUp">
-                <Image src={image2.src} alt="" />
+                <Image src={imsintro2.src} alt="" />
               </div>
             </div>
           </Col>
