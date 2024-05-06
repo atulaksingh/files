@@ -80,18 +80,18 @@ export const contactInfoTwo = [
   {
     id: 1,
     icon: "fa fa-map-marker-alt",
-    text: "66 Broklyn Street, USA",
+    text: "3, DLH Park, S. V. Road,Goregaon (West),Mumbai – 400062.Maharashtra, India.",
   },
   {
     id: 2,
     icon: "fa fa-envelope",
-    text: "needhelp@linoor.com",
+    text: "info@zacocomputer.com",
     email: true,
   },
   {
     id: 3,
     icon: "fa fa-phone",
-    text: "+92 666 888 0000",
+    text: "+91-22-69288800",
     phone: true,
   },
 ];
