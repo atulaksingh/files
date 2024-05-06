@@ -23,6 +23,7 @@ import image8 from "@/images/zaco/homepage/EmpoweringYourIT-2.png";
 import image4 from "@/images/zaco/homepage/Reliable-IT-Services-&-Infrastructure-Support.jpg";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";
 import rentawhy from "@/images/zaco/SERVER-RENTAL-SERVICES/WHY-CHOOSE-ZACO-FOR-SERVER-RENTAL.png";
+import ITHwhy from "@/images/zaco/GIHSA/WHYCZACO.png";
 
 export const aboutSectionOne = {
   image1,
@@ -296,6 +297,7 @@ export const aboutTen = {
 
 export const aboutMeOne = {
   image: rentawhy,
+  ITHwhy,
   title: "Why Choose Zaco Computers as your IT Solutions Provider?",
   text: "With our global presence, we understand the diverse needs of businesses worldwide. Our team is equipped to provide localized support and guidance, ensuring you receive the best possible IT services and solutions.",
   text2:"We have more than two decades of rich experience and a track record for delivering successful IT solutions to businesses of all sizes and across various industries. Our commitment to quality and customer satisfaction has earned us a reputation as a trusted IT solutions partner. We offer everything you need for your IT infrastructure, from hardware procurement to expert IT hardware support. This eliminates the need to manage multiple vendors, saving you time and resources.",

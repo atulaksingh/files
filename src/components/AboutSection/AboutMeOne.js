@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, title, text, text2, text3, socials, certificates } = aboutMeOne;
+const { ITHwhy, title, text, text2, text3, socials, certificates } = aboutMeOne;
 
 const AboutMeOne = () => {
   return (
@@ -12,7 +12,7 @@ const AboutMeOne = () => {
         <Row>
           <Col md={12} lg={6}>
             <div className="about-me-one__image">
-              <Image src={image.src} alt="" />
+              <Image src={ITHwhy.src} alt="" />
             </div>
           </Col>
           <Col md={12} lg={6}>
