@@ -1,6 +1,7 @@
 import AboutSectionThree from "@/components/AboutSection/AboutSectionThree";
 import AboutSeven from "@/components/AboutSection/AboutSeven";
 import AboutSix from "@/components/AboutSection/AboutSix";
+import IndexReliableIT from "@/components/AboutSection/IndexReliableIT";
 import CallToSection from "@/components/CallToSection/CallToSection";
 import CallToSectionThree from "@/components/CallToSection/CallToSectionThree";
 import DiscoverSection from "@/components/DiscoverSection/DiscoverSection";
@@ -64,7 +65,8 @@ const Home6 = () => {
       <TrustedSection />
       <div className="">
         {/* <LiveSection /> */}
-        <AboutSectionThree />
+        {/* <AboutSectionThree /> */}
+        <IndexReliableIT />
       </div>
       <ProjectEight />
       {/* <ServiceSix /> */}
