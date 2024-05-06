@@ -6,8 +6,8 @@ import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
 const {
-  serverrentalimg1,
-  serverrentalimg2,
+  BUSIimg1,
+  BUSIimg2,
   title,
   text1,
   text2,
@@ -25,10 +25,10 @@ const IndexReliableIT = () => {
           <Col xl={6} lg={12} md={12} sm={12} className="image-column">
             <div className="inner">
               <div className="image-block animated fadeInLeft">
-                <Image src={serverrentalimg1.src} alt="" />
+                <Image src={BUSIimg1.src} alt="" />
               </div>
               <div className="image-block animated fadeInUp">
-                <Image src={serverrentalimg2.src} alt="" />
+                <Image src={BUSIimg2.src} alt="" />
               </div>
             </div>
           </Col>

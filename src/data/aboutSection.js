@@ -2,6 +2,8 @@ import image1 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTN
 import image2 from "@/images/zaco/SERVER-MAINTENANCE-SERVICES/YOUR-TRUSTED-PARTNER-SERVICES-2.png";
 import imsintro1 from "@/images/zaco/IMS/IMSINTRO-1.png";
 import imsintro2 from "@/images/zaco/IMS/IMSINTRO-2.png";
+import BUSIimg1 from "@/images/zaco/homepage/RELIABLE-BUSINESS.png";
+import BUSIimg2 from "@/images/zaco/homepage/RELIABLE-BUSINESS-1.png";
 import serverrentalimg1 from "@/images/zaco/SERVER-RENTAL-SERVICES/SERVER-RENTAL-SERVICES-1.png";
 import serverrentalimg2 from "@/images/zaco/SERVER-RENTAL-SERVICES/SERVER-RENTAL-SERVICES-2.png";
 import serverStorageimg1 from "@/images/zaco/STORAGE-MAINTENANCE-SERVICES/EXPERT-STORAGE-MAINTENANCE-1.png";
@@ -30,8 +32,8 @@ export const aboutSectionOne = {
   image2,
   imsintro1,
   imsintro2,
-  serverrentalimg1,
-  serverrentalimg2,
+  BUSIimg1,
+  BUSIimg2,
   networkmaintenanceimg1,
   networkmaintenanceimg2,
   serverStorageimg1,
