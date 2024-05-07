@@ -30,6 +30,8 @@ import ITHwhy from "@/images/zaco/GIHSA/WHYCZACO.png";
 export const aboutSectionOne = {
   image1,
   image2,
+  serverrentalimg1,
+  serverrentalimg2,
   imsintro1,
   imsintro2,
   BUSIimg1,
